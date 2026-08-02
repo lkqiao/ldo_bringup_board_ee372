@@ -4,4 +4,5 @@ LDO bring up PCB for EE372.
 
 - 20 µF / 390 mΩ RC dominant pole compensation at VOUT
 - 0.1 µF cap at the NR pin for bandgap reference noise filtering
+- Switch on the MD pin to toggle between high power and low power modes
 
