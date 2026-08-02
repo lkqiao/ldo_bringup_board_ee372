@@ -21,6 +21,11 @@ _autosave-*
 fp-info-cache
 sym-lib-table-bak
 fp-lib-table-bak
+.svg2shenzhen-cache/
+
+# --- Python plugin / script byproducts ---
+__pycache__/
+*.pyc
 
 # --- Scratch output dir only. Fab packages you actually order should be
 #     committed (e.g. fab/rev_a/) -- no extension globs, so they will be.
