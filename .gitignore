@@ -1,0 +1,34 @@
+# --- KiCad backups & autosave ---
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.sch-bak
+*.pro-bak
+_autosave-*
+~*.*
+
+# --- Per-user local state (window layout, last-used settings) ---
+*.kicad_prl
+
+# --- Lock files (created while a file is open) ---
+*.lck
+*~
+
+# --- Caches ---
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# --- Generated output ---
+gerbers/
+production/
+*.drl
+*.gbr
+*.gbrjob
+*.net
+*.xml
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
