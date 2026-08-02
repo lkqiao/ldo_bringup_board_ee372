@@ -1,3 +1,6 @@
+# Custom symbols, footprints (*.pretty/*.kicad_mod) and 3D models
+# (*.step/*.wrl) are intentionally NOT ignored -- they are project source.
+
 # --- KiCad backups & autosave ---
 *-backups/
 *.kicad_pcb-bak
@@ -6,9 +9,8 @@
 *.sch-bak
 *.pro-bak
 _autosave-*
-~*.*
 
-# --- Per-user local state (window layout, last-used settings) ---
+# --- Per-user local state (view settings; also holds git.ssh_key field) ---
 *.kicad_prl
 
 # --- Lock files (created while a file is open) ---
@@ -20,14 +22,9 @@ fp-info-cache
 sym-lib-table-bak
 fp-lib-table-bak
 
-# --- Generated output ---
+# --- Scratch output dir only. Fab packages you actually order should be
+#     committed (e.g. fab/rev_a/) -- no extension globs, so they will be.
 gerbers/
-production/
-*.drl
-*.gbr
-*.gbrjob
-*.net
-*.xml
 
 # --- OS junk ---
 .DS_Store
