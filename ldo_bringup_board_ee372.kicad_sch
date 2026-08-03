@@ -2,8 +2,15 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid d41ff68c-d87d-4b82-b500-4ee675d17cf6)
+	(uuid "d41ff68c-d87d-4b82-b500-4ee675d17cf6")
 	(paper "A4")
+	(title_block
+		(title "EE372 LDO bringup board")
+		(date "2026-08-02")
+		(rev "0")
+		(comment 1 "Luke Qiao")
+		(comment 2 "Spencer Wallace")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
