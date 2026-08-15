@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib
+		(name "ldo_bringup_board_ee372")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/ldo_bringup_board_ee372.pretty")
+		(options "")
+		(descr "Project footprints - EE372 LDO bringup board")
+	)
+)
