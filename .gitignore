@@ -9,6 +9,9 @@
 *.sch-bak
 *.pro-bak
 _autosave-*
+# KiCad's index of autosaved files; contains absolute local paths.
+# Leading '#' must be escaped or the line reads as a comment.
+\#auto_saved_files\#
 
 # --- Per-user local state (view settings; also holds git.ssh_key field) ---
 *.kicad_prl
