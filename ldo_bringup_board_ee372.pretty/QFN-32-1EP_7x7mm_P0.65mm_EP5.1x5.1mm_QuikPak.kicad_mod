@@ -1,4 +1,4 @@
-(footprint "QFN-32-1EP_7x7mm_P0.65mm_EP5.3x5.3mm_QuikPak"
+(footprint "QFN-32-1EP_7x7mm_P0.65mm_EP5.1x5.1mm_QuikPak"
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN-32-1EP_7x7mm_P0.65mm_EP5.3x5.3mm_QuikPak"
+	(property "Value" "QFN-32-1EP_7x7mm_P0.65mm_EP5.1x5.1mm_QuikPak"
 		(at 0 4.83 0)
 		(layer "F.Fab")
 		(effects
