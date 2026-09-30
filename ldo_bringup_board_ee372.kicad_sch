@@ -2407,6 +2407,12 @@
 		(uuid "bcad5457-7168-4a41-89c0-b9ec6336d998")
 	)
 	(junction
+		(at 54.61 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3060e31-1b70-4b98-bc43-a4f18cca2ce8")
+	)
+	(junction
 		(at 130.81 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2557,6 +2563,16 @@
 			(type default)
 		)
 		(uuid "0e56a951-5c0b-4362-9376-fc8e6dac0710")
+	)
+	(wire
+		(pts
+			(xy 54.61 43.18) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f95ff53-033f-4e9e-a1a9-7b05b1d3fbb8")
 	)
 	(wire
 		(pts
@@ -2960,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f21e68-9bda-43dc-a19a-7d3118f56a11")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 130.81 125.73)
 		)
 		(stroke
@@ -3360,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 43.18) (xy 63.5 43.18)
+			(xy 46.99 43.18) (xy 54.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4684,6 +4710,72 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46a722a9-952a-4199-88ba-f69d8e85c037")
+		(property "Reference" "#FLG03"
+			(at 54.61 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdb60a41-6c8c-4aa9-b100-c147ae6fd247")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
