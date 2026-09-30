@@ -2186,7 +2186,7 @@
 	)
 	(text "LDO\n"
 		(exclude_from_sim no)
-		(at 183.134 118.618 0)
+		(at 159.512 113.03 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2678,16 +2678,6 @@
 		)
 		(uuid "22fb5778-fce5-4894-b7d0-15924647c0dd")
 	)
-	(polyline
-		(pts
-			(xy 68.58 107.188) (xy 203.2 107.188)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "266c44a6-962f-48da-8f95-1534c88583d4")
-	)
 	(wire
 		(pts
 			(xy 115.57 176.53) (xy 115.57 189.23)
@@ -2848,16 +2838,6 @@
 		)
 		(uuid "38e7ae74-dac9-4943-b450-a7a7b9f3814a")
 	)
-	(polyline
-		(pts
-			(xy 11.684 107.188) (xy 68.834 107.188)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f9e7e0-b3c0-4e94-ae19-b814a0f965d9")
-	)
 	(wire
 		(pts
 			(xy 125.73 121.92) (xy 125.73 125.73)
@@ -2907,16 +2887,6 @@
 			(type default)
 		)
 		(uuid "41cfe13e-afdc-4755-8e1b-e25a609fb5f1")
-	)
-	(polyline
-		(pts
-			(xy 203.2 107.188) (xy 203.2 165.862)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "449a5e77-bcd7-480f-8c02-6428094bf330")
 	)
 	(wire
 		(pts
@@ -3108,16 +3078,6 @@
 		)
 		(uuid "7815ca4e-c199-4dd5-82f0-11b600b3713d")
 	)
-	(polyline
-		(pts
-			(xy 218.44 12.192) (xy 218.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797f6423-9719-4b60-8bbe-a889c733f40d")
-	)
 	(wire
 		(pts
 			(xy 85.09 128.27) (xy 85.09 125.73)
@@ -3228,16 +3188,6 @@
 		)
 		(uuid "87d37d20-bc40-4a25-9b61-5a5946aadc76")
 	)
-	(polyline
-		(pts
-			(xy 68.834 107.188) (xy 62.23 107.188)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a971af7-3cc9-4ea9-810b-2da62e29540d")
-	)
 	(wire
 		(pts
 			(xy 176.53 146.05) (xy 176.53 148.59)
@@ -3267,16 +3217,6 @@
 			(type default)
 		)
 		(uuid "8fe47010-0cf3-44c3-a7cf-08ea7d52aa8e")
-	)
-	(polyline
-		(pts
-			(xy 68.834 106.934) (xy 68.834 197.866)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9046bb48-4571-42ab-ae0e-c32495bbf695")
 	)
 	(wire
 		(pts
@@ -3337,16 +3277,6 @@
 			(type default)
 		)
 		(uuid "9cc0b531-e9d0-4707-a327-709a34182bbb")
-	)
-	(polyline
-		(pts
-			(xy 68.834 58.928) (xy 68.834 12.192)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccf7c18-a94b-445d-b3cf-af6517c56c5d")
 	)
 	(wire
 		(pts
@@ -3547,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "bdba473c-2a20-4b65-bbce-8689094f0f3e")
-	)
-	(polyline
-		(pts
-			(xy 218.44 88.9) (xy 284.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b35725-4e47-44e4-89e2-891ea1652a29")
 	)
 	(wire
 		(pts
@@ -3827,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "f983bd52-7b99-47af-bbe1-b6d3532363f2")
-	)
-	(polyline
-		(pts
-			(xy 68.834 107.188) (xy 68.834 12.192)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe93363b-1fdd-45f6-80e7-c969af0809a7")
 	)
 	(wire
 		(pts
