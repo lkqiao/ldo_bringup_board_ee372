@@ -37,3 +37,6 @@ gerbers/
 # --- OS junk ---
 .DS_Store
 Thumbs.db
+
+# Vendor 3D models (SnapMagic license bars public redistribution); kept local only
+ldo_bringup_board_ee372.3dshapes/
