@@ -71,15 +71,3 @@ top R→L (25-32). Pin 33 is the exposed pad.
 | 8 VDD | 16 VDD | 24 VDD | 32 VDD |
 
 Census: 18 × VSS, 9 × VDD, 2 × VOUT, 1 × MD, 1 × NR, 1 × IBIAS = 32.
-
-### Known gaps, verify before fab
-
-- **Pin names and the pin map are not verified against Cadence.** The names
-  above come from the die floorplan figure. Guidelines 2.3 and 2.4 require the
-  exact net names and pad types from the taped-out top-level cell, mapped
-  through the fixed CEMiD bonding diagram.
-- **The EP is tied to GND in the schematic.** Guidelines 2.2 says "The EP is
-  its own net". Confirm with the course staff which reading they mean.
-- **The symbol is laid out by package side.** Guidelines 2.3 asks for pins
-  grouped by function (supplies top, grounds bottom, inputs left, outputs
-  right).
