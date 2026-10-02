@@ -2714,7 +2714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6344"
+		(property "Value" "FDV305N"
 			(at 125.73 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
