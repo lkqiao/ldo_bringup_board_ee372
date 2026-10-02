@@ -3214,7 +3214,7 @@
 		(uuid "0634e458-5473-4c51-9ebe-93593072b238")
 	)
 	(junction
-		(at 31.75 129.54)
+		(at 31.75 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0939eb73-e926-4722-8ae0-dccc5071e437")
@@ -3268,7 +3268,7 @@
 		(uuid "20efe634-3638-46c1-aa0b-0e75f372a64c")
 	)
 	(junction
-		(at 41.91 129.54)
+		(at 41.91 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26bccf54-ef24-422f-80d8-2e363c87f729")
@@ -3340,7 +3340,7 @@
 		(uuid "6dbe6697-884e-48c0-b50b-ab2aaefb4641")
 	)
 	(junction
-		(at 52.07 129.54)
+		(at 52.07 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ffaf322-eea3-4fe5-b9d2-004d5bee5f31")
@@ -3388,7 +3388,7 @@
 		(uuid "8386226a-5283-445e-8e16-5b1422dc790b")
 	)
 	(junction
-		(at 86.36 41.91)
+		(at 88.9 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c28e6f8-16bb-4ec2-b0da-41fd46d0f5f4")
@@ -3657,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 129.54) (xy 41.91 133.35)
+			(xy 41.91 133.35) (xy 41.91 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 129.54) (xy 31.75 129.54)
+			(xy 21.59 133.35) (xy 31.75 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3727,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 41.91) (xy 106.68 41.91)
+			(xy 105.41 41.91) (xy 109.22 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3757,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 140.97) (xy 41.91 143.51)
+			(xy 41.91 144.78) (xy 41.91 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3797,7 +3797,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 129.54) (xy 21.59 133.35)
+			(xy 21.59 133.35) (xy 21.59 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3947,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 140.97) (xy 52.07 143.51)
+			(xy 52.07 144.78) (xy 52.07 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 44.45) (xy 121.92 44.45)
+			(xy 119.38 44.45) (xy 124.46 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 41.91) (xy 95.25 41.91)
+			(xy 88.9 41.91) (xy 97.79 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 39.37) (xy 121.92 39.37)
+			(xy 119.38 39.37) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4287,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 41.91) (xy 86.36 41.91)
+			(xy 81.28 41.91) (xy 88.9 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4327,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 63.5 133.35)
+			(xy 63.5 133.35) (xy 63.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 52.07 133.35)
+			(xy 52.07 133.35) (xy 52.07 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4397,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 140.97) (xy 21.59 143.51)
+			(xy 21.59 144.78) (xy 21.59 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4737,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 129.54) (xy 31.75 133.35)
+			(xy 31.75 133.35) (xy 31.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4817,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 129.54) (xy 41.91 129.54)
+			(xy 31.75 133.35) (xy 41.91 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5057,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 129.54) (xy 52.07 129.54)
+			(xy 41.91 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5097,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 63.5 129.54)
+			(xy 52.07 133.35) (xy 63.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5137,7 +5137,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 31.75 143.51)
+			(xy 31.75 144.78) (xy 31.75 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 140.97) (xy 63.5 143.51)
+			(xy 63.5 144.78) (xy 63.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5356,7 +5356,7 @@
 		(uuid "020dc4dd-0639-46cb-8a07-76b7abd5622b")
 	)
 	(label "VDD"
-		(at 24.13 129.54 0)
+		(at 24.13 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5366,7 +5366,7 @@
 		(uuid "09ef9690-e2ab-4a2e-a507-e0a53ed57b6d")
 	)
 	(label "MD"
-		(at 78.74 41.91 0)
+		(at 81.28 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5386,7 +5386,7 @@
 		(uuid "16dda114-d8e0-4d78-a6f5-c7357e4e0706")
 	)
 	(label "VDD"
-		(at 118.11 39.37 0)
+		(at 120.65 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5507,7 +5507,7 @@
 		(uuid "7d759d05-31bd-45da-9746-27f04011cfce")
 	)
 	(label "GND"
-		(at 118.11 44.45 0)
+		(at 120.65 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,6 +5676,150 @@
 		)
 		(uuid "fdce165f-4625-4cff-8625-df2b58de17df")
 	)
+	(global_label "VG3"
+		(shape input)
+		(at 236.22 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00db58b2-7321-470b-89d0-f8d58cc4b51d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6667 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VG0"
+		(shape input)
+		(at 171.45 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12337c3c-8cdd-431f-809f-7c9116bdab2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8967 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VG4"
+		(shape input)
+		(at 259.08 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62058231-1685-4350-a715-0b3cda16de9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5267 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MD"
+		(shape input)
+		(at 81.28 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9485ec1e-2ec7-40a6-850d-01c77d4069a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.5734 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VG2"
+		(shape input)
+		(at 214.63 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1f8af8b-bdad-4b57-87c3-839575f825be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0767 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VG1"
+		(shape input)
+		(at 193.04 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6567a49-db9d-466d-b82a-707afc3dc8a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.4867 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 180.34 102.87 0)
@@ -5804,7 +5948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 143.51 0)
+		(at 21.59 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5815,7 +5959,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1816d6-6edc-4708-ac4e-cbaa3ffec467")
 		(property "Reference" "#PWR011"
-			(at 21.59 149.86 0)
+			(at 21.59 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +5970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 148.59 0)
+			(at 21.59 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5836,7 +5980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 143.51 0)
+			(at 21.59 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +5991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 143.51 0)
+			(at 21.59 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,7 +6002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 143.51 0)
+			(at 21.59 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 137.16 0)
+		(at 52.07 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6419,7 +6563,7 @@
 		(fields_autoplaced yes)
 		(uuid "15c67f6d-f4a0-4b39-ab48-e9b0216a93e9")
 		(property "Reference" "C7"
-			(at 55.88 135.8899 0)
+			(at 55.88 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6430,7 +6574,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 55.88 138.4299 0)
+			(at 55.88 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6441,7 +6585,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.0352 140.97 0)
+			(at 53.0352 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6452,7 +6596,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B104KBCNNN_Spec.pdf"
-			(at 52.07 137.16 0)
+			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6607,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 52.07 137.16 0)
+			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +6618,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 52.07 137.16 0)
+			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,7 +6629,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL21B104KBCNNNC"
-			(at 52.07 137.16 0)
+			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6640,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
-			(at 52.07 137.16 0)
+			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,7 +8386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 143.51 0)
+		(at 52.07 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8253,7 +8397,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ada2eb2-9e71-4059-ab6a-ce3de9a54acb")
 		(property "Reference" "#PWR07"
-			(at 52.07 149.86 0)
+			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 148.59 0)
+			(at 52.07 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8274,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 143.51 0)
+			(at 52.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +8429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 143.51 0)
+			(at 52.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +8440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 143.51 0)
+			(at 52.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 143.51 0)
+		(at 63.5 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8331,7 +8475,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d399d3a-2691-403e-a691-48865817c87c")
 		(property "Reference" "#PWR09"
-			(at 63.5 149.86 0)
+			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 148.59 0)
+			(at 63.5 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8352,7 +8496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 143.51 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8363,7 +8507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 143.51 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,7 +8518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 143.51 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8588,7 +8732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 137.16 0)
+		(at 63.5 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8599,7 +8743,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c90f550-0982-4e6e-a7a7-5e24b9d267d6")
 		(property "Reference" "C9"
-			(at 67.31 135.8899 0)
+			(at 67.31 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8610,7 +8754,7 @@
 			)
 		)
 		(property "Value" "0.1n"
-			(at 67.31 138.4299 0)
+			(at 67.31 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8621,7 +8765,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 64.4652 140.97 0)
+			(at 64.4652 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +8776,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21C101JBANNNC_Spec.pdf"
-			(at 63.5 137.16 0)
+			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8787,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100PF 50V C0G 0805"
-			(at 63.5 137.16 0)
+			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +8798,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 63.5 137.16 0)
+			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +8809,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL21C101JBANNNC"
-			(at 63.5 137.16 0)
+			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +8820,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/CL21C101JBANNNC/1276-1014-1-ND/3889100"
-			(at 63.5 137.16 0)
+			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9862,7 +10006,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 41.91 0)
+		(at 88.9 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9873,7 +10017,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a65a520-17de-4122-9285-182e92e0baeb")
 		(property "Reference" "TP1"
-			(at 88.9 37.3379 0)
+			(at 91.44 37.3379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9884,7 +10028,7 @@
 			)
 		)
 		(property "Value" "MD"
-			(at 88.9 39.8779 0)
+			(at 91.44 39.8779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9895,7 +10039,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 91.44 41.91 0)
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9906,7 +10050,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 91.44 41.91 0)
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9917,7 +10061,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 86.36 41.91 0)
+			(at 88.9 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9928,7 +10072,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 91.44 41.91 0)
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,7 +10083,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 91.44 41.91 0)
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9950,7 +10094,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 91.44 41.91 0)
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 143.51 0)
+		(at 31.75 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10298,7 +10442,7 @@
 		(fields_autoplaced yes)
 		(uuid "867dcf04-d60b-4186-866f-e8b30970e762")
 		(property "Reference" "#PWR05"
-			(at 31.75 149.86 0)
+			(at 31.75 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10309,7 +10453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 148.59 0)
+			(at 31.75 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10319,7 +10463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 143.51 0)
+			(at 31.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10330,7 +10474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 143.51 0)
+			(at 31.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10341,7 +10485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 143.51 0)
+			(at 31.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10509,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 143.51 0)
+		(at 41.91 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10376,7 +10520,7 @@
 		(fields_autoplaced yes)
 		(uuid "937b9f52-2c70-449e-b449-4c3164631c15")
 		(property "Reference" "#PWR06"
-			(at 41.91 149.86 0)
+			(at 41.91 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10387,7 +10531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 148.59 0)
+			(at 41.91 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10397,7 +10541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 143.51 0)
+			(at 41.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 143.51 0)
+			(at 41.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 143.51 0)
+			(at 41.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11162,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 137.16 0)
+		(at 31.75 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11029,7 +11173,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae4fc98-064e-4da3-8de2-31b6bb50d09b")
 		(property "Reference" "C5"
-			(at 35.56 135.8899 0)
+			(at 35.56 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11040,7 +11184,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 35.56 138.4299 0)
+			(at 35.56 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11051,7 +11195,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 32.7152 140.97 0)
+			(at 32.7152 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11062,7 +11206,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 31.75 137.16 0)
+			(at 31.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +11217,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 1206"
-			(at 31.75 137.16 0)
+			(at 31.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11084,7 +11228,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 31.75 137.16 0)
+			(at 31.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11095,7 +11239,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM319R61E106KA12D"
-			(at 31.75 137.16 0)
+			(at 31.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +11250,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM319R61E106KA12D/2334876"
-			(at 31.75 137.16 0)
+			(at 31.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11133,7 +11277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 21.59 137.16 0)
+		(at 21.59 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11144,7 +11288,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac5a6cf1-80ea-4393-9b76-d73a8c006dfc")
 		(property "Reference" "C11"
-			(at 25.4 135.2549 0)
+			(at 25.4 139.0649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11155,7 +11299,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 25.4 137.7949 0)
+			(at 25.4 141.6049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11166,7 +11310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11177,7 +11321,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11188,7 +11332,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 100UF 20% 25V RADIAL TH"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,7 +11343,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11354,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "EEU-FC1E101S"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,7 +11365,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FC1E101S/266278"
-			(at 21.59 137.16 0)
+			(at 21.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12536,7 +12680,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 137.16 0)
+		(at 41.91 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12547,7 +12691,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0287a0d-8862-46ec-a6db-fee794371ef5")
 		(property "Reference" "C6"
-			(at 45.72 135.8899 0)
+			(at 45.72 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12558,7 +12702,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 45.72 138.4299 0)
+			(at 45.72 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12569,7 +12713,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 42.8752 140.97 0)
+			(at 42.8752 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12580,7 +12724,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
-			(at 41.91 137.16 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12591,7 +12735,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 41.91 137.16 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12602,7 +12746,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 41.91 137.16 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12613,7 +12757,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL21B105KBFNNNE"
-			(at 41.91 137.16 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,7 +12768,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
-			(at 41.91 137.16 0)
+			(at 41.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12651,7 +12795,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 41.91 90)
+		(at 101.6 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12662,7 +12806,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec035923-3d1a-4084-9d6a-476d92e8d5bd")
 		(property "Reference" "R2"
-			(at 99.06 35.56 90)
+			(at 101.6 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12672,7 +12816,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 38.1 90)
+			(at 101.6 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12682,7 +12826,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 99.06 43.688 90)
+			(at 101.6 43.688 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12693,7 +12837,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 99.06 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12704,7 +12848,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 99.06 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12715,7 +12859,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 99.06 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +12870,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 99.06 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12737,7 +12881,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 99.06 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13369,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 111.76 41.91 0)
+		(at 114.3 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13236,7 +13380,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e5e3ec-2416-4ab0-81ad-744cef831d74")
 		(property "Reference" "SW1"
-			(at 111.76 33.02 0)
+			(at 114.3 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13246,7 +13390,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 111.76 35.56 0)
+			(at 114.3 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13256,7 +13400,7 @@
 			)
 		)
 		(property "Footprint" "ldo_bringup_board_ee372:SW_SPDT_CK_JS102011SAQN"
-			(at 111.76 41.91 0)
+			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13267,7 +13411,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
-			(at 111.76 49.53 0)
+			(at 114.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,7 +13422,7 @@
 			)
 		)
 		(property "Description" "SWITCH SLIDE SPDT 300MA 6V"
-			(at 111.76 41.91 0)
+			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13289,7 +13433,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 111.76 49.53 0)
+			(at 114.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13300,7 +13444,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "JS102011SAQN"
-			(at 111.76 49.53 0)
+			(at 114.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13311,7 +13455,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/c-k/JS102011SAQN/1640095"
-			(at 111.76 49.53 0)
+			(at 114.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

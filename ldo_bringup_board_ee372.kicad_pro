@@ -517,7 +517,7 @@
         "uuid": "d41ff68c-d87d-4b82-b500-4ee675d17cf6"
       }
     ],
-    "used_designators": "TP9-13,D1,#PWR12,#PWR16,Q5,C11,R13-14",
+    "used_designators": "TP9-13,D1,#PWR12,#PWR16,#PWR18,Q5,C11,R13-14,R17",
     "variants": []
   },
   "sheets": [
