@@ -13818,8 +13818,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 31.75)
-		(size 22.86 13.97)
+		(at 153.67 28.194)
+		(size 49.784 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13834,7 +13834,7 @@
 		)
 		(uuid "0dcfa20e-6b0f-40bc-bd97-4e8bf987d97a")
 		(property "Sheetname" "Temperature_Sens"
-			(at 177.8 31.0384 0)
+			(at 153.67 27.4824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13845,7 +13845,7 @@
 			)
 		)
 		(property "Sheetfile" "tmp_sense.kicad_sch"
-			(at 177.8 46.3046 0)
+			(at 153.67 64.3386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13864,8 +13864,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 31.75)
-		(size 24.13 13.97)
+		(at 86.614 54.864)
+		(size 50.292 35.814)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13880,7 +13880,7 @@
 		)
 		(uuid "44c5756d-eb38-441e-b289-12659405a486")
 		(property "Sheetname" "MCU Conn"
-			(at 143.51 31.0384 0)
+			(at 86.614 54.1524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13891,7 +13891,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_conn.kicad_sch"
-			(at 143.51 46.3046 0)
+			(at 86.614 91.2626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
