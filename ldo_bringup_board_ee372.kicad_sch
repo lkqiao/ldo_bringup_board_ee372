@@ -3753,7 +3753,7 @@
 	)
 	(text "LDO\n"
 		(exclude_from_sim no)
-		(at 123.19 103.378 0)
+		(at 121.666 105.918 0)
 		(effects
 			(font
 				(size 5.08 5.08)
