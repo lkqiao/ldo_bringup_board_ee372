@@ -3287,6 +3287,12 @@
 		(uuid "6855c1e6-30f1-4215-88ee-d5f9a2a72a75")
 	)
 	(junction
+		(at 48.26 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725f87df-79be-4358-a5c1-bf823769c69d")
+	)
+	(junction
 		(at 67.31 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3297,6 +3303,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80492f3d-f1dc-4893-a218-20931129aaf6")
+	)
+	(junction
+		(at 48.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6974a83-8891-42fd-9bdb-e7c46b4d055a")
+	)
+	(junction
+		(at 48.26 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5257ac-9747-4299-9dd6-1f6ff2e532f9")
 	)
 	(junction
 		(at 67.31 162.56)
@@ -3339,6 +3357,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e446a8f2-71df-4d2c-8e3c-5b623c91fe57")
+	)
+	(junction
+		(at 48.26 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c83d3a-23b3-4a51-b4f2-043a438d1062")
 	)
 	(junction
 		(at 123.19 132.08)
@@ -3512,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 171.45) (xy 57.15 171.45)
+			(xy 45.72 163.83) (xy 48.26 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3539,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "030ecbd1-1730-4dab-8174-1b3b256fc295")
+	)
+	(wire
+		(pts
+			(xy 48.26 163.83) (xy 48.26 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073acfed-26d7-49a2-8329-76e94df067c1")
 	)
 	(wire
 		(pts
@@ -3592,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 134.62) (xy 57.15 134.62)
+			(xy 45.72 140.97) (xy 48.26 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3602,7 +3636,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 134.62) (xy 44.45 134.62)
+			(xy 35.56 140.97) (xy 38.1 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3670,6 +3704,16 @@
 		)
 		(uuid "1a1b2a1e-e6f8-415a-b50a-dedcee21a86a")
 	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a79dc15-6cf1-4d7d-830a-83309b69d9f1")
+	)
 	(bus
 		(pts
 			(xy 248.92 68.58) (xy 247.65 68.58)
@@ -3689,6 +3733,26 @@
 			(type default)
 		)
 		(uuid "1f446fef-1fdc-488e-8c76-521be1888af1")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 48.26 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2054a3de-0ae7-4e12-8b35-bae215f3cc98")
+	)
+	(wire
+		(pts
+			(xy 54.61 184.15) (xy 54.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2181fda9-158e-4cc2-abba-5abba35cca09")
 	)
 	(wire
 		(pts
@@ -3852,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 171.45) (xy 57.15 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4670dec5-0160-4fa5-a98d-3f249ac3636d")
+	)
+	(wire
+		(pts
 			(xy 97.79 129.54) (xy 105.41 129.54)
 		)
 		(stroke
@@ -3859,6 +3933,16 @@
 			(type default)
 		)
 		(uuid "4770e27c-6ee7-4876-8a2b-4f8384499ebf")
+	)
+	(wire
+		(pts
+			(xy 48.26 140.97) (xy 54.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb7dee1-a3d7-47cf-be10-5ab75d2b8c05")
 	)
 	(wire
 		(pts
@@ -3922,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 123.19) (xy 48.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e3cd7c-07c1-4b7c-a33e-5c6da8b4c755")
+	)
+	(wire
+		(pts
 			(xy 69.85 142.24) (xy 69.85 143.51)
 		)
 		(stroke
@@ -3939,6 +4033,16 @@
 			(type default)
 		)
 		(uuid "5618b2da-109c-4edb-8707-7bdc212547f4")
+	)
+	(wire
+		(pts
+			(xy 48.26 163.83) (xy 54.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7daeca-17bb-46d8-9c36-9d96674e8a1f")
 	)
 	(wire
 		(pts
@@ -4042,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 171.45) (xy 45.72 171.45)
+			(xy 35.56 163.83) (xy 38.1 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4162,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 140.97) (xy 54.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8d9c02-ecb0-4e68-85dd-ee48cfcc8a86")
+	)
+	(wire
+		(pts
 			(xy 167.64 59.69) (xy 180.34 59.69)
 		)
 		(stroke
@@ -4202,6 +4316,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 123.19) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee03fa7-93ee-4512-a68d-691e596be03d")
+	)
+	(wire
+		(pts
 			(xy 220.98 48.26) (xy 233.68 48.26)
 		)
 		(stroke
@@ -4229,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "98af44a5-3d37-4cc1-9cc0-73113efcbfd1")
+	)
+	(wire
+		(pts
+			(xy 54.61 163.83) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c1c6ab-cf14-44d1-ba65-07cd7848b3c0")
 	)
 	(wire
 		(pts
@@ -4322,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 57.15 129.54)
+			(xy 45.72 123.19) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4432,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 129.54) (xy 57.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2afc59-adf6-4e95-8229-374fc9dfcd7f")
+	)
+	(wire
+		(pts
 			(xy 97.79 170.18) (xy 97.79 171.45)
 		)
 		(stroke
@@ -4482,6 +4626,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c04a3f-65e9-4cbb-9232-606ed0f3e903")
+	)
+	(wire
+		(pts
 			(xy 123.19 172.72) (xy 123.19 173.99)
 		)
 		(stroke
@@ -4489,6 +4643,16 @@
 			(type default)
 		)
 		(uuid "d46f45a4-3236-4552-bb4f-2f80475ec900")
+	)
+	(wire
+		(pts
+			(xy 48.26 123.19) (xy 54.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49a1462-fef4-4064-a38d-ccb48ab4cf51")
 	)
 	(wire
 		(pts
@@ -4572,6 +4736,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 135.89) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbe3205-97d6-45b6-86ec-2d2f00686482")
+	)
+	(wire
+		(pts
 			(xy 167.64 46.99) (xy 167.64 49.53)
 		)
 		(stroke
@@ -4642,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 129.54) (xy 44.45 129.54)
+			(xy 35.56 123.19) (xy 38.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 176.53) (xy 57.15 176.53)
+			(xy 45.72 184.15) (xy 48.26 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4712,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 176.53) (xy 45.72 176.53)
+			(xy 35.56 184.15) (xy 38.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4739,6 +4913,16 @@
 			(type default)
 		)
 		(uuid "f8ffb1df-9ee3-4008-b56b-db4c3af21652")
+	)
+	(wire
+		(pts
+			(xy 48.26 184.15) (xy 54.61 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa941ea8-faa2-43ff-94c3-3440acb5cc23")
 	)
 	(wire
 		(pts
@@ -5060,7 +5244,7 @@
 	)
 	(global_label "SHUNT_OUT_A"
 		(shape input)
-		(at 43.18 171.45 180)
+		(at 35.56 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5070,7 +5254,7 @@
 		)
 		(uuid "1972226b-8c72-4775-9293-79a1551e27f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.3738 171.45 0)
+			(at 19.7538 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5268,7 @@
 	)
 	(global_label "SHUNT_IN_B"
 		(shape input)
-		(at 41.91 134.62 180)
+		(at 35.56 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5094,7 +5278,7 @@
 		)
 		(uuid "567918f6-66f1-49ec-98cf-8bebcbc51502")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.6157 134.62 0)
+			(at 21.2657 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5316,7 @@
 	)
 	(global_label "SHUNT_OUT_B"
 		(shape input)
-		(at 43.18 176.53 180)
+		(at 35.56 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5142,7 +5326,7 @@
 		)
 		(uuid "693e3b4e-c434-466e-853f-be847fc4b781")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.1924 176.53 0)
+			(at 19.5724 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5364,7 @@
 	)
 	(global_label "SHUNT_IN_A"
 		(shape input)
-		(at 41.91 129.54 180)
+		(at 35.56 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5190,7 +5374,7 @@
 		)
 		(uuid "9ab55af0-d99a-43aa-ba3e-5109524f189f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7971 129.54 0)
+			(at 21.4471 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,119 +6106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 48.26 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16953db0-f20d-4c17-b9b8-ac2b9de8f2e3")
-		(property "Reference" "R31"
-			(at 48.26 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 48.26 131.318 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 48.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm jumper, 0805, 6 A max"
-			(at 48.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 48.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 48.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 48.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ec6e1cb8-144c-425b-aab2-7f84f797ec9d")
-		)
-		(pin "1"
-			(uuid "6f7f44a4-49c0-49a8-aafc-566c160aee96")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 119.38 0)
 		(unit 1)
@@ -6185,119 +6256,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2333cccf-f5b4-487a-963c-677179c3ff2b")
-		(property "Reference" "R32"
-			(at 48.26 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 48.26 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 48.26 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm jumper, 0805, 6 A max"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "05626fcd-06c4-41f1-a5fc-6561acea81c2")
-		)
-		(pin "1"
-			(uuid "f015d9b8-90c3-42e9-8314-ee644dcc19e7")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7071,6 +7029,130 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb7eebb-d701-4352-b843-f87bb20469dc")
+		(property "Reference" "R32"
+			(at 41.91 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 41.91 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.91 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/8W 0805"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07100RL"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" ""
+			(at 41.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e063908d-6eb0-4fe1-8a1c-2aec3c3c7663")
+		)
+		(pin "1"
+			(uuid "e5fe808f-16b3-4472-b725-a0ea03fab2dc")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8296,6 +8378,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 48.26 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d1676eb-b97a-424b-97e0-114ebe98989b")
+		(property "Reference" "C24"
+			(at 52.07 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 52.07 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.2252 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B104KBCNNN_Spec.pdf"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21B104KBCNNNC"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82a653da-6d55-4444-bdf4-009046f31046")
+		)
+		(pin "2"
+			(uuid "d7cccdeb-b506-48e5-bed2-58082bcc090e")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 185.42 0)
 		(unit 1)
@@ -8761,6 +8958,130 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 41.91 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a5341f-6702-4ed9-aa41-6a5c7b5ccfb6")
+		(property "Reference" "R29"
+			(at 41.91 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 41.91 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.91 165.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/8W 0805"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07100RL"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" ""
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "176433fa-0c99-4c01-aa05-97565dd7a198")
+		)
+		(pin "1"
+			(uuid "cb39e772-1e0e-4b50-9f90-f9857d9bed76")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 217.17 50.8 90)
 		(unit 1)
 		(body_style 1)
@@ -9156,6 +9477,130 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 41.91 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b9d82d-c296-4e5c-9dda-f0ff3fa4ec34")
+		(property "Reference" "R31"
+			(at 41.91 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 41.91 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.91 124.968 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/8W 0805"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07100RL"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" ""
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c544ca3e-8dae-48a9-bd97-44da5677f4e8")
+		)
+		(pin "1"
+			(uuid "079c1faa-d559-4e90-99be-4b6f7bb67d58")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 167.64 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -9393,8 +9838,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 171.45 90)
+		(lib_id "Device:C")
+		(at 48.26 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9403,29 +9848,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b85c24a5-7b66-40c6-9883-826e30f4a1f2")
-		(property "Reference" "R29"
-			(at 49.53 165.1 90)
+		(uuid "b50863de-538a-403c-8581-372e7b8d75c2")
+		(property "Reference" "C25"
+			(at 52.07 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 49.53 167.64 90)
+		(property "Value" "100n"
+			(at 52.07 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 49.53 173.228 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.2252 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,8 +9882,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 49.53 171.45 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B104KBCNNN_Spec.pdf"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,8 +9893,8 @@
 				)
 			)
 		)
-		(property "Description" "0 ohm jumper, 0805, 6 A max"
-			(at 49.53 171.45 0)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,8 +9904,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 49.53 171.45 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,8 +9915,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 49.53 171.45 0)
+		(property "Manufacturer Part Number" "CL21B104KBCNNNC"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9479,8 +9926,8 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 49.53 171.45 0)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,17 +9936,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "8b02f0be-d06b-4cbc-96a2-7c33cdd235e0")
 		)
 		(pin "1"
-			(uuid "b5c90e3a-fe18-4bbc-9f0e-3e2ab4025698")
+			(uuid "5d51edad-5d81-443f-81ec-04f5aeacf65d")
+		)
+		(pin "2"
+			(uuid "27ab6f4e-51a9-4412-a536-6f3689429cfc")
 		)
 		(instances
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
-					(reference "R29")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10827,6 +11274,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e314c5f1-1f27-45f9-8283-9354ade2eb92")
+		(property "Reference" "R30"
+			(at 41.91 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 41.91 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.91 185.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/8W 0805"
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07100RL"
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" ""
+			(at 41.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9dc7e3b-7e4a-46b8-9b84-d1c3bc45e2a8")
+		)
+		(pin "1"
+			(uuid "424b9521-36a4-478f-aeee-f73abb9847c0")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 97.79 179.07 0)
 		(unit 1)
@@ -11204,119 +11775,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed5b2d90-f592-49ee-b8c0-c1de88ca1528")
-		(property "Reference" "R30"
-			(at 49.53 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 49.53 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 49.53 178.308 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm jumper, 0805, 6 A max"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6dd6015-bea8-4091-9f0f-67ebb4def7a9")
-		)
-		(pin "1"
-			(uuid "d59ff374-5de0-4635-8466-d2bf8903bd23")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
-					(reference "R30")
 					(unit 1)
 				)
 			)
