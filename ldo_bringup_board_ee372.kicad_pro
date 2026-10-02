@@ -741,7 +741,7 @@
         "uuid": "d41ff68c-d87d-4b82-b500-4ee675d17cf6"
       }
     ],
-    "used_designators": "#FLG4-5,J8-11,TP9-13,TP20-30,U2-4,D1-2,#PWR5-6,#PWR12,#PWR16,#PWR18-44,Q5,C5-6,C11-22,R13-33",
+    "used_designators": "R13-33,#FLG4-7,J8-15,TP9-13,TP20-30,U2-5,D1-2,#PWR5-6,#PWR12,#PWR16,#PWR18-50,Q5,C5-6,C11-23,JP3",
     "variants": []
   },
   "sheets": [
@@ -756,6 +756,10 @@
     [
       "0dcfa20e-6b0f-40bc-bd97-4e8bf987d97a",
       "Temperature_Sens"
+    ],
+    [
+      "1c4e65a0-f492-4ef9-b030-c6464e799e64",
+      "Buffer"
     ]
   ],
   "text_variables": {},

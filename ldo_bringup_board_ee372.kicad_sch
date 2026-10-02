@@ -17667,7 +17667,7 @@
 		)
 	)
 	(sheet
-		(at 159.766 32.512)
+		(at 154.686 14.732)
 		(size 49.784 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17683,7 +17683,7 @@
 		)
 		(uuid "0dcfa20e-6b0f-40bc-bd97-4e8bf987d97a")
 		(property "Sheetname" "Temperature_Sens"
-			(at 159.766 31.8004 0)
+			(at 154.686 14.0204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17694,7 +17694,7 @@
 			)
 		)
 		(property "Sheetfile" "tmp_sense.kicad_sch"
-			(at 159.766 68.6566 0)
+			(at 154.686 50.8766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17708,6 +17708,52 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 58.42)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1c4e65a0-f492-4ef9-b030-c6464e799e64")
+		(property "Sheetname" "Buffer"
+			(at 161.29 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 161.29 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(page "4")
 				)
 			)
 		)
