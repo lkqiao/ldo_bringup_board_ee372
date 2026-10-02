@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 198.12 46.99) (xy 199.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999e0fec-c291-4b24-8491-a7306e320d09")
+	)
+	(bus
+		(pts
 			(xy 198.12 46.99) (xy 198.12 77.47)
 		)
 		(stroke
@@ -15,15 +25,28 @@
 		)
 		(uuid "b0981e83-0968-4cb0-89c9-72de73ae74cc")
 	)
-	(hierarchical_label "SPI{MOSI MISO CS SCLK}"
-		(shape input)
-		(at 198.12 46.99 0)
+	(global_label "SPI{MISO MOSI CS SCLK}"
+		(shape output)
+		(at 199.39 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "eebeb3e1-1834-495f-be1d-97a2b155524e")
+		(uuid "e6bd6461-9ffa-40c6-a017-65ae9a244f71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.5052 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 )
