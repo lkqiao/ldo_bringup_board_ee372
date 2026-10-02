@@ -454,8 +454,12 @@
       "ldo_bringup_board_ee372"
     ],
     [
-      "b0ef71f8-9258-4c31-8792-b5d0fd58c228",
-      "MCU_Conn"
+      "44c5756d-eb38-441e-b289-12659405a486",
+      "MCU Conn"
+    ],
+    [
+      "0dcfa20e-6b0f-40bc-bd97-4e8bf987d97a",
+      "Temperature_Sens"
     ]
   ],
   "text_variables": {},

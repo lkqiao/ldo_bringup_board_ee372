@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1ae499a9-52d2-4c50-a05f-a7f40be147e7")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 198.12 46.99) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0981e83-0968-4cb0-89c9-72de73ae74cc")
+	)
+	(hierarchical_label "SPI{MOSI MISO CS SCLK}"
+		(shape input)
+		(at 198.12 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eebeb3e1-1834-495f-be1d-97a2b155524e")
+	)
+)
