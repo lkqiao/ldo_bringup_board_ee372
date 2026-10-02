@@ -14,4 +14,11 @@
 		(options "")
 		(descr "SOT-23 footprint for the load FETs, hand-solder pads")
 	)
+	(lib
+		(name "teensy")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/teensy.pretty")
+		(options "")
+		(descr "PJRC Teensy 4.1 footprint, from XenGi/teensy.pretty (MIT)")
+	)
 )

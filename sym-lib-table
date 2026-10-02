@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ldo_bringup_board_ee372")(type "KiCad")(uri "${KIPRJMOD}/ldo_bringup_board_ee372.kicad_sym")(options "")(descr "Project symbols - EE372 LDO bringup board"))
   (lib (name "switched_R_load_symlib")(type "KiCad")(uri "${KIPRJMOD}/switched_R_load_symlib.kicad_sym")(options "")(descr "N-FET symbol for the switched resistor load (FDV305N drawing)"))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy.kicad_sym")(options "")(descr "PJRC Teensy 4.1 symbol, from XenGi/teensy_library (MIT)"))
 )
