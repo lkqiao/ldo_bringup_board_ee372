@@ -7,4 +7,11 @@
 		(options "")
 		(descr "Project footprints - EE372 LDO bringup board")
 	)
+	(lib
+		(name "FDV305N")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/FDV305N.pretty")
+		(options "")
+		(descr "SOT-23 footprint for the load FETs, hand-solder pads")
+	)
 )
