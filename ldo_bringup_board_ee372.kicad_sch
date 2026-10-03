@@ -18946,8 +18946,8 @@
 		)
 	)
 	(sheet
-		(at 135.128 61.468)
-		(size 36.068 24.13)
+		(at 130.81 57.15)
+		(size 32.385 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18962,7 +18962,7 @@
 		)
 		(uuid "1c4e65a0-f492-4ef9-b030-c6464e799e64")
 		(property "Sheetname" "Buffer"
-			(at 135.128 60.7564 0)
+			(at 130.81 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18973,7 +18973,7 @@
 			)
 		)
 		(property "Sheetfile" "buffer.kicad_sch"
-			(at 135.128 86.1826 0)
+			(at 130.81 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18992,8 +18992,8 @@
 		)
 	)
 	(sheet
-		(at 94.742 61.468)
-		(size 34.798 24.384)
+		(at 90.424 57.15)
+		(size 31.496 24.384)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19008,7 +19008,7 @@
 		)
 		(uuid "44c5756d-eb38-441e-b289-12659405a486")
 		(property "Sheetname" "MCU Conn"
-			(at 94.742 60.7564 0)
+			(at 90.424 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19019,7 +19019,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_conn.kicad_sch"
-			(at 94.742 86.4366 0)
+			(at 90.424 82.1186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19038,8 +19038,8 @@
 		)
 	)
 	(sheet
-		(at 176.784 61.722)
-		(size 34.798 23.876)
+		(at 172.466 57.404)
+		(size 31.369 23.876)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19054,7 +19054,7 @@
 		)
 		(uuid "865f8bee-21ea-4e12-aa41-2d2ad2cc6c72")
 		(property "Sheetname" "Noise Amplifier"
-			(at 176.784 61.0104 0)
+			(at 172.466 56.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19065,7 +19065,7 @@
 			)
 		)
 		(property "Sheetfile" "noise_amp.kicad_sch"
-			(at 176.784 86.1826 0)
+			(at 172.466 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
