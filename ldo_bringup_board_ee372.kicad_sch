@@ -6712,6 +6712,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70f0010-846d-4de3-a505-cbe9ab9399af")
+	)
+	(wire
+		(pts
 			(xy 224.79 143.51) (xy 224.79 144.78)
 		)
 		(stroke
@@ -14170,7 +14180,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 77.47 153.67 0)
+		(at 76.2 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14180,7 +14190,7 @@
 		(dnp no)
 		(uuid "a7209b37-1435-485b-abdf-f869c6e14bdd")
 		(property "Reference" "J3"
-			(at 78.105 148.59 0)
+			(at 76.835 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14190,7 +14200,7 @@
 			)
 		)
 		(property "Value" "IBIAS"
-			(at 78.105 151.13 0)
+			(at 76.835 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14200,7 +14210,7 @@
 			)
 		)
 		(property "Footprint" "ldo_bringup_board_ee372:CalTest_CT3151SP"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14211,7 +14221,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14232,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER WHITE"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,7 +14243,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14254,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-9"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14255,7 +14265,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-9/6005550"
-			(at 77.47 153.67 0)
+			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
