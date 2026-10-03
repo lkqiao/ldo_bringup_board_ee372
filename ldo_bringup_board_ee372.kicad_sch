@@ -4071,7 +4071,7 @@
 		(uuid "6dbe6697-884e-48c0-b50b-ab2aaefb4641")
 	)
 	(junction
-		(at 48.26 69.85)
+		(at 48.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71224047-c423-4c7e-be33-a10d2e951a43")
@@ -4203,7 +4203,7 @@
 		(uuid "b191a957-4b77-49df-ab69-04b695f3ab10")
 	)
 	(junction
-		(at 48.26 72.39)
+		(at 48.26 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b66572f2-48f6-40c0-b227-072f74af2ce5")
@@ -4287,7 +4287,7 @@
 		(uuid "da8cffa0-3894-4393-b42a-382ab84c735b")
 	)
 	(junction
-		(at 48.26 67.31)
+		(at 48.26 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db831788-dd07-4e40-93c5-5fdce21ecd7f")
@@ -4446,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.77) (xy 48.26 64.77)
+			(xy 44.45 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 64.77) (xy 48.26 67.31)
+			(xy 48.26 60.96) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 69.85) (xy 48.26 69.85)
+			(xy 44.45 66.04) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4886,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 63.5 62.23)
+			(xy 44.45 58.42) (xy 49.53 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5166,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 72.39) (xy 48.26 72.39)
+			(xy 44.45 68.58) (xy 48.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5213,6 +5213,16 @@
 			(type default)
 		)
 		(uuid "4bf60462-805b-49f9-9547-eed13424d19a")
+	)
+	(wire
+		(pts
+			(xy 243.84 54.61) (xy 259.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce2f4dc-16d6-4ec3-9292-2aaaa58ef46d")
 	)
 	(wire
 		(pts
@@ -5296,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 67.31) (xy 48.26 67.31)
+			(xy 44.45 63.5) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5666,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 259.08 54.61)
+			(xy 227.33 54.61) (xy 236.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 63.5 43.18)
+			(xy 63.5 58.42) (xy 63.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5966,13 +5976,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 69.85) (xy 48.26 72.39)
+			(xy 48.26 66.04) (xy 48.26 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a583bb6b-1aed-4ef5-9c4c-de9a2d2a3784")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 63.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6673572-3b7d-4282-9f21-97eeccbd3227")
 	)
 	(wire
 		(pts
@@ -6086,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 48.26 69.85)
+			(xy 48.26 63.5) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6466,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 48.26 76.2)
+			(xy 48.26 68.58) (xy 48.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7793,7 +7813,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 76.2 0)
+		(at 48.26 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7804,7 +7824,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1bfcdf-b451-4e84-94b3-d9a563fb9cf3")
 		(property "Reference" "#PWR08"
-			(at 48.26 82.55 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +7835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 81.28 0)
+			(at 48.26 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7825,7 +7845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 76.2 0)
+			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +7856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 76.2 0)
+			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +7867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 76.2 0)
+			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9227,7 +9247,7 @@
 	)
 	(symbol
 		(lib_id "ldo_bringup_board_ee372:SMA-J-P-H-ST-EM1")
-		(at 41.91 62.23 0)
+		(at 41.91 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9238,7 +9258,7 @@
 		(fields_autoplaced yes)
 		(uuid "29fefe75-423d-4c0f-8d2a-2d4de1ff7320")
 		(property "Reference" "J5"
-			(at 41.5925 55.88 0)
+			(at 41.5925 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9248,7 +9268,7 @@
 			)
 		)
 		(property "Value" "VIN_SMA"
-			(at 41.5925 58.42 0)
+			(at 41.5925 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9258,7 +9278,7 @@
 			)
 		)
 		(property "Footprint" "ldo_bringup_board_ee372:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_G"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,7 +9290,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,7 +9301,7 @@
 			)
 		)
 		(property "Description" "CONN SMA JACK STR 50OHM EDGE MNT"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,7 +9313,7 @@
 			)
 		)
 		(property "MF" "Samtec"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9305,7 +9325,7 @@
 			)
 		)
 		(property "MP" "SMA-J-P-H-ST-EM1"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9317,7 +9337,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9328,7 +9348,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SMA-J-P-H-ST-EM1"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +9359,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450"
-			(at 41.91 62.23 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,6 +11508,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 53.34 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fa55c1b-7d25-4b36-a8f3-de6632a14400")
+		(property "Reference" "C8"
+			(at 53.34 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 53.34 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 57.15 57.4548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 5% 25V X7R 1206"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C106J3RACAUTO"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C1206C106J3RACAUTO/7427564"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8ddb3cf-effd-4e39-ba83-1e12b1438453")
+		)
+		(pin "2"
+			(uuid "e5c07cc9-6e0d-42e4-9cc6-ffe554e60aeb")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 148.59 0)
 		(unit 1)
@@ -11734,6 +11867,119 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6719759e-dcb0-4b1c-8fb7-e530d975372d")
+		(property "Reference" "C10"
+			(at 240.03 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 240.03 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 243.84 53.6448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 5% 25V X7R 1206"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C106J3RACAUTO"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C1206C106J3RACAUTO/7427564"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9db9974d-dde5-4ba3-b2e9-529288fb9fa8")
+		)
+		(pin "2"
+			(uuid "b5b8d7b2-8974-4ec2-b4cd-e513267dcb33")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "C10")
 					(unit 1)
 				)
 			)
