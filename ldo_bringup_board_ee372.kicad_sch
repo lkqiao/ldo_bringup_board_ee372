@@ -3874,7 +3874,7 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 70.358 24.638 0)
+		(at 68.072 22.098 0)
 		(effects
 			(font
 				(size 5.08 5.08)
