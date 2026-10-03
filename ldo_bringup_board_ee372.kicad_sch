@@ -918,38 +918,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SMA-J-P-H-ST-TH1:SMA-J-P-H-ST-TH1"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -3.175 1.905 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SMA-J-P-H-ST-TH1"
-				(at -3.175 -13.97 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SMA-J-P-H-ST-TH1:SAMTEC_SMA-J-P-H-ST-TH1"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -958,7 +956,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -972,7 +969,7 @@
 					)
 				)
 			)
-			(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -981,10 +978,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "Samtec"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -993,10 +989,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "PACKAGE" "None"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1005,477 +1000,18 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SMA-J-P-H-ST-TH1/Samtec+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SMA-J-P-H-ST-TH1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "AVAILABILITY" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "CHECK_PRICES" "https://www.snapeda.com/parts/SMA-J-P-H-ST-TH1/Samtec+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SMA-J-P-H-ST-TH1_0_0"
-				(arc
-					(start -3.175 0.635)
-					(mid -2.726 0.449)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -2.726 -0.449)
-					(end -3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 -1.905)
-					(mid -2.726 -2.091)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -2.726 -2.989)
-					(end -3.175 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 -4.445)
-					(mid -2.726 -4.631)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -5.08)
-					(mid -2.726 -5.529)
-					(end -3.175 -5.715)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 -6.985)
-					(mid -2.726 -7.171)
-					(end -2.54 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -7.62)
-					(mid -2.726 -8.069)
-					(end -3.175 -8.255)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 -9.525)
-					(mid -2.726 -9.711)
-					(end -2.54 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -10.16)
-					(mid -2.726 -10.609)
-					(end -3.175 -10.795)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -7.62) (xy 2.54 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -10.16) (xy 2.54 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.016) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -10.922) (xy -1.27 -11.684)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "MountingHole_0_1"
 				(circle
 					(center 0 0)
-					(radius 1.016)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -10.922)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -7.62)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -10.16)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -10.922) (xy -0.508 -11.684)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -10.922) (xy -0.762 -10.922)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -10.922) (xy 0.254 -11.684)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -10.16 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 			)
@@ -4262,7 +3798,7 @@
 	)
 	(text "Pull Down Resistors for Gates"
 		(exclude_from_sim no)
-		(at 233.426 164.084 0)
+		(at 227.076 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4385,7 +3921,7 @@
 		(uuid "0d8e6d8e-8bb9-4db8-bda0-67c8372aa63e")
 	)
 	(junction
-		(at 231.14 144.78)
+		(at 224.79 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ebe857e-8544-4b76-b731-5ff8799cf75a")
@@ -4547,7 +4083,7 @@
 		(uuid "75850a25-5851-4757-8b49-686ebb3ba0e9")
 	)
 	(junction
-		(at 243.84 144.78)
+		(at 237.49 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75b68ca8-12fe-439f-8432-9bc4931c0809")
@@ -4595,13 +4131,13 @@
 		(uuid "8c28e6f8-16bb-4ec2-b0da-41fd46d0f5f4")
 	)
 	(junction
-		(at 256.54 144.78)
+		(at 250.19 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9192ba37-6408-4d36-91fd-6d2a05783b03")
 	)
 	(junction
-		(at 220.98 144.78)
+		(at 214.63 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e823a7-fafe-4400-baac-42945662d551")
@@ -4611,6 +4147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b27e8f8-20e3-4704-ad16-2de2d7b00f6d")
+	)
+	(junction
+		(at 62.23 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4faec4-69fc-4109-baad-80aeaea9c0bd")
 	)
 	(junction
 		(at 33.02 43.18)
@@ -4763,7 +4305,7 @@
 		(uuid "e903b980-0ec9-4d4d-8536-cddc3417a3bf")
 	)
 	(junction
-		(at 208.28 144.78)
+		(at 201.93 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9095334-9897-4d5b-ba0f-267b027c2c69")
@@ -4773,12 +4315,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eece6832-fd3d-4be7-992c-db654aaacc88")
-	)
-	(junction
-		(at 25.4 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1718bcf-5075-4cab-aaf2-0532b1f77bb4")
 	)
 	(junction
 		(at 166.37 146.05)
@@ -4837,16 +4373,6 @@
 			(type default)
 		)
 		(uuid "028f57c5-89a2-4a70-a8e3-99c47641f096")
-	)
-	(wire
-		(pts
-			(xy 248.92 54.61) (xy 259.08 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d05fcb-beaa-4c9d-85fa-463a1a32ab83")
 	)
 	(wire
 		(pts
@@ -4957,16 +4483,6 @@
 			(type default)
 		)
 		(uuid "0e5998f6-f2ae-4f96-aff3-7a717394343c")
-	)
-	(wire
-		(pts
-			(xy 24.13 36.83) (xy 25.4 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f141e59-2264-49a5-a2dd-d8b89877a36e")
 	)
 	(wire
 		(pts
@@ -5180,7 +4696,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 143.51) (xy 220.98 144.78)
+			(xy 214.63 142.24) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5200,7 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 143.51) (xy 256.54 144.78)
+			(xy 250.19 142.24) (xy 250.19 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5267,6 +4783,16 @@
 			(type default)
 		)
 		(uuid "2c558298-a290-4aec-8da3-98ac7667f7c0")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 66.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d000b4d-966f-4a9d-9228-add01c48f4d5")
 	)
 	(wire
 		(pts
@@ -5360,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 50.038 62.23)
+			(xy 44.45 62.23) (xy 63.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5387,16 +4913,6 @@
 			(type default)
 		)
 		(uuid "318e29ea-1b86-47d1-8b06-3cdc7ab46b77")
-	)
-	(wire
-		(pts
-			(xy 25.4 45.72) (xy 24.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31960d47-c211-4ee5-87dd-162f681e5493")
 	)
 	(wire
 		(pts
@@ -5570,6 +5086,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 95.25) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447ff5c3-2643-49b8-b6e3-cf618f93d39d")
+	)
+	(wire
+		(pts
 			(xy 125.73 189.23) (xy 130.81 189.23)
 		)
 		(stroke
@@ -5650,7 +5176,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 153.67) (xy 256.54 154.94)
+			(xy 250.19 152.4) (xy 250.19 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5216,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 144.78) (xy 208.28 146.05)
+			(xy 201.93 143.51) (xy 201.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5730,23 +5256,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 43.18) (xy 66.04 43.18)
+			(xy 46.99 43.18) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51863397-cfb6-406e-93a1-4ce175e12420")
-	)
-	(wire
-		(pts
-			(xy 25.4 36.83) (xy 25.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526ca9fd-a735-4000-a906-84d25c772aba")
 	)
 	(wire
 		(pts
@@ -5800,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 153.67) (xy 243.84 154.94)
+			(xy 237.49 152.4) (xy 237.49 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 106.68) (xy 27.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c49f0c8-e93c-4b64-800c-1542d3781984")
+	)
+	(wire
+		(pts
 			(xy 64.77 68.58) (xy 64.77 69.85)
 		)
 		(stroke
@@ -5870,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 144.78) (xy 243.84 146.05)
+			(xy 237.49 143.51) (xy 237.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5947,26 +5473,6 @@
 			(type default)
 		)
 		(uuid "660c1e27-75f8-4b69-bb64-f1687d0a03ef")
-	)
-	(wire
-		(pts
-			(xy 34.29 100.33) (xy 34.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e529f1-ac28-453e-93ad-8b7563bc22c2")
-	)
-	(wire
-		(pts
-			(xy 57.658 62.23) (xy 63.5 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a746d60-b345-4334-84a5-4da0da39724a")
 	)
 	(wire
 		(pts
@@ -6150,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 241.3 54.61)
+			(xy 227.33 54.61) (xy 259.08 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6180,13 +5686,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 34.29 100.33)
+			(xy 27.94 95.25) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fe88c32-2d5e-4906-9d29-c659aba0d458")
+		(uuid "8243d34f-0296-44ef-bfed-7dc556cc973f")
 	)
 	(wire
 		(pts
@@ -6320,7 +5826,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 144.78) (xy 256.54 146.05)
+			(xy 250.19 143.51) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6430,16 +5936,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 100.33) (xy 24.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fae413-191d-4a92-8bc8-1435c13ea5a6")
-	)
-	(wire
-		(pts
 			(xy 222.25 96.52) (xy 245.11 96.52)
 		)
 		(stroke
@@ -6480,7 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 153.67) (xy 208.28 154.94)
+			(xy 201.93 152.4) (xy 201.93 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6530,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 153.67) (xy 220.98 154.94)
+			(xy 214.63 152.4) (xy 214.63 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6570,6 +6066,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdcc54b-64f0-4b4f-bc1a-febd73f28cfb")
+	)
+	(wire
+		(pts
 			(xy 33.02 50.8) (xy 33.02 43.18)
 		)
 		(stroke
@@ -6590,7 +6096,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 144.78) (xy 220.98 146.05)
+			(xy 214.63 143.51) (xy 214.63 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7050,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 143.51) (xy 231.14 144.78)
+			(xy 224.79 142.24) (xy 224.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7090,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 143.51) (xy 243.84 144.78)
+			(xy 237.49 142.24) (xy 237.49 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7107,6 +6613,16 @@
 			(type default)
 		)
 		(uuid "dfbf943b-8168-48ce-8c69-d03abeff7f32")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e38fd2-b47e-435d-b3d7-937a20a719fe")
 	)
 	(wire
 		(pts
@@ -7160,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 144.78) (xy 231.14 146.05)
+			(xy 224.79 143.51) (xy 224.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7240,16 +6756,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 43.18) (xy 25.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f216af98-a75d-4fc9-9280-cb2a70def4ba")
-	)
-	(wire
-		(pts
 			(xy 153.67 163.83) (xy 153.67 158.75)
 		)
 		(stroke
@@ -7290,6 +6796,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 99.06) (xy 27.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58570df-d7c3-44aa-8986-ca1c52ad1487")
+	)
+	(wire
+		(pts
 			(xy 59.69 177.8) (xy 59.69 179.07)
 		)
 		(stroke
@@ -7300,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 153.67) (xy 231.14 154.94)
+			(xy 224.79 152.4) (xy 224.79 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7320,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 143.51) (xy 208.28 144.78)
+			(xy 201.93 142.24) (xy 201.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7439,7 +6955,7 @@
 		(uuid "1272f60a-ab14-479c-bf23-a771f1b8dc51")
 	)
 	(label "VG3"
-		(at 243.84 143.51 0)
+		(at 237.49 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,7 +7035,7 @@
 		(uuid "45b0aa88-ff8b-4ec5-b72f-29afc888054f")
 	)
 	(label "VG0"
-		(at 208.28 143.51 0)
+		(at 201.93 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7549,7 +7065,7 @@
 		(uuid "60ca7b53-15c4-4a45-8e01-5ee15f14ffc7")
 	)
 	(label "VG1"
-		(at 220.98 143.51 0)
+		(at 214.63 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7096,7 @@
 		(uuid "764feae6-db2b-4a0b-afd1-e93aa4113feb")
 	)
 	(label "VG2"
-		(at 231.14 143.51 0)
+		(at 224.79 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7670,7 +7186,7 @@
 		(uuid "ccee3fb1-e0a3-4c8c-b522-cbe65404fdc3")
 	)
 	(label "VG4"
-		(at 256.54 143.51 0)
+		(at 250.19 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7975,30 +7491,6 @@
 			)
 		)
 	)
-	(global_label "VIN_BUF"
-		(shape input)
-		(at 24.13 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abe046f3-be18-44c6-91a0-022283c80d2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4642 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SHUNT_IN_B"
 		(shape output)
 		(at 68.58 74.93 0)
@@ -8020,6 +7512,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "VIN_BUF"
+		(shape input)
+		(at 60.96 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d401cb41-1ed8-49fe-ac20-cbdf7d1934dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2942 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8580,7 +8096,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 19.05 45.72 0)
+		(at 20.32 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8591,7 +8107,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cc6ef40-a946-4b40-9af6-109fee98726d")
 		(property "Reference" "J1"
-			(at 19.685 40.64 0)
+			(at 20.955 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8601,7 +8117,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 19.685 43.18 0)
+			(at 20.955 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8611,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" "ldo_bringup_board_ee372:CalTest_CT3151SP"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8622,7 +8138,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8149,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER RED"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +8160,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8171,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-2"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8182,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-2/6005547"
-			(at 19.05 45.72 0)
+			(at 20.32 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,119 +8277,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11a24eb7-b78a-4e65-9630-b31ee102b792")
-		(property "Reference" "C10"
-			(at 245.11 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 245.11 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 248.92 53.6448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 10UF 25V X5R 1206"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM319R61E106KA12D"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM319R61E106KA12D/2334876"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4231956-4cc7-4d94-9d7e-6e97979c636e")
-		)
-		(pin "2"
-			(uuid "63733432-afd7-4871-a366-16098d4ed653")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9596,142 +8999,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMA-J-P-H-ST-TH1:SMA-J-P-H-ST-TH1")
-		(at 63.5 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20302325-769e-4893-907d-db3cb5b2615a")
-		(property "Reference" "J13"
-			(at 63.1825 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_SIG"
-			(at 63.1825 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS7A7001_Evaluation_Board_footprint_lib:SAMTEC_SMA-J-P-H-ST-TH1"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-th1-mkt.pdf"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "SMA-J-P-H-ST-TH1"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Samtec/SMA-J-P-H-ST-TH1?qs=bkXRl3BLxbHdaAB2Qwy6zw%3D%3D"
-			(at 63.5 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d66d23b-3007-4fdc-a583-f461d8371b64")
-		)
-		(pin "G1"
-			(uuid "00d4eacf-5080-4d14-8c5b-a2e80007fe76")
-		)
-		(pin "G3"
-			(uuid "45e7205c-acef-4a99-86c2-00ad997e35db")
-		)
-		(pin "G4"
-			(uuid "01c82b3b-42d5-4f3c-b820-9bee9d5c4768")
-		)
-		(pin "G2"
-			(uuid "14149562-4e72-4152-9724-80faeb68c511")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 166.37 152.4 0)
 		(unit 1)
@@ -10387,7 +9654,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 243.84 144.78 90)
+		(at 237.49 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10398,7 +9665,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f058fe1-1232-418e-92d5-c5c0a58dba6f")
 		(property "Reference" "TP12"
-			(at 240.538 139.7 90)
+			(at 234.188 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10408,7 +9675,7 @@
 			)
 		)
 		(property "Value" "VG3"
-			(at 240.538 142.24 90)
+			(at 234.188 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10418,7 +9685,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 243.84 139.7 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +9696,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 243.84 139.7 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +9707,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 243.84 144.78 0)
+			(at 237.49 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +9718,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 243.84 139.7 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10462,7 +9729,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 243.84 139.7 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +9740,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 243.84 139.7 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10612,7 +9879,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 144.78 90)
+		(at 214.63 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10623,7 +9890,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ba7b75c-e3f4-4999-8eb8-196360ddf120")
 		(property "Reference" "TP10"
-			(at 217.678 139.7 90)
+			(at 211.328 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10633,7 +9900,7 @@
 			)
 		)
 		(property "Value" "VG1"
-			(at 217.678 142.24 90)
+			(at 211.328 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10643,7 +9910,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 220.98 139.7 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +9921,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 220.98 139.7 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10665,7 +9932,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 220.98 144.78 0)
+			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +9943,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 220.98 139.7 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10687,7 +9954,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 220.98 139.7 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10698,7 +9965,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 220.98 139.7 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +9989,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 144.78 90)
+		(at 250.19 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10733,7 +10000,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c0de9b8-b942-4f29-804a-02dbb9cd47f2")
 		(property "Reference" "TP13"
-			(at 253.238 139.7 90)
+			(at 246.888 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10743,7 +10010,7 @@
 			)
 		)
 		(property "Value" "VG4"
-			(at 253.238 142.24 90)
+			(at 246.888 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10753,7 +10020,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 256.54 139.7 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10764,7 +10031,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 256.54 139.7 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +10042,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 256.54 144.78 0)
+			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10786,7 +10053,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 256.54 139.7 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,7 +10064,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 256.54 139.7 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,7 +10075,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 256.54 139.7 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,131 +10995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMA-J-P-H-ST-TH1:SMA-J-P-H-ST-TH1")
-		(at 270.51 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54df7847-7951-4b4e-9351-23f4223bd2f0")
-		(property "Reference" "J15"
-			(at 270.1925 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSIG_BUF"
-			(at 270.1925 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMA_J_P_H_ST_TH1:SAMTEC_SMA-J-P-H-ST-TH1"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-th1-mkt.pdf"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "SMA-J-P-H-ST-TH1"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA"
-			(at 270.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6bd23d0-e3f2-43a0-9255-3ec719f39e15")
-		)
-		(pin "G3"
-			(uuid "37228d17-47f6-4544-9d5d-ac3683962fad")
-		)
-		(pin "G2"
-			(uuid "f5b254a5-4efe-4ea8-935a-ec8a3a4ed7d0")
-		)
-		(pin "G1"
-			(uuid "4ae77e53-b7a6-4eb9-a6bb-e49547009c74")
-		)
-		(pin "G4"
-			(uuid "3d7bfa46-6989-4762-948a-7e8d497c7c6b")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 25.4 92.71 0)
 		(unit 1)
@@ -12035,119 +11177,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Filled")
-		(at 27.94 100.33 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c0dd5d5-14e8-47fd-a962-8b2c6cc46d0d")
-		(property "Reference" "D2"
-			(at 28.2575 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_proc_5V"
-			(at 28.2575 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B120_B-B160_B.pdf"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DIODE SCHOTTKY 20V 1A SMA"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "B120-13-F"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/B120-13-F/750005"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f833ddda-da35-4931-a2ed-fafab11b3e69")
-		)
-		(pin "2"
-			(uuid "848bc3cb-7d26-4011-8093-436f46c279d4")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12460,7 +11489,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 149.86 0)
+		(at 214.63 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12471,7 +11500,7 @@
 		(fields_autoplaced yes)
 		(uuid "637e3349-0908-4574-a191-a6dd2a7c7826")
 		(property "Reference" "R8"
-			(at 223.52 148.5899 0)
+			(at 217.17 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12482,7 +11511,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 223.52 151.1299 0)
+			(at 217.17 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12493,7 +11522,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 219.202 149.86 90)
+			(at 212.852 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12504,7 +11533,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12515,7 +11544,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12526,7 +11555,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,7 +11566,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12548,7 +11577,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +11588,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D"
-			(at 220.98 149.86 0)
+			(at 214.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,40 +11913,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 208.28 154.94 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70dc6373-001b-4052-bed5-4832b6c5e5b1")
-		(property "Reference" "#PWR001"
-			(at 208.28 161.29 0)
-			(hide yes)
+		(uuid "707e4b0b-ea35-4e2b-8d9b-f0b0980f9b9a")
+		(property "Reference" "H2"
+			(at 266.7 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 208.28 160.02 0)
+		(property "Value" "MountingHole"
+			(at 266.7 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 154.94 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12928,7 +11958,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 154.94 0)
+			(at 264.16 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole, 3.2 mm unplated, for standoffs (guidelines section 3)"
+			(at 264.16 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70dc6373-001b-4052-bed5-4832b6c5e5b1")
+		(property "Reference" "#PWR001"
+			(at 201.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12939,7 +12044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 154.94 0)
+			(at 201.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,121 +12067,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 53.848 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "726d3bf3-41ae-4561-9221-971fcb85ed28")
-		(property "Reference" "C8"
-			(at 53.848 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 53.848 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 50.038 63.1952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 53.848 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 10UF 25V X5R 1206"
-			(at 53.848 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 53.848 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM319R61E106KA12D"
-			(at 53.848 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM319R61E106KA12D/2334876"
-			(at 53.848 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3766b9ae-9be2-449c-9d99-8e0827b391a5")
-		)
-		(pin "2"
-			(uuid "4e321fde-01a6-49c0-abfd-7c0587de3b6d")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 231.14 144.78 90)
+		(at 224.79 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13087,7 +12079,7 @@
 		(fields_autoplaced yes)
 		(uuid "7309c4ae-ee57-4102-9213-139c5c3a0ef6")
 		(property "Reference" "TP11"
-			(at 227.838 139.7 90)
+			(at 221.488 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13097,7 +12089,7 @@
 			)
 		)
 		(property "Value" "VG2"
-			(at 227.838 142.24 90)
+			(at 221.488 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13107,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 231.14 139.7 0)
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13118,7 +12110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 231.14 139.7 0)
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13129,7 +12121,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 231.14 144.78 0)
+			(at 224.79 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13140,7 +12132,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 231.14 139.7 0)
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13151,7 +12143,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 231.14 139.7 0)
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13162,7 +12154,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 231.14 139.7 0)
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13186,7 +12178,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 208.28 144.78 90)
+		(at 201.93 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13197,7 +12189,7 @@
 		(fields_autoplaced yes)
 		(uuid "745bf18f-5758-4eae-9ab4-8a3f7719322d")
 		(property "Reference" "TP9"
-			(at 204.978 139.7 90)
+			(at 198.628 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13207,7 +12199,7 @@
 			)
 		)
 		(property "Value" "VG0"
-			(at 204.978 142.24 90)
+			(at 198.628 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13217,7 +12209,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 208.28 139.7 0)
+			(at 201.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,7 +12220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 208.28 139.7 0)
+			(at 201.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13239,7 +12231,7 @@
 			)
 		)
 		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 208.28 144.78 0)
+			(at 201.93 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13250,7 +12242,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 208.28 139.7 0)
+			(at 201.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13261,7 +12253,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 208.28 139.7 0)
+			(at 201.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13272,7 +12264,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 208.28 139.7 0)
+			(at 201.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,7 +12722,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 154.94 0)
+		(at 224.79 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13741,7 +12733,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d7ceb8a-4855-4f96-afc9-3d87838facaa")
 		(property "Reference" "#PWR014"
-			(at 231.14 161.29 0)
+			(at 224.79 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13752,7 +12744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 160.02 0)
+			(at 224.79 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13762,7 +12754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 154.94 0)
+			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13773,7 +12765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 154.94 0)
+			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13784,7 +12776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 154.94 0)
+			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13917,7 +12909,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 149.86 0)
+		(at 201.93 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13928,7 +12920,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fabdc1f-e0f9-4285-9479-f33f1789f923")
 		(property "Reference" "R7"
-			(at 210.82 148.5899 0)
+			(at 204.47 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13939,7 +12931,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 151.1299 0)
+			(at 204.47 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13950,7 +12942,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 206.502 149.86 90)
+			(at 200.152 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13961,7 +12953,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13972,7 +12964,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +12975,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13994,7 +12986,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14005,7 +12997,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +13008,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D"
-			(at 208.28 149.86 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14114,6 +13106,82 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82918aa3-9891-4db8-9348-113680287b91")
+		(property "Reference" "H3"
+			(at 266.7 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole, 3.2 mm unplated, for standoffs (guidelines section 3)"
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14399,6 +13467,154 @@
 		)
 	)
 	(symbol
+		(lib_id "ldo_bringup_board_ee372:SMA-J-P-H-ST-EM1")
+		(at 63.5 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997a6bf5-f8c2-4bca-a597-23c62df8470a")
+		(property "Reference" "J13"
+			(at 63.1825 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSIG"
+			(at 63.1825 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_G"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SMA JACK STR 50OHM EDGE MNT"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SMA-J-P-H-ST-EM1"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SMA-J-P-H-ST-EM1"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a5963e4-e0ee-4e30-9055-b66069aa0eb9")
+		)
+		(pin "G1"
+			(uuid "5e7523ac-80b8-4eb9-b5b9-b45ab75ca7e5")
+		)
+		(pin "G2"
+			(uuid "c8b41ed5-365e-4e40-9e17-4bb669d57e85")
+		)
+		(pin "G3"
+			(uuid "9e424d97-3d42-4111-9a76-cbf926a52646")
+		)
+		(pin "G4"
+			(uuid "b52dd5fb-9bd7-4579-9a6a-0858d6339dc7")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 49.53 43.18 0)
 		(unit 1)
@@ -14590,7 +13806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 154.94 0)
+		(at 214.63 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14601,7 +13817,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1890747-78f1-4c77-83f1-d63dfe3c4402")
 		(property "Reference" "#PWR002"
-			(at 220.98 161.29 0)
+			(at 214.63 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +13828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 160.02 0)
+			(at 214.63 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14622,7 +13838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 154.94 0)
+			(at 214.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14633,7 +13849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 154.94 0)
+			(at 214.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14644,7 +13860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 154.94 0)
+			(at 214.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15521,6 +14737,121 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Filled")
+		(at 27.94 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ed62be-2bfe-4907-8cda-a5b68acee018")
+		(property "Reference" "D2"
+			(at 30.48 101.2824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_proc_5V"
+			(at 30.48 103.8224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B120_B-B160_B.pdf"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 20V 1A SMA"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B120-13-F"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/B120-13-F/750005"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78f0a8ec-aada-498c-be10-4f86e38a5780")
+		)
+		(pin "2"
+			(uuid "a1cb83a5-fec2-4e59-813c-999f4243606d")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16455,7 +15786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 149.86 0)
+		(at 250.19 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16466,7 +15797,7 @@
 		(fields_autoplaced yes)
 		(uuid "d04b2833-4b45-451d-888c-9a971524d085")
 		(property "Reference" "R14"
-			(at 259.08 148.5899 0)
+			(at 252.73 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16477,7 +15808,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.08 151.1299 0)
+			(at 252.73 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16488,7 +15819,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 254.762 149.86 90)
+			(at 248.412 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16499,7 +15830,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16510,7 +15841,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16521,7 +15852,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16532,7 +15863,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16543,7 +15874,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16554,7 +15885,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D"
-			(at 256.54 149.86 0)
+			(at 250.19 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17238,8 +16569,156 @@
 		)
 	)
 	(symbol
+		(lib_id "ldo_bringup_board_ee372:SMA-J-P-H-ST-EM1")
+		(at 270.51 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde94f21-201b-48e1-a06e-f849ce86f90b")
+		(property "Reference" "J14"
+			(at 270.1925 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSIG_BUF"
+			(at 270.1925 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_G"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SMA JACK STR 50OHM EDGE MNT"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SMA-J-P-H-ST-EM1"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SMA-J-P-H-ST-EM1"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450"
+			(at 270.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8a12c75-e2cb-4aa9-8691-35bb1c014011")
+		)
+		(pin "G1"
+			(uuid "4719ea5c-5140-479d-9f38-a16b14c0b341")
+		)
+		(pin "G2"
+			(uuid "458f8b15-8b3b-423d-84e8-a678f856f95c")
+		)
+		(pin "G3"
+			(uuid "3d7a3305-862f-4a2c-bdc3-39a3f0f50bd8")
+		)
+		(pin "G4"
+			(uuid "fb4bf231-de74-4a02-8d97-835f4019a7b6")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 24.13 102.87 0)
+		(at 27.94 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17250,7 +16729,7 @@
 		(fields_autoplaced yes)
 		(uuid "df78e940-2e1c-462c-a3af-16b8e2c7ad3d")
 		(property "Reference" "#PWR040"
-			(at 24.13 109.22 0)
+			(at 27.94 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17261,7 +16740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 107.95 0)
+			(at 27.94 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17271,7 +16750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 102.87 0)
+			(at 27.94 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17282,7 +16761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 102.87 0)
+			(at 27.94 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17293,7 +16772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 102.87 0)
+			(at 27.94 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17310,6 +16789,82 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e388274d-368f-4714-9c54-0cd122f0ceb8")
+		(property "Reference" "H4"
+			(at 266.7 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole, 3.2 mm unplated, for standoffs (guidelines section 3)"
+			(at 264.16 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17423,6 +16978,82 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84bb69e-8357-4810-bb00-92df2ac18a49")
+		(property "Reference" "H1"
+			(at 266.7 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole, 3.2 mm unplated, for standoffs (guidelines section 3)"
+			(at 264.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17733,7 +17364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 154.94 0)
+		(at 237.49 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17744,7 +17375,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1414cb7-924e-4425-9175-cd77e69f6387")
 		(property "Reference" "#PWR015"
-			(at 243.84 161.29 0)
+			(at 237.49 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17755,7 +17386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 160.02 0)
+			(at 237.49 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17765,7 +17396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 154.94 0)
+			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17776,7 +17407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 154.94 0)
+			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17787,7 +17418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 154.94 0)
+			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18506,7 +18137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 149.86 0)
+		(at 224.79 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18517,7 +18148,7 @@
 		(fields_autoplaced yes)
 		(uuid "faaf574a-0503-476c-b2ac-5369edfdf5ec")
 		(property "Reference" "R9"
-			(at 233.68 148.5899 0)
+			(at 227.33 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18528,7 +18159,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 233.68 151.1299 0)
+			(at 227.33 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18539,7 +18170,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 229.362 149.86 90)
+			(at 223.012 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18550,7 +18181,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18561,7 +18192,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18572,7 +18203,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18583,7 +18214,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18594,7 +18225,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18605,7 +18236,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D"
-			(at 231.14 149.86 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18632,7 +18263,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 243.84 149.86 0)
+		(at 237.49 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18643,7 +18274,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc9322b8-73eb-4b7b-bfa2-e6cc53b9c13c")
 		(property "Reference" "R11"
-			(at 246.38 148.5899 0)
+			(at 240.03 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18654,7 +18285,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 246.38 151.1299 0)
+			(at 240.03 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18665,7 +18296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.062 149.86 90)
+			(at 235.712 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18676,7 +18307,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18687,7 +18318,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18698,7 +18329,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18709,7 +18340,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0805FR-0710KL"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18720,7 +18351,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18731,7 +18362,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D"
-			(at 243.84 149.86 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18758,7 +18389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 154.94 0)
+		(at 250.19 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18769,7 +18400,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd8a7d0e-7d02-4000-94b1-8d68ad60682b")
 		(property "Reference" "#PWR016"
-			(at 256.54 161.29 0)
+			(at 250.19 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18780,7 +18411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 160.02 0)
+			(at 250.19 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18790,7 +18421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 154.94 0)
+			(at 250.19 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18801,7 +18432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 154.94 0)
+			(at 250.19 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18812,7 +18443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 154.94 0)
+			(at 250.19 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19075,7 +18706,7 @@
 		)
 	)
 	(sheet
-		(at 100.076 56.388)
+		(at 94.996 58.928)
 		(size 50.292 35.814)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19091,7 +18722,7 @@
 		)
 		(uuid "44c5756d-eb38-441e-b289-12659405a486")
 		(property "Sheetname" "MCU Conn"
-			(at 100.076 55.6764 0)
+			(at 94.996 58.2164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19102,7 +18733,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_conn.kicad_sch"
-			(at 100.076 92.7866 0)
+			(at 94.996 95.3266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
