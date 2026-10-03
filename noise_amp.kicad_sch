@@ -3801,7 +3801,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "9k"
 			(at 153.67 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,6 +5341,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 168.91 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80cd5171-13bb-4b9c-bcf4-009c67b273f2")
+		(property "Reference" "R50"
+			(at 168.91 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 168.91 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 168.91 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "282b65af-487c-4ad7-8ae2-4538a590e0ec")
+		)
+		(pin "2"
+			(uuid "f74fbf2d-2ba8-4228-8ab7-0315e573849a")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/865f8bee-21ea-4e12-aa41-2d2ad2cc6c72"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 74.93 0)
 		(unit 1)
@@ -5440,7 +5553,7 @@
 				)
 			)
 		)
-		(property "Value" "NOISE_X1331"
+		(property "Value" "NOISE_X1000"
 			(at 180.0225 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5568,119 +5681,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90d29932-e130-4edd-835d-1871c07fe315")
-		(property "Reference" "R39"
-			(at 168.91 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.9"
-			(at 168.91 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 168.91 61.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES 49.9 OHM 1% 1/8W 0805"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/result?keywords=RC0805FR-0749R9L"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-0749R9L"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c43a8349-89c3-43a6-8d9e-9cb6027ce804")
-		)
-		(pin "1"
-			(uuid "7c1fef06-f14d-4d37-91af-d5c7d986c00d")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/865f8bee-21ea-4e12-aa41-2d2ad2cc6c72"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 154.94 124.46 90)
 		(unit 1)
 		(body_style 1)
@@ -5701,7 +5701,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "9k"
 			(at 154.94 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6256,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 113.03 90)
+		(at 168.91 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6265,9 +6265,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad7bed33-5dff-4f52-95c2-0d380db91316")
-		(property "Reference" "R40"
-			(at 168.91 106.68 90)
+		(uuid "b7aab18b-a85a-468d-aa38-bf2c4032325e")
+		(property "Reference" "R49"
+			(at 168.91 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6276,8 +6276,8 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
-			(at 168.91 109.22 90)
+		(property "Value" "0"
+			(at 168.91 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6287,7 +6287,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 168.91 114.808 90)
+			(at 168.91 61.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,8 +6297,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 168.91 113.03 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,8 +6308,8 @@
 				)
 			)
 		)
-		(property "Description" "RES 49.9 OHM 1% 1/8W 0805"
-			(at 168.91 113.03 0)
+		(property "Description" "Resistor"
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,8 +6319,8 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/result?keywords=RC0805FR-0749R9L"
-			(at 168.91 113.03 0)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,8 +6330,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0805FR-0749R9L"
-			(at 168.91 113.03 0)
+		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,8 +6341,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 168.91 113.03 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,17 +6351,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "9803fc8d-7593-48f7-9b12-01aa66daefd8")
 		)
 		(pin "1"
-			(uuid "d2fa116a-60a8-4fc7-8e7d-52ad65379ddc")
+			(uuid "c89a3ba9-9c73-4f47-86d1-e18ae8cf06dd")
+		)
+		(pin "2"
+			(uuid "5fa32b37-87c9-4047-846c-6ae2e8deb505")
 		)
 		(instances
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/865f8bee-21ea-4e12-aa41-2d2ad2cc6c72"
-					(reference "R40")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "9k"
 			(at 124.46 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7001,7 @@
 				)
 			)
 		)
-		(property "Value" "NOISE_X121"
+		(property "Value" "NOISE_X100"
 			(at 180.0225 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
