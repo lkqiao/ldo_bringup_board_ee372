@@ -3245,19 +3245,19 @@
 		(uuid "3b43f692-c4d4-461c-9424-5a508e820a31")
 	)
 	(junction
-		(at 233.68 48.26)
+		(at 227.33 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46bd3ec5-6d0e-412a-8f6c-6faa1602fbb0")
 	)
 	(junction
-		(at 259.08 55.88)
+		(at 252.73 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54aeff12-efaf-4d40-85ce-77bdf79869bc")
 	)
 	(junction
-		(at 241.3 50.8)
+		(at 234.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55563f2a-7176-419e-8c74-b7fccd5fed82")
@@ -3323,7 +3323,7 @@
 		(uuid "c4907fd6-3325-4408-96b4-5bfb051a90e0")
 	)
 	(junction
-		(at 224.79 45.72)
+		(at 218.44 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c65b617d-89f7-4568-8080-6babdb06aeb4")
@@ -3335,7 +3335,7 @@
 		(uuid "cadaab43-cf3c-4e0e-80eb-dbe703ca5909")
 	)
 	(junction
-		(at 250.19 53.34)
+		(at 243.84 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb42a9ad-7cbc-4b3c-8d26-6bcebaec3368")
@@ -3499,7 +3499,7 @@
 		(uuid "fd5ded6b-e5be-40a5-9243-1c3606e053fe")
 	)
 	(bus_entry
-		(at 245.11 80.01)
+		(at 233.68 123.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3508,7 +3508,7 @@
 		(uuid "6eb73460-2682-4525-9cb3-efb8a637a5c3")
 	)
 	(bus_entry
-		(at 245.11 77.47)
+		(at 233.68 120.65)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3517,7 +3517,7 @@
 		(uuid "88fdfb9c-8343-4870-bbd0-d7a05f50b7fd")
 	)
 	(bus_entry
-		(at 245.11 74.93)
+		(at 233.68 118.11)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3526,7 +3526,7 @@
 		(uuid "dc23ecc6-5590-4eb6-8353-3f4fc7ff9b0e")
 	)
 	(bus_entry
-		(at 245.11 72.39)
+		(at 233.68 115.57)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3686,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 44.45) (xy 259.08 55.88)
+			(xy 252.73 73.66) (xy 252.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3716,7 +3716,7 @@
 	)
 	(bus
 		(pts
-			(xy 248.92 68.58) (xy 247.65 68.58)
+			(xy 237.49 111.76) (xy 236.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3786,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 213.36 53.34)
+			(xy 194.31 82.55) (xy 207.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +3816,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 80.01) (xy 245.11 80.01)
+			(xy 195.58 123.19) (xy 233.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3906,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 53.34) (xy 250.19 53.34)
+			(xy 214.63 82.55) (xy 243.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3966,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 44.45) (xy 250.19 53.34)
+			(xy 243.84 73.66) (xy 243.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3996,7 +3996,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 213.36 50.8)
+			(xy 194.31 80.01) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4076,7 +4076,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 55.88) (xy 266.7 55.88)
+			(xy 252.73 85.09) (xy 260.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 72.39) (xy 245.11 72.39)
+			(xy 195.58 115.57) (xy 233.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 77.47) (xy 245.11 77.47)
+			(xy 195.58 120.65) (xy 233.68 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4176,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 48.26) (xy 266.7 48.26)
+			(xy 227.33 77.47) (xy 260.35 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4186,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 241.3 50.8)
+			(xy 214.63 80.01) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4236,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 45.72) (xy 266.7 45.72)
+			(xy 218.44 74.93) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4286,7 +4286,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 213.36 45.72)
+			(xy 194.31 74.93) (xy 207.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4326,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 233.68 48.26)
+			(xy 214.63 77.47) (xy 227.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 44.45) (xy 233.68 48.26)
+			(xy 227.33 73.66) (xy 227.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 213.36 48.26)
+			(xy 194.31 77.47) (xy 207.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4426,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 53.34) (xy 266.7 53.34)
+			(xy 243.84 82.55) (xy 260.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4616,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 45.72) (xy 224.79 45.72)
+			(xy 214.63 74.93) (xy 218.44 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4726,7 +4726,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 55.88) (xy 259.08 55.88)
+			(xy 214.63 85.09) (xy 252.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 74.93) (xy 245.11 74.93)
+			(xy 195.58 118.11) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 50.8) (xy 266.7 50.8)
+			(xy 234.95 80.01) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 55.88) (xy 213.36 55.88)
+			(xy 194.31 85.09) (xy 207.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4856,7 +4856,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 44.45) (xy 241.3 50.8)
+			(xy 234.95 73.66) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +4876,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 44.45) (xy 224.79 45.72)
+			(xy 218.44 73.66) (xy 218.44 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +4906,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 68.58) (xy 247.65 83.82)
+			(xy 236.22 111.76) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +4955,7 @@
 		(uuid "ff31bf06-ad69-4840-ad41-cd8e722328b4")
 	)
 	(label "SPI.SCLK"
-		(at 207.01 80.01 0)
+		(at 195.58 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4985,7 +4985,7 @@
 		(uuid "2c16cb40-f521-43a1-b786-80a6f19019e3")
 	)
 	(label "VG1_MCU"
-		(at 200.66 48.26 0)
+		(at 194.31 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5035,7 +5035,7 @@
 		(uuid "5034a108-e06f-46d6-8fe1-08cae4a3a324")
 	)
 	(label "VG3_MCU"
-		(at 200.66 53.34 0)
+		(at 194.31 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5065,7 +5065,7 @@
 		(uuid "68d45719-6351-4741-8065-508f64bd9030")
 	)
 	(label "SPI.MISO"
-		(at 207.01 74.93 0)
+		(at 195.58 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5075,7 +5075,7 @@
 		(uuid "6f33a594-c923-44b3-8b28-2c8aa63c8c06")
 	)
 	(label "VG2_MCU"
-		(at 200.66 50.8 0)
+		(at 194.31 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5085,7 +5085,7 @@
 		(uuid "77a6cff1-6c3b-4d51-af4b-1994da2192e2")
 	)
 	(label "SPI.CS"
-		(at 207.01 77.47 0)
+		(at 195.58 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5115,7 +5115,7 @@
 		(uuid "844cd2e2-690d-4072-9a9d-af4d41f9c99a")
 	)
 	(label "SPI.MOSI"
-		(at 207.01 72.39 0)
+		(at 195.58 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5145,7 +5145,7 @@
 		(uuid "ba36b4f1-6729-4363-802f-66094e21ec91")
 	)
 	(label "VG0_MCU"
-		(at 200.66 45.72 0)
+		(at 194.31 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5175,7 +5175,7 @@
 		(uuid "ebb2d106-e327-4a2a-a4c3-604d0fb47b07")
 	)
 	(label "VG4_MCU"
-		(at 200.66 55.88 0)
+		(at 194.31 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5196,7 +5196,7 @@
 	)
 	(global_label "VG0"
 		(shape output)
-		(at 266.7 45.72 0)
+		(at 260.35 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5206,7 +5206,7 @@
 		)
 		(uuid "06e3f7e6-1d79-415d-98e7-952e2d3ac5a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.2533 45.72 0)
+			(at 266.9033 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5220,7 @@
 	)
 	(global_label "SPI{MISO MOSI CS SCLK}"
 		(shape input)
-		(at 248.92 68.58 0)
+		(at 237.49 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5230,7 +5230,7 @@
 		)
 		(uuid "148d816d-52dc-404d-aba9-a52a86016e6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0352 68.58 0)
+			(at 264.6052 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 	)
 	(global_label "VG2"
 		(shape output)
-		(at 266.7 50.8 0)
+		(at 260.35 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5302,7 +5302,7 @@
 		)
 		(uuid "6240713a-a6ee-4c4e-8848-15d8bbbe66a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.2533 50.8 0)
+			(at 266.9033 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5388,7 @@
 	)
 	(global_label "VG4"
 		(shape output)
-		(at 266.7 55.88 0)
+		(at 260.35 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5398,7 +5398,7 @@
 		)
 		(uuid "c67f3a59-31fb-44ae-9fca-39bcddec3c83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.2533 55.88 0)
+			(at 266.9033 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5412,7 @@
 	)
 	(global_label "VG3"
 		(shape output)
-		(at 266.7 53.34 0)
+		(at 260.35 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5422,7 +5422,7 @@
 		)
 		(uuid "dda4dccd-1fbe-48d4-9fe5-5117265ff82e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.2533 53.34 0)
+			(at 266.9033 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5436,7 +5436,7 @@
 	)
 	(global_label "VG1"
 		(shape output)
-		(at 266.7 48.26 0)
+		(at 260.35 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5446,7 +5446,7 @@
 		)
 		(uuid "f9454d02-a7fa-4cd7-a809-6e4cf01117fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.2533 48.26 0)
+			(at 266.9033 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5460,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 241.3 44.45 0)
+		(at 234.95 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5471,7 +5471,7 @@
 		(fields_autoplaced yes)
 		(uuid "01d356c6-fe44-4b2b-b358-fd7acf6d0e2b")
 		(property "Reference" "TP17"
-			(at 243.84 39.8779 0)
+			(at 237.49 69.0879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Value" "VG2"
-			(at 243.84 42.4179 0)
+			(at 237.49 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 246.38 44.45 0)
+			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 246.38 44.45 0)
+			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +5515,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 241.3 44.45 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,7 +5526,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 246.38 44.45 0)
+			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5537,7 +5537,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 246.38 44.45 0)
+			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5548,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 246.38 44.45 0)
+			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 224.79 44.45 0)
+		(at 218.44 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5816,7 +5816,7 @@
 		(dnp no)
 		(uuid "0af1b5fe-3bbb-4825-acff-0d5b069cd84f")
 		(property "Reference" "TP15"
-			(at 226.568 39.878 0)
+			(at 220.218 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5827,7 +5827,7 @@
 			)
 		)
 		(property "Value" "VG0"
-			(at 226.568 42.418 0)
+			(at 220.218 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5838,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 229.87 44.45 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 229.87 44.45 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5860,7 +5860,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 44.45 0)
+			(at 218.44 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5871,7 +5871,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 229.87 44.45 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,7 +5882,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 229.87 44.45 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,7 +5893,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 229.87 44.45 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +5995,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 44.45 0)
+		(at 243.84 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6006,7 +6006,7 @@
 		(fields_autoplaced yes)
 		(uuid "1684e729-5023-482b-8226-a010e641242a")
 		(property "Reference" "TP18"
-			(at 252.73 39.8779 0)
+			(at 246.38 69.0879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6017,7 +6017,7 @@
 			)
 		)
 		(property "Value" "VG3"
-			(at 252.73 42.4179 0)
+			(at 246.38 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6028,7 +6028,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 255.27 44.45 0)
+			(at 248.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 255.27 44.45 0)
+			(at 248.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6050,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 44.45 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6061,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 255.27 44.45 0)
+			(at 248.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 255.27 44.45 0)
+			(at 248.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,7 +6083,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 255.27 44.45 0)
+			(at 248.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6698,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 48.26 90)
+		(at 210.82 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6709,7 +6709,7 @@
 		(fields_autoplaced yes)
 		(uuid "49fe6af2-a4d4-4d72-a2e6-6eef51312918")
 		(property "Reference" "R23"
-			(at 217.17 41.91 90)
+			(at 210.82 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6719,7 +6719,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 217.17 44.45 90)
+			(at 210.82 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6729,7 +6729,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.17 50.038 90)
+			(at 210.82 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 217.17 48.26 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +6751,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 48.26 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +6762,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 217.17 48.26 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +6773,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 217.17 48.26 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +6784,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 217.17 48.26 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,7 +6923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 45.72 90)
+		(at 210.82 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6934,7 +6934,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bfa787e-a442-4401-ac82-e65ee266d2d8")
 		(property "Reference" "R22"
-			(at 217.17 39.37 90)
+			(at 210.82 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6944,7 +6944,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 217.17 41.91 90)
+			(at 210.82 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6954,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.17 47.498 90)
+			(at 210.82 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6965,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 217.17 45.72 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,7 +6976,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 45.72 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,7 +6987,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 217.17 45.72 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,7 +6998,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 217.17 45.72 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7009,7 +7009,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 217.17 45.72 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 55.88 90)
+		(at 210.82 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7171,7 +7171,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e77c6ee-8552-44e9-b951-e2958f24e7da")
 		(property "Reference" "R26"
-			(at 217.17 49.53 90)
+			(at 210.82 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7181,7 +7181,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 217.17 52.07 90)
+			(at 210.82 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7191,7 +7191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.17 57.658 90)
+			(at 210.82 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +7202,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 217.17 55.88 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 55.88 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 217.17 55.88 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,7 +7235,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 217.17 55.88 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +7246,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 217.17 55.88 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7388,7 +7388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 53.34 90)
+		(at 210.82 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7399,7 +7399,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d8b44e-f0ea-40a0-b154-85fcf527a0f3")
 		(property "Reference" "R25"
-			(at 217.17 46.99 90)
+			(at 210.82 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7409,7 +7409,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 217.17 49.53 90)
+			(at 210.82 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7419,7 +7419,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.17 55.118 90)
+			(at 210.82 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7430,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 217.17 53.34 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7441,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 53.34 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7452,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 217.17 53.34 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7463,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 217.17 53.34 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +7474,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 217.17 53.34 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +9082,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 50.8 90)
+		(at 210.82 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9093,7 +9093,7 @@
 		(fields_autoplaced yes)
 		(uuid "97f4fba4-5e2c-4248-af90-42aad385ec76")
 		(property "Reference" "R24"
-			(at 217.17 44.45 90)
+			(at 210.82 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9103,7 +9103,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 217.17 46.99 90)
+			(at 210.82 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9113,7 +9113,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.17 52.578 90)
+			(at 210.82 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9124,7 +9124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 217.17 50.8 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9135,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 50.8 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9146,7 +9146,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 217.17 50.8 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +9157,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 217.17 50.8 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +9168,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 217.17 50.8 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9727,7 +9727,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 259.08 44.45 0)
+		(at 252.73 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9738,7 +9738,7 @@
 		(fields_autoplaced yes)
 		(uuid "b247b6d9-7844-4058-bef5-bae288ccae4e")
 		(property "Reference" "TP19"
-			(at 261.62 39.8779 0)
+			(at 255.27 69.0879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9749,7 +9749,7 @@
 			)
 		)
 		(property "Value" "VG4"
-			(at 261.62 42.4179 0)
+			(at 255.27 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9760,7 +9760,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 264.16 44.45 0)
+			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,7 +9771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 264.16 44.45 0)
+			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +9782,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 259.08 44.45 0)
+			(at 252.73 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,7 +9793,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 264.16 44.45 0)
+			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9804,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 264.16 44.45 0)
+			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9815,7 +9815,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 264.16 44.45 0)
+			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11514,7 +11514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 233.68 44.45 0)
+		(at 227.33 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11525,7 +11525,7 @@
 		(fields_autoplaced yes)
 		(uuid "e581b50a-ed09-461f-bb74-73ef62cf5444")
 		(property "Reference" "TP16"
-			(at 236.22 39.8779 0)
+			(at 229.87 69.0879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11536,7 +11536,7 @@
 			)
 		)
 		(property "Value" "VG1"
-			(at 236.22 42.4179 0)
+			(at 229.87 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11547,7 +11547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 238.76 44.45 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11558,7 +11558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 238.76 44.45 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,7 +11569,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 233.68 44.45 0)
+			(at 227.33 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11580,7 +11580,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 238.76 44.45 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11591,7 +11591,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 238.76 44.45 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +11602,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 238.76 44.45 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
