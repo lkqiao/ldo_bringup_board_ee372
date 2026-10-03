@@ -3822,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+		(property "Description" "RES 9K OHM 0.1% 1/8W 0805 THIN FILM"
 			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3844,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RT0805BRE079KL/5932404"
 			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3855,7 +3855,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0805FR-0710KL"
+		(property "Manufacturer Part Number" "RT0805BRE079KL"
 			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5733,7 +5733,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+		(property "Description" "RES 9K OHM 0.1% 1/8W 0805 THIN FILM"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5744,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RT0805BRE079KL/5932404"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5755,7 +5755,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0805FR-0710KL"
+		(property "Manufacturer Part Number" "RT0805BRE079KL"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6692,7 +6692,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+		(property "Description" "RES 9K OHM 0.1% 1/8W 0805 THIN FILM"
 			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6703,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/RT0805BRE079KL/5932404"
 			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6714,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0805FR-0710KL"
+		(property "Manufacturer Part Number" "RT0805BRE079KL"
 			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
