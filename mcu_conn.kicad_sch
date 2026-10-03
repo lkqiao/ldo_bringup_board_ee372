@@ -8111,7 +8111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8122,7 +8122,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 5% 25V X7R 1206"
+		(property "Description" "CAP CER 10UF 25V X5R 1206"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8144,7 +8144,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C106J3RACAUTO"
+		(property "Manufacturer Part Number" "GRM319R61E106KA12D"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C1206C106J3RACAUTO/7427564"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM319R61E106KA12D/2334876"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8615,7 +8615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8626,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 5% 25V X7R 1206"
+		(property "Description" "CAP CER 10UF 25V X5R 1206"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8637,7 +8637,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8648,7 +8648,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C106J3RACAUTO"
+		(property "Manufacturer Part Number" "GRM319R61E106KA12D"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8659,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C1206C106J3RACAUTO/7427564"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM319R61E106KA12D/2334876"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
