@@ -9237,7 +9237,7 @@
 		(uuid "31a87daa-0db6-48e6-ad4b-374a535337a7")
 		(at 137.25 55 180)
 		(property "Reference" "J2"
-			(at 0 0 0)
+			(at -5.25 0 0)
 			(layer "F.SilkS")
 			(uuid "4bce64ac-c1d1-4390-9c04-e14f586dc97d")
 			(effects
@@ -11432,7 +11432,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 1.25 -4.4 90)
+			(at -3.25 0 180)
 			(layer "F.SilkS")
 			(uuid "9e834573-4b6e-496d-bedc-212281ea3b53")
 			(effects
@@ -15580,7 +15580,7 @@
 		(uuid "5440ca1b-0bbe-41b5-a936-15a9bf4ae4f4")
 		(at 104.5 62.75 -90)
 		(property "Reference" "J1"
-			(at -0.925 -6.735 90)
+			(at 5 0 180)
 			(layer "F.SilkS")
 			(uuid "12804f68-cf36-4948-8497-d040557890c2")
 			(effects
@@ -37452,7 +37452,7 @@
 		(descr "Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)")
 		(tags "SMA Straight Samtec Edge Mount")
 		(property "Reference" "J17"
-			(at 0 -5.08 90)
+			(at 0 5 90)
 			(layer "F.SilkS")
 			(uuid "f38f8c26-5c24-4ae7-bf63-8b545815b402")
 			(effects
