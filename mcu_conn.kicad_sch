@@ -3245,19 +3245,19 @@
 		(uuid "3b43f692-c4d4-461c-9424-5a508e820a31")
 	)
 	(junction
-		(at 220.98 99.06)
+		(at 217.17 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46bd3ec5-6d0e-412a-8f6c-6faa1602fbb0")
 	)
 	(junction
-		(at 246.38 106.68)
+		(at 242.57 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54aeff12-efaf-4d40-85ce-77bdf79869bc")
 	)
 	(junction
-		(at 228.6 101.6)
+		(at 224.79 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55563f2a-7176-419e-8c74-b7fccd5fed82")
@@ -3323,7 +3323,7 @@
 		(uuid "c4907fd6-3325-4408-96b4-5bfb051a90e0")
 	)
 	(junction
-		(at 212.09 96.52)
+		(at 208.28 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c65b617d-89f7-4568-8080-6babdb06aeb4")
@@ -3335,7 +3335,7 @@
 		(uuid "cadaab43-cf3c-4e0e-80eb-dbe703ca5909")
 	)
 	(junction
-		(at 237.49 104.14)
+		(at 233.68 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb42a9ad-7cbc-4b3c-8d26-6bcebaec3368")
@@ -3423,10 +3423,6 @@
 		(uuid "95c1b168-85da-40d2-a122-f669d3d114d9")
 	)
 	(no_connect
-		(at 104.14 49.53)
-		(uuid "aeb6623e-4c90-4e2b-a9e4-7650f82a2b27")
-	)
-	(no_connect
 		(at 48.26 92.71)
 		(uuid "bfabd40b-975f-4546-9a20-fbd2cce4c383")
 	)
@@ -3463,10 +3459,6 @@
 		(uuid "e18d37be-8efd-461d-ba50-d63e226ed257")
 	)
 	(no_connect
-		(at 104.14 44.45)
-		(uuid "eeb7870b-4882-4263-8554-2796cf1a90a0")
-	)
-	(no_connect
 		(at 48.26 87.63)
 		(uuid "f060aa34-a924-4d9c-b3e7-aff15bd1c12d")
 	)
@@ -3478,12 +3470,8 @@
 		(at 48.26 41.91)
 		(uuid "f84cfe47-6daf-4273-81f9-9f01a1c14427")
 	)
-	(no_connect
-		(at 104.14 46.99)
-		(uuid "f9e79fce-c8ff-4953-80da-b10cd11017ac")
-	)
 	(bus_entry
-		(at 227.33 144.78)
+		(at 248.92 54.61)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3492,7 +3480,7 @@
 		(uuid "6eb73460-2682-4525-9cb3-efb8a637a5c3")
 	)
 	(bus_entry
-		(at 227.33 142.24)
+		(at 248.92 52.07)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3501,7 +3489,7 @@
 		(uuid "88fdfb9c-8343-4870-bbd0-d7a05f50b7fd")
 	)
 	(bus_entry
-		(at 227.33 139.7)
+		(at 248.92 49.53)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3510,7 +3498,7 @@
 		(uuid "dc23ecc6-5590-4eb6-8353-3f4fc7ff9b0e")
 	)
 	(bus_entry
-		(at 227.33 137.16)
+		(at 248.92 46.99)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3547,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "030ecbd1-1730-4dab-8174-1b3b256fc295")
+	)
+	(wire
+		(pts
+			(xy 209.55 135.89) (xy 209.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049edc38-6483-4ec4-83f7-7961f50e0f7d")
 	)
 	(wire
 		(pts
@@ -3670,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 95.25) (xy 246.38 106.68)
+			(xy 242.57 87.63) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3710,7 +3708,7 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 133.35) (xy 229.87 133.35)
+			(xy 252.73 43.18) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3780,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 200.66 104.14)
+			(xy 184.15 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3800,13 +3798,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 144.78) (xy 227.33 144.78)
+			(xy 210.82 54.61) (xy 248.92 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2aa8be9e-f275-4fff-b26b-9683bea757d4")
+	)
+	(wire
+		(pts
+			(xy 209.55 153.67) (xy 209.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc8870d-8e29-4d0f-a340-d581626a5b3d")
 	)
 	(wire
 		(pts
@@ -3880,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 153.67) (xy 209.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed50349-3595-466f-9fdf-acfdced4de87")
+	)
+	(wire
+		(pts
 			(xy 83.82 143.51) (xy 83.82 134.62)
 		)
 		(stroke
@@ -3890,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 104.14) (xy 237.49 104.14)
+			(xy 204.47 96.52) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3960,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 104.14)
+			(xy 233.68 87.63) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3990,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 200.66 101.6)
+			(xy 184.15 93.98) (xy 196.85 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4030,6 +4048,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 127) (xy 209.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579ab3fa-0695-4e83-99dd-51ae8315c400")
+	)
+	(wire
+		(pts
 			(xy 48.26 163.83) (xy 54.61 163.83)
 		)
 		(stroke
@@ -4060,6 +4088,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 135.89) (xy 209.55 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c55033-beed-4bf1-a2c0-7410d76626b3")
+	)
+	(wire
+		(pts
+			(xy 104.14 44.45) (xy 120.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6393ce67-1e17-49c1-bb56-b17105337e0a")
+	)
+	(wire
+		(pts
 			(xy 83.82 134.62) (xy 82.55 134.62)
 		)
 		(stroke
@@ -4070,7 +4118,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 254 106.68)
+			(xy 242.57 99.06) (xy 250.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 137.16) (xy 227.33 137.16)
+			(xy 210.82 46.99) (xy 248.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4130,6 +4178,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 46.99) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3b1b2-3d96-4a58-bcb9-3b1c2550ab31")
+	)
+	(wire
+		(pts
 			(xy 97.79 129.54) (xy 97.79 133.35)
 		)
 		(stroke
@@ -4150,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 142.24) (xy 227.33 142.24)
+			(xy 210.82 52.07) (xy 248.92 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4228,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 254 99.06)
+			(xy 217.17 91.44) (xy 250.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4238,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 228.6 101.6)
+			(xy 204.47 93.98) (xy 224.79 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4230,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 254 96.52)
+			(xy 208.28 88.9) (xy 250.19 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4260,6 +4318,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 124.46) (xy 219.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8944aa43-15b2-4199-93b8-0e6803a666b5")
+	)
+	(wire
+		(pts
 			(xy 104.14 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -4280,6 +4348,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 151.13) (xy 219.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac32173-0062-46c1-8811-d441fc29a1ab")
+	)
+	(wire
+		(pts
 			(xy 181.61 57.15) (xy 194.31 57.15)
 		)
 		(stroke
@@ -4290,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 200.66 96.52)
+			(xy 184.15 88.9) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4408,27 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 220.98 99.06)
+			(xy 219.71 144.78) (xy 209.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f32b7e7-b660-46b5-8af6-761a96a32de2")
+	)
+	(wire
+		(pts
+			(xy 128.27 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b46403-eb71-4d84-b463-6eeae3d38942")
+	)
+	(wire
+		(pts
+			(xy 204.47 91.44) (xy 217.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4340,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 220.98 99.06)
+			(xy 217.17 87.63) (xy 217.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4400,6 +4498,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 118.11) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df9ff94-785f-43ee-97a6-dd5e8b66f07f")
+	)
+	(wire
+		(pts
 			(xy 38.1 44.45) (xy 48.26 44.45)
 		)
 		(stroke
@@ -4410,7 +4518,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 200.66 99.06)
+			(xy 128.27 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5fbbe9-d1a6-44c5-9560-cb1f05de1017")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4430,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 104.14) (xy 254 104.14)
+			(xy 233.68 96.52) (xy 250.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4580,6 +4698,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 133.35) (xy 219.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02b7ca5-ba5e-4366-9f1e-4b1664384845")
+	)
+	(wire
+		(pts
 			(xy 83.82 176.53) (xy 82.55 176.53)
 		)
 		(stroke
@@ -4650,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 96.52) (xy 212.09 96.52)
+			(xy 204.47 88.9) (xy 208.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 246.38 106.68)
+			(xy 204.47 99.06) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4790,7 +4918,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 227.33 139.7)
+			(xy 210.82 49.53) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4800,13 +4928,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 101.6) (xy 254 101.6)
+			(xy 224.79 93.98) (xy 250.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0daa191-0d45-4af7-9c96-592869771906")
+	)
+	(wire
+		(pts
+			(xy 209.55 144.78) (xy 209.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e1221f-0189-48d0-916b-07174ad5623a")
 	)
 	(wire
 		(pts
@@ -4820,6 +4958,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34852d3-85f8-4d4e-8135-2cf3b423234b")
+	)
+	(wire
+		(pts
 			(xy 114.3 72.39) (xy 114.3 73.66)
 		)
 		(stroke
@@ -4830,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 200.66 106.68)
+			(xy 184.15 99.06) (xy 196.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4890,7 +5038,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 95.25) (xy 228.6 101.6)
+			(xy 214.63 115.57) (xy 219.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7991da-5e77-4476-99bf-05274a775f50")
+	)
+	(wire
+		(pts
+			(xy 224.79 87.63) (xy 224.79 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4920,13 +5078,33 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 95.25) (xy 212.09 96.52)
+			(xy 208.28 87.63) (xy 208.28 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3b82d9f-fb6e-496f-9218-d50028ac9632")
+	)
+	(wire
+		(pts
+			(xy 214.63 142.24) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c9c89d-3126-4ede-849f-744af1305610")
+	)
+	(wire
+		(pts
+			(xy 128.27 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f410a475-2db1-42f2-a144-07ac5f2201ea")
 	)
 	(wire
 		(pts
@@ -4948,9 +5126,19 @@
 		)
 		(uuid "f7524726-91b6-4ef7-8292-48d3a2ad3fcd")
 	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e7e4fd-acf5-4f84-81f9-fd1596c398dc")
+	)
 	(bus
 		(pts
-			(xy 229.87 133.35) (xy 229.87 148.59)
+			(xy 251.46 43.18) (xy 251.46 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4980,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 118.11) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd424155-72f2-43a9-9924-6715e02c409d")
+	)
+	(wire
+		(pts
 			(xy 123.19 132.08) (xy 128.27 132.08)
 		)
 		(stroke
@@ -4999,7 +5197,7 @@
 		(uuid "ff31bf06-ad69-4840-ad41-cd8e722328b4")
 	)
 	(label "SPI.SCLK"
-		(at 189.23 144.78 0)
+		(at 210.82 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5028,8 +5226,18 @@
 		)
 		(uuid "2c16cb40-f521-43a1-b786-80a6f19019e3")
 	)
+	(label "VG3"
+		(at 214.63 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3316ef91-795d-4996-834e-192b93b47489")
+	)
 	(label "VG1_MCU"
-		(at 187.96 99.06 0)
+		(at 184.15 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5079,7 +5287,7 @@
 		(uuid "5034a108-e06f-46d6-8fe1-08cae4a3a324")
 	)
 	(label "VG3_MCU"
-		(at 187.96 104.14 0)
+		(at 184.15 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5109,7 +5317,7 @@
 		(uuid "68d45719-6351-4741-8065-508f64bd9030")
 	)
 	(label "SPI.MISO"
-		(at 189.23 139.7 0)
+		(at 210.82 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5119,7 +5327,7 @@
 		(uuid "6f33a594-c923-44b3-8b28-2c8aa63c8c06")
 	)
 	(label "VG2_MCU"
-		(at 187.96 101.6 0)
+		(at 184.15 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5129,7 +5337,7 @@
 		(uuid "77a6cff1-6c3b-4d51-af4b-1994da2192e2")
 	)
 	(label "SPI.CS"
-		(at 189.23 142.24 0)
+		(at 210.82 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5158,8 +5366,28 @@
 		)
 		(uuid "844cd2e2-690d-4072-9a9d-af4d41f9c99a")
 	)
+	(label "VG0"
+		(at 214.63 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84cd4988-fb97-4791-95fa-574c72e7bfbd")
+	)
+	(label "VG2"
+		(at 214.63 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c20a9f0-a99a-4c23-b7f6-bc93ce816175")
+	)
 	(label "SPI.MOSI"
-		(at 189.23 137.16 0)
+		(at 210.82 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5189,7 +5417,7 @@
 		(uuid "ba36b4f1-6729-4363-802f-66094e21ec91")
 	)
 	(label "VG0_MCU"
-		(at 187.96 96.52 0)
+		(at 184.15 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5218,8 +5446,28 @@
 		)
 		(uuid "ebb2d106-e327-4a2a-a4c3-604d0fb47b07")
 	)
+	(label "VG4"
+		(at 214.63 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeb5c70d-804a-49fa-86ee-fc9bcc9d95a7")
+	)
+	(label "VG1"
+		(at 214.63 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0853d76-ed92-4525-b4b9-52ae2877b229")
+	)
 	(label "VG4_MCU"
-		(at 187.96 106.68 0)
+		(at 184.15 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,7 +5488,7 @@
 	)
 	(global_label "VG0"
 		(shape output)
-		(at 254 96.52 0)
+		(at 250.19 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5250,7 +5498,7 @@
 		)
 		(uuid "06e3f7e6-1d79-415d-98e7-952e2d3ac5a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 96.52 0)
+			(at 256.7433 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5512,7 @@
 	)
 	(global_label "SPI{MISO MOSI CS SCLK}"
 		(shape input)
-		(at 231.14 133.35 0)
+		(at 252.73 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5274,7 +5522,7 @@
 		)
 		(uuid "148d816d-52dc-404d-aba9-a52a86016e6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.2552 133.35 0)
+			(at 279.8452 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5656,7 @@
 	)
 	(global_label "VG2"
 		(shape output)
-		(at 254 101.6 0)
+		(at 250.19 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5418,7 +5666,7 @@
 		)
 		(uuid "6240713a-a6ee-4c4e-8848-15d8bbbe66a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 101.6 0)
+			(at 256.7433 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5752,7 @@
 	)
 	(global_label "VG4"
 		(shape output)
-		(at 254 106.68 0)
+		(at 250.19 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5514,7 +5762,7 @@
 		)
 		(uuid "c67f3a59-31fb-44ae-9fca-39bcddec3c83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 106.68 0)
+			(at 256.7433 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,9 +5798,57 @@
 			)
 		)
 	)
+	(global_label "NR"
+		(shape input)
+		(at 132.08 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf002f95-2564-461c-b8ab-4fe661404700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.6657 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IBIAS"
+		(shape input)
+		(at 132.08 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d65122b0-8c5b-4477-980e-1893051128db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.8429 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VG3"
 		(shape output)
-		(at 254 104.14 0)
+		(at 250.19 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5562,7 +5858,31 @@
 		)
 		(uuid "dda4dccd-1fbe-48d4-9fe5-5117265ff82e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 104.14 0)
+			(at 256.7433 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MD"
+		(shape input)
+		(at 132.08 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efc4e6e1-b7c4-4248-b1f7-95052373bf9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.7866 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5896,7 @@
 	)
 	(global_label "VG1"
 		(shape output)
-		(at 254 99.06 0)
+		(at 250.19 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5586,7 +5906,7 @@
 		)
 		(uuid "f9454d02-a7fa-4cd7-a809-6e4cf01117fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 99.06 0)
+			(at 256.7433 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 228.6 95.25 0)
+		(at 224.79 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5611,7 +5931,7 @@
 		(fields_autoplaced yes)
 		(uuid "01d356c6-fe44-4b2b-b358-fd7acf6d0e2b")
 		(property "Reference" "TP17"
-			(at 231.14 90.6779 0)
+			(at 227.33 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5622,7 +5942,7 @@
 			)
 		)
 		(property "Value" "VG2"
-			(at 231.14 93.2179 0)
+			(at 227.33 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5633,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 233.68 95.25 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 233.68 95.25 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5975,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 228.6 95.25 0)
+			(at 224.79 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5986,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 233.68 95.25 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5997,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 233.68 95.25 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +6008,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 233.68 95.25 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +6266,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 95.25 0)
+		(at 208.28 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5956,7 +6276,7 @@
 		(dnp no)
 		(uuid "0af1b5fe-3bbb-4825-acff-0d5b069cd84f")
 		(property "Reference" "TP15"
-			(at 213.868 90.678 0)
+			(at 210.058 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5967,7 +6287,7 @@
 			)
 		)
 		(property "Value" "VG0"
-			(at 213.868 93.218 0)
+			(at 210.058 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5978,7 +6298,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 217.17 95.25 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +6309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 217.17 95.25 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,7 +6320,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 212.09 95.25 0)
+			(at 208.28 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6011,7 +6331,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 217.17 95.25 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6022,7 +6342,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 217.17 95.25 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +6353,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 217.17 95.25 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6455,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 95.25 0)
+		(at 233.68 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6146,7 +6466,7 @@
 		(fields_autoplaced yes)
 		(uuid "1684e729-5023-482b-8226-a010e641242a")
 		(property "Reference" "TP18"
-			(at 240.03 90.6779 0)
+			(at 236.22 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6157,7 +6477,7 @@
 			)
 		)
 		(property "Value" "VG3"
-			(at 240.03 93.2179 0)
+			(at 236.22 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6168,7 +6488,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 242.57 95.25 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 242.57 95.25 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,7 +6510,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 95.25 0)
+			(at 233.68 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6521,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 242.57 95.25 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,7 +6532,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 242.57 95.25 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +6543,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 242.57 95.25 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,6 +6560,119 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1857c606-a70b-4ff6-ae91-b9509cedd674")
+		(property "Reference" "R52"
+			(at 124.46 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 124.46 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.46 48.768 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4e158ac-dd3a-46ec-bece-7acf1183dc8b")
+		)
+		(pin "2"
+			(uuid "f9df4627-8676-4325-a7da-68b81d4bd7ae")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6402,6 +6835,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2829c1df-8b82-4964-83a3-9d1f5868b225")
+		(property "Reference" "#PWR072"
+			(at 209.55 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc2b9-aa0a-42ce-97d4-28bc5a463478")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 137.16 0)
 		(unit 1)
@@ -6511,6 +7022,84 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3450166b-abfb-417a-98b1-34024a0f78e9")
+		(property "Reference" "#PWR069"
+			(at 209.55 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c73eb7c4-eb46-46c0-95c2-d4504e1020b8")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6844,6 +7433,246 @@
 	)
 	(symbol
 		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
+		(at 219.71 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4537c178-2bb3-4772-9ad1-ae1a4daba657")
+		(property "Reference" "J22"
+			(at 233.68 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VG1_PROBE"
+			(at 233.68 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:CONN_PxC02S_SUL"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PEC02SAAN"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "2-pin 0.1 in header for a jumper cap"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PEC02SAAN"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29f240bb-86e8-441d-9a14-7c03e47ade41")
+		)
+		(pin "2"
+			(uuid "4a0d2ad1-a388-45f1-9d2c-51f7c2b7a06b")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
+		(at 219.71 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4875f8ce-cafe-402e-baf3-e5e139dbcaf5")
+		(property "Reference" "J23"
+			(at 233.68 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VG2_PROBE"
+			(at 233.68 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:CONN_PxC02S_SUL"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PEC02SAAN"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "2-pin 0.1 in header for a jumper cap"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PEC02SAAN"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a960ad4-3739-4b81-bac3-162f45169339")
+		)
+		(pin "2"
+			(uuid "2d93fb87-b2bb-4a82-ad92-fcf52a7829bc")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
 		(at 157.48 78.74 180)
 		(unit 1)
 		(body_style 1)
@@ -6962,7 +7791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 99.06 90)
+		(at 200.66 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6973,7 +7802,7 @@
 		(fields_autoplaced yes)
 		(uuid "49fe6af2-a4d4-4d72-a2e6-6eef51312918")
 		(property "Reference" "R23"
-			(at 204.47 92.71 90)
+			(at 200.66 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6983,7 +7812,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 204.47 95.25 90)
+			(at 200.66 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6993,7 +7822,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 100.838 90)
+			(at 200.66 93.218 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 204.47 99.06 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7844,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
-			(at 204.47 99.06 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,7 +7855,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
-			(at 204.47 99.06 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7037,7 +7866,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
-			(at 204.47 99.06 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7877,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 204.47 99.06 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +8140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 96.52 90)
+		(at 200.66 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7322,7 +8151,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bfa787e-a442-4401-ac82-e65ee266d2d8")
 		(property "Reference" "R22"
-			(at 204.47 90.17 90)
+			(at 200.66 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7332,7 +8161,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 204.47 92.71 90)
+			(at 200.66 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7342,7 +8171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 98.298 90)
+			(at 200.66 90.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +8182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 204.47 96.52 0)
+			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,7 +8193,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
-			(at 204.47 96.52 0)
+			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,7 +8204,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
-			(at 204.47 96.52 0)
+			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,7 +8215,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
-			(at 204.47 96.52 0)
+			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7397,7 +8226,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 204.47 96.52 0)
+			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +8377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 106.68 90)
+		(at 200.66 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7559,7 +8388,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e77c6ee-8552-44e9-b951-e2958f24e7da")
 		(property "Reference" "R26"
-			(at 204.47 100.33 90)
+			(at 200.66 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7569,7 +8398,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 204.47 102.87 90)
+			(at 200.66 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7579,7 +8408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 108.458 90)
+			(at 200.66 100.838 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 204.47 106.68 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +8430,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
-			(at 204.47 106.68 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +8441,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
-			(at 204.47 106.68 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +8452,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
-			(at 204.47 106.68 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +8463,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 204.47 106.68 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,7 +8605,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 104.14 90)
+		(at 200.66 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7787,7 +8616,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d8b44e-f0ea-40a0-b154-85fcf527a0f3")
 		(property "Reference" "R25"
-			(at 204.47 97.79 90)
+			(at 200.66 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7797,7 +8626,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 204.47 100.33 90)
+			(at 200.66 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7807,7 +8636,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 105.918 90)
+			(at 200.66 98.298 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,7 +8647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 204.47 104.14 0)
+			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +8658,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
-			(at 204.47 104.14 0)
+			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,7 +8669,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
-			(at 204.47 104.14 0)
+			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +8680,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
-			(at 204.47 104.14 0)
+			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,7 +8691,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 204.47 104.14 0)
+			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9267,6 +10096,126 @@
 		)
 	)
 	(symbol
+		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
+		(at 219.71 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af1854a-28f5-47c9-8497-ea96ab55ae3f")
+		(property "Reference" "J21"
+			(at 233.68 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VG0_PROBE"
+			(at 233.68 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:CONN_PxC02S_SUL"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PEC02SAAN"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "2-pin 0.1 in header for a jumper cap"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PEC02SAAN"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155"
+			(at 219.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ffbd2b3-0388-403d-bebc-43a2e820ac11")
+		)
+		(pin "2"
+			(uuid "37af3796-35a5-4050-b1f6-fac523f5284b")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 40.64 0)
 		(unit 1)
@@ -9469,8 +10418,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920ff048-e816-4508-941b-c97ce400dc13")
+		(property "Reference" "#PWR068"
+			(at 209.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3882f217-d40a-449c-bbb8-d379b77002a4")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 204.47 101.6 90)
+		(at 200.66 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9481,7 +10508,7 @@
 		(fields_autoplaced yes)
 		(uuid "97f4fba4-5e2c-4248-af90-42aad385ec76")
 		(property "Reference" "R24"
-			(at 204.47 95.25 90)
+			(at 200.66 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9491,7 +10518,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 204.47 97.79 90)
+			(at 200.66 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9501,7 +10528,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 103.378 90)
+			(at 200.66 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9512,7 +10539,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 204.47 101.6 0)
+			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9523,7 +10550,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
-			(at 204.47 101.6 0)
+			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9534,7 +10561,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
-			(at 204.47 101.6 0)
+			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9545,7 +10572,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
-			(at 204.47 101.6 0)
+			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9556,7 +10583,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 204.47 101.6 0)
+			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,8 +11141,128 @@
 		)
 	)
 	(symbol
+		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
+		(at 219.71 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10d411c-f381-430e-8be1-a6aaced3c30e")
+		(property "Reference" "J25"
+			(at 233.68 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VG4_PROBE"
+			(at 233.68 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:CONN_PxC02S_SUL"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PEC02SAAN"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "2-pin 0.1 in header for a jumper cap"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PEC02SAAN"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155"
+			(at 219.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "185a0695-7033-4654-8b40-e4230de44811")
+		)
+		(pin "2"
+			(uuid "8fc30bd7-14ff-4e38-bbf3-e08aaa36867b")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 246.38 95.25 0)
+		(at 242.57 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10126,7 +11273,7 @@
 		(fields_autoplaced yes)
 		(uuid "b247b6d9-7844-4058-bef5-bae288ccae4e")
 		(property "Reference" "TP19"
-			(at 248.92 90.6779 0)
+			(at 245.11 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10137,7 +11284,7 @@
 			)
 		)
 		(property "Value" "VG4"
-			(at 248.92 93.2179 0)
+			(at 245.11 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10148,7 +11295,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 251.46 95.25 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10159,7 +11306,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 251.46 95.25 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10170,7 +11317,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 246.38 95.25 0)
+			(at 242.57 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +11328,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 251.46 95.25 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +11339,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 251.46 95.25 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10203,7 +11350,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 251.46 95.25 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,6 +11649,197 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba0b4751-603a-4bea-a627-4b779168963e")
+		(property "Reference" "#PWR071"
+			(at 209.55 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+			(at 209.55 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6286e386-c4e5-4b23-8bbb-f9c677dd2c04")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bad384d5-cc00-4094-babb-c1f2975fa6f3")
+		(property "Reference" "R53"
+			(at 124.46 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 124.46 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.46 51.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c2188f-fa35-4157-b483-0927295e0026")
+		)
+		(pin "2"
+			(uuid "8d280186-5683-4e4c-8c73-ba9886739c4a")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -11283,6 +12621,119 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 124.46 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d7d10e6d-08f1-4ab0-a149-c06207440eeb")
+		(property "Reference" "R51"
+			(at 124.46 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 124.46 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.46 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 124.46 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
+			(at 124.46 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
+			(at 124.46 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 124.46 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 124.46 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78155bd2-b0d9-4d13-a8ec-923968170a63")
+		)
+		(pin "2"
+			(uuid "54530099-c5cd-46cb-b5c7-2617f600deba")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 124.46 57.15 90)
 		(unit 1)
 		(body_style 1)
@@ -11910,6 +13361,126 @@
 		)
 	)
 	(symbol
+		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
+		(at 219.71 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e36e1309-25aa-477d-94e7-95a53046adcf")
+		(property "Reference" "J24"
+			(at 233.68 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VG3_PROBE"
+			(at 233.68 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ldo_bringup_board_ee372:CONN_PxC02S_SUL"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PEC02SAAN"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "2-pin 0.1 in header for a jumper cap"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PEC02SAAN"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8b3b2b7-9703-405f-83b6-53621efdeb83")
+		)
+		(pin "2"
+			(uuid "2f4f6607-04fb-4816-a8ca-640df04d854d")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 97.79 179.07 0)
 		(unit 1)
@@ -12026,7 +13597,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 95.25 0)
+		(at 217.17 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12037,7 +13608,7 @@
 		(fields_autoplaced yes)
 		(uuid "e581b50a-ed09-461f-bb74-73ef62cf5444")
 		(property "Reference" "TP16"
-			(at 223.52 90.6779 0)
+			(at 219.71 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12048,7 +13619,7 @@
 			)
 		)
 		(property "Value" "VG1"
-			(at 223.52 93.2179 0)
+			(at 219.71 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12059,7 +13630,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 226.06 95.25 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12070,7 +13641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 226.06 95.25 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,7 +13652,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 220.98 95.25 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +13663,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 226.06 95.25 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12103,7 +13674,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5005"
-			(at 226.06 95.25 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12114,7 +13685,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 226.06 95.25 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12411,6 +13982,84 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbc2bd8-ec80-4c47-9790-aad10dcf2995")
+		(property "Reference" "#PWR070"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "555ad491-eab9-4399-ad46-822abbfe9291")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/44c5756d-eb38-441e-b289-12659405a486"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)

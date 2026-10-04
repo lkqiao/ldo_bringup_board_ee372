@@ -1392,7 +1392,7 @@
 		(uuid "ce6d87ab-4261-49c9-9fb9-c7769bbdf5c8")
 	)
 	(junction
-		(at 49.53 78.74)
+		(at 49.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad1d6ae5-e0f2-447e-8b9e-585fce31dcdc")
@@ -1412,6 +1412,16 @@
 	(no_connect
 		(at 39.37 74.93)
 		(uuid "c9713277-4438-42c8-b7e8-e1624e244e3b")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17618884-672b-4a7c-b682-6ef7c722bc91")
 	)
 	(wire
 		(pts
@@ -1445,23 +1455,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 49.53 83.82)
+			(xy 49.53 67.31) (xy 49.53 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42fa5b63-040c-4598-bb73-d9086d7c6e7f")
-	)
-	(wire
-		(pts
-			(xy 46.99 67.31) (xy 49.53 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474d8296-3521-41bb-bb45-670f03805451")
 	)
 	(wire
 		(pts
@@ -1495,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 83.82) (xy 73.66 83.82)
+			(xy 49.53 86.36) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 78.74) (xy 73.66 78.74)
+			(xy 63.5 81.28) (xy 64.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1565,13 +1565,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 78.74) (xy 57.15 78.74)
+			(xy 49.53 81.28) (xy 55.88 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb3922f9-7f32-4dd2-9c9a-d8d31dcd440f")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac2f8cc-0534-4286-a208-75d0c91e73ed")
 	)
 	(global_label "VSIG"
 		(shape input)
@@ -1599,7 +1609,7 @@
 	)
 	(global_label "VIN_BUF"
 		(shape output)
-		(at 73.66 78.74 0)
+		(at 73.66 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1609,7 +1619,7 @@
 		)
 		(uuid "33e09d25-4bc2-4401-af1b-0f563d15eff3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.3258 78.74 0)
+			(at 84.3258 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +1633,7 @@
 	)
 	(global_label "VSIG_BUF"
 		(shape output)
-		(at 73.66 83.82 0)
+		(at 73.66 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1633,7 +1643,7 @@
 		)
 		(uuid "d7df1222-f156-43af-846c-424e76791eb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4748 83.82 0)
+			(at 85.4748 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,7 +2273,120 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 78.74 90)
+		(at 68.58 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5600d20-c8b1-4702-9b32-30b3662f0087")
+		(property "Reference" "R40"
+			(at 68.58 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 68.58 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 68.58 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 68.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/3W 0603"
+			(at 68.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
+			(at 68.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 68.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 68.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c84616-2fc8-4671-82f3-94d4296297aa")
+		)
+		(pin "2"
+			(uuid "219ce16e-51f4-4bbb-a45e-e04cf7ebe30c")
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6/1c4e65a0-f492-4ef9-b030-c6464e799e64"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2274,7 +2397,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf9a009-9dc3-4f12-b6a0-7196135c0677")
 		(property "Reference" "R34"
-			(at 60.96 72.39 90)
+			(at 59.69 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2284,7 +2407,7 @@
 			)
 		)
 		(property "Value" "2.2"
-			(at 60.96 74.93 90)
+			(at 59.69 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2294,7 +2417,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 60.96 80.518 90)
+			(at 59.69 83.058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
-			(at 60.96 78.74 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2439,7 @@
 			)
 		)
 		(property "Description" "RES 2.2 OHM 1% 1/10W 0603"
-			(at 60.96 78.74 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2450,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 60.96 78.74 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,7 +2461,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-3RQF2R2V"
-			(at 60.96 78.74 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,7 +2472,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3RQF2R2V/308066"
-			(at 60.96 78.74 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
