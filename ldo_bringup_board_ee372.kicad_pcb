@@ -7,6 +7,15 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "EE372 LDO bringup board")
+		(date "2026-08-02")
+		(rev "0")
+		(comment 1 "Luke Qiao")
+		(comment 2 "Spencer Wallace")
+		(comment 3 "Luis Sanchez")
+		(comment 4 "Caleb Ketchum")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
