@@ -4035,12 +4035,6 @@
 		(uuid "60f2c225-1341-433f-962b-9b8b68d01d82")
 	)
 	(junction
-		(at 36.83 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64164c0a-cb81-42d9-a740-bdfa2c38884e")
-	)
-	(junction
 		(at 212.09 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5080,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 161.29) (xy 19.05 160.02)
+			(xy 22.86 152.4) (xy 22.86 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5610,7 +5604,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 168.91) (xy 19.05 170.18)
+			(xy 22.86 160.02) (xy 22.86 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6027,26 +6021,6 @@
 			(type default)
 		)
 		(uuid "a7574079-7190-4795-995b-5e915678e105")
-	)
-	(wire
-		(pts
-			(xy 19.05 151.13) (xy 36.83 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76c8e56-aaa3-43ef-8b55-8c2b1e3db8b3")
-	)
-	(wire
-		(pts
-			(xy 19.05 151.13) (xy 19.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a602e9-8785-49f3-b776-a115350b1b27")
 	)
 	(wire
 		(pts
@@ -6949,7 +6923,7 @@
 		(uuid "020dc4dd-0639-46cb-8a07-76b7abd5622b")
 	)
 	(label "VDD_LDO"
-		(at 19.05 151.13 0)
+		(at 36.83 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6987,6 +6961,16 @@
 			(justify left bottom)
 		)
 		(uuid "1272f60a-ab14-479c-bf23-a771f1b8dc51")
+	)
+	(label "VDD"
+		(at 22.86 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15338016-f0cf-4893-8313-0067312ebb2d")
 	)
 	(label "VG3"
 		(at 237.49 142.24 0)
@@ -7851,7 +7835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 170.18 0)
+		(at 22.86 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7862,7 +7846,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1816d6-6edc-4708-ac4e-cbaa3ffec467")
 		(property "Reference" "#PWR011"
-			(at 19.05 176.53 0)
+			(at 22.86 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7873,7 +7857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 175.26 0)
+			(at 22.86 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7883,7 +7867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 170.18 0)
+			(at 22.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7894,7 +7878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 170.18 0)
+			(at 22.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,7 +7889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 170.18 0)
+			(at 22.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +14453,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 19.05 165.1 0)
+		(at 22.86 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14480,7 +14464,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac5a6cf1-80ea-4393-9b76-d73a8c006dfc")
 		(property "Reference" "C11"
-			(at 22.86 163.1949 0)
+			(at 26.67 154.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14491,7 +14475,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 22.86 165.7349 0)
+			(at 26.67 156.8449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14502,7 +14486,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14513,7 +14497,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14508,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 100UF 20% 25V RADIAL TH"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +14519,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14546,7 +14530,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "EEU-FC1E101S"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14557,7 +14541,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FC1E101S/266278"
-			(at 19.05 165.1 0)
+			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17229,121 +17213,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 19.05 156.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e05da8bc-12ad-4623-be5a-8f710c2e17ab")
-		(property "Reference" "R55"
-			(at 21.59 154.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 21.59 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 20.828 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 19.05 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm jumper, 0805, 6 A max"
-			(at 19.05 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 19.05 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 19.05 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 19.05 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11da5ab2-cf4b-4e2f-9980-64bb510b81a5")
-		)
-		(pin "1"
-			(uuid "a05dcb3e-70cc-43e9-b573-bba3f1ae7f80")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "R55")
 					(unit 1)
 				)
 			)
