@@ -46371,6 +46371,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Grp 3\n10/4/2026"
+		(at 106.25 142.75 0)
+		(layer "F.SilkS")
+		(uuid "c9cab375-328c-4e71-857a-c7946608fe0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 138.5 65.25)
 		(end 138.5 65.04)
