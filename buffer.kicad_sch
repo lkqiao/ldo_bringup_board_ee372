@@ -2315,7 +2315,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.2 OHM 1% 1/8W 0805"
+		(property "Description" "RES 2.2 OHM 1% 1/10W 0603"
 			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2337,7 +2337,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-6RQF2R2V"
+		(property "Manufacturer Part Number" "ERJ-3RQF2R2V"
 			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2348,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/result?keywords=ERJ-6RQF2R2V"
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3RQF2R2V/308066"
 			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
