@@ -3921,12 +3921,6 @@
 		(uuid "0d8e6d8e-8bb9-4db8-bda0-67c8372aa63e")
 	)
 	(junction
-		(at 224.79 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ebe857e-8544-4b76-b731-5ff8799cf75a")
-	)
-	(junction
 		(at 46.99 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3949,12 +3943,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e845461-ce0f-411a-96cc-bc7300c80b42")
-	)
-	(junction
-		(at 228.6 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20e15672-a211-42b7-a4e6-3df6dc2f47b0")
 	)
 	(junction
 		(at 130.81 189.23)
@@ -4041,12 +4029,6 @@
 		(uuid "5656fbb5-86e7-495d-8d01-c66e8b785ef0")
 	)
 	(junction
-		(at 64.77 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6053b4d3-ff99-402f-85a4-183a3ed47e28")
-	)
-	(junction
 		(at 222.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4087,12 +4069,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75850a25-5851-4757-8b49-686ebb3ba0e9")
-	)
-	(junction
-		(at 237.49 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75b68ca8-12fe-439f-8432-9bc4931c0809")
 	)
 	(junction
 		(at 91.44 158.75)
@@ -4137,18 +4113,6 @@
 		(uuid "8c28e6f8-16bb-4ec2-b0da-41fd46d0f5f4")
 	)
 	(junction
-		(at 250.19 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9192ba37-6408-4d36-91fd-6d2a05783b03")
-	)
-	(junction
-		(at 214.63 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92e823a7-fafe-4400-baac-42945662d551")
-	)
-	(junction
 		(at 36.83 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4183,12 +4147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac60fd71-d4eb-40aa-b8c8-e2657df720c1")
-	)
-	(junction
-		(at 64.77 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac921e0f-2638-4219-9341-a0d679605dc4")
 	)
 	(junction
 		(at 67.31 97.79)
@@ -4305,12 +4263,6 @@
 		(uuid "db831788-dd07-4e40-93c5-5fdce21ecd7f")
 	)
 	(junction
-		(at 228.6 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e06ac556-b461-4faf-81f4-eec9774b045f")
-	)
-	(junction
 		(at 104.14 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4321,12 +4273,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e903b980-0ec9-4d4d-8536-cddc3417a3bf")
-	)
-	(junction
-		(at 201.93 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9095334-9897-4d5b-ba0f-267b027c2c69")
 	)
 	(junction
 		(at 180.34 96.52)
@@ -4644,6 +4590,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc5b6be-1a94-4bed-84de-5db71efe95ba")
+	)
+	(wire
+		(pts
 			(xy 76.2 116.84) (xy 77.47 116.84)
 		)
 		(stroke
@@ -4734,7 +4690,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 142.24) (xy 214.63 143.51)
+			(xy 214.63 142.24) (xy 214.63 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4751,16 +4707,6 @@
 			(type default)
 		)
 		(uuid "28df13e8-87c1-44b4-bc70-f6702b0aeb0f")
-	)
-	(wire
-		(pts
-			(xy 250.19 142.24) (xy 250.19 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298bfd4f-b84e-4ade-8491-5319c406b299")
 	)
 	(wire
 		(pts
@@ -5014,23 +4960,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 68.58 74.93)
+			(xy 59.69 74.93) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3996604b-d05f-48dc-97c9-47a0ba59ad86")
-	)
-	(wire
-		(pts
-			(xy 64.77 69.85) (xy 68.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b4e0b8-dd46-4488-8a1b-5644d719615c")
 	)
 	(wire
 		(pts
@@ -5274,7 +5210,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 143.51) (xy 201.93 144.78)
+			(xy 201.93 142.24) (xy 201.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5364,16 +5300,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 73.66) (xy 228.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5566d96f-b93a-44b1-bb12-15ab26db5169")
-	)
-	(wire
-		(pts
 			(xy 237.49 152.4) (xy 237.49 153.67)
 		)
 		(stroke
@@ -5424,16 +5350,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 68.58) (xy 64.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d24444d-14f4-4144-ae8b-7de3f9927863")
-	)
-	(wire
-		(pts
 			(xy 67.31 97.79) (xy 67.31 100.33)
 		)
 		(stroke
@@ -5444,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 143.51) (xy 237.49 144.78)
+			(xy 237.49 142.24) (xy 237.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5524,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 64.77 69.85)
+			(xy 59.69 69.85) (xy 68.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5541,16 +5457,6 @@
 			(type default)
 		)
 		(uuid "65c4e4d6-acc0-456a-bdcb-f31e69d81309")
-	)
-	(wire
-		(pts
-			(xy 228.6 68.58) (xy 229.87 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660c1e27-75f8-4b69-bb64-f1687d0a03ef")
 	)
 	(wire
 		(pts
@@ -5614,7 +5520,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 73.66) (xy 229.87 73.66)
+			(xy 218.44 73.66) (xy 229.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5904,17 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 228.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bc1377-c2c6-4a81-86df-8b02f314ec50")
-	)
-	(wire
-		(pts
-			(xy 250.19 143.51) (xy 250.19 144.78)
+			(xy 250.19 142.24) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6214,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 143.51) (xy 214.63 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade72cf0-5ca3-4a00-8114-5beeeaaa48ab")
-	)
-	(wire
-		(pts
 			(xy 29.21 119.38) (xy 34.29 119.38)
 		)
 		(stroke
@@ -6514,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 68.58) (xy 228.6 68.58)
+			(xy 218.44 68.58) (xy 229.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6531,16 +6417,6 @@
 			(type default)
 		)
 		(uuid "c8e08feb-9eba-431a-8583-a943cdf98b62")
-	)
-	(wire
-		(pts
-			(xy 59.69 74.93) (xy 64.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caeb53b9-6bdc-40a5-87c9-2bc693a11ba3")
 	)
 	(wire
 		(pts
@@ -6714,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 142.24) (xy 224.79 143.51)
+			(xy 224.79 142.24) (xy 224.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6751,16 +6627,6 @@
 			(type default)
 		)
 		(uuid "def4b5ec-9e2b-4649-a96a-00c270d4fd4c")
-	)
-	(wire
-		(pts
-			(xy 237.49 142.24) (xy 237.49 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7bca5c-4b6d-412d-8d05-cf8b77ea451b")
 	)
 	(wire
 		(pts
@@ -6824,26 +6690,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 64.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e572736f-bc14-4685-b690-da28b6066b03")
-	)
-	(wire
-		(pts
-			(xy 228.6 73.66) (xy 228.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e589ff23-f2ed-4eb7-8a9f-e8c857e8e4a7")
-	)
-	(wire
-		(pts
 			(xy 132.08 90.17) (xy 128.27 90.17)
 		)
 		(stroke
@@ -6851,26 +6697,6 @@
 			(type default)
 		)
 		(uuid "e5fa8215-9835-4836-b474-824cb896239d")
-	)
-	(wire
-		(pts
-			(xy 81.28 153.67) (xy 82.55 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e70f0010-846d-4de3-a505-cbe9ab9399af")
-	)
-	(wire
-		(pts
-			(xy 224.79 143.51) (xy 224.79 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e85cdefc-e8de-4f4f-9cef-4d4b855120a5")
 	)
 	(wire
 		(pts
@@ -7034,16 +6860,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 201.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa37584f-a17e-496f-9445-45cb0eca4570")
-	)
-	(wire
-		(pts
 			(xy 278.13 67.31) (xy 278.13 69.85)
 		)
 		(stroke
@@ -7122,7 +6938,7 @@
 		)
 		(uuid "020dc4dd-0639-46cb-8a07-76b7abd5622b")
 	)
-	(label "VDD"
+	(label "VDD_LDO"
 		(at 24.13 151.13 0)
 		(effects
 			(font
@@ -9537,118 +9353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25564a7d-6c88-4157-8d70-4c40a825c506")
-		(property "Reference" "TP24"
-			(at 231.14 62.7379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHUNT_OUT_A"
-			(at 231.14 65.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 233.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 233.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 233.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 233.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 233.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81e173cb-3b33-4c42-8896-e8cf4f4ecac7")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ldo_bringup_board_ee372:SMA-J-P-H-ST-EM1")
 		(at 41.91 58.42 0)
 		(unit 1)
@@ -10076,116 +9780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 237.49 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f058fe1-1232-418e-92d5-c5c0a58dba6f")
-		(property "Reference" "TP12"
-			(at 234.188 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VG3"
-			(at 234.188 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 237.49 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "110ddebf-909e-4225-bbb5-fd689da1d0c8")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 176.53 152.4 0)
 		(unit 1)
@@ -10295,226 +9889,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 214.63 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ba7b75c-e3f4-4999-8eb8-196360ddf120")
-		(property "Reference" "TP10"
-			(at 211.328 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VG1"
-			(at 211.328 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "344323d3-3274-406e-a0c5-36b707658f99")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c0de9b8-b942-4f29-804a-02dbb9cd47f2")
-		(property "Reference" "TP13"
-			(at 246.888 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VG4"
-			(at 246.888 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 250.19 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 250.19 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 250.19 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 250.19 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 250.19 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 250.19 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d94de59-b74f-4bc9-8f40-586f4f2734e4")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12681,19 +12055,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.79 143.51 90)
+		(lib_id "Device:R")
+		(at 77.47 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "7309c4ae-ee57-4102-9213-139c5c3a0ef6")
-		(property "Reference" "TP11"
-			(at 221.488 138.43 90)
+		(uuid "73d64e2d-3828-4b52-a235-d6ae5131a573")
+		(property "Reference" "R54"
+			(at 77.47 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12702,8 +12076,8 @@
 				)
 			)
 		)
-		(property "Value" "VG2"
-			(at 221.488 140.97 90)
+		(property "Value" "0"
+			(at 77.47 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12712,8 +12086,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 224.79 138.43 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 155.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12723,8 +12097,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 224.79 138.43 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12734,8 +12108,8 @@
 				)
 			)
 		)
-		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 224.79 143.51 0)
+		(property "Description" "0 ohm jumper, 0805, 6 A max"
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12745,8 +12119,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 224.79 138.43 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,8 +12130,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "5005"
-			(at 224.79 138.43 0)
+		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12767,8 +12141,8 @@
 				)
 			)
 		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 224.79 138.43 0)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,124 +12151,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "db7d111b-1262-46a3-af50-e172dd3dc8cc")
 		)
 		(pin "1"
-			(uuid "1e83c495-8e0f-452e-a2df-475075075755")
+			(uuid "f4c938bc-2049-488b-b42f-d30e83945019")
 		)
 		(instances
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "745bf18f-5758-4eae-9ab4-8a3f7719322d")
-		(property "Reference" "TP9"
-			(at 198.628 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VG0"
-			(at 198.628 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 201.93 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 201.93 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PC TEST POINT COMPACT RED"
-			(at 201.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 201.93 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 201.93 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 201.93 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a29537b-af90-47f9-b017-72c025c0415b")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP9")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -13922,118 +13189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e703a48-b0e3-47c6-9eea-9a155084109b")
-		(property "Reference" "TP25"
-			(at 231.14 76.9619 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SHUNT_OUT_B"
-			(at 231.14 79.5019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 223.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 223.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 223.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 223.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 223.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c2884e2-1646-4cee-80e4-4179f1afa097")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ldo_bringup_board_ee372:PEC02SAAN")
 		(at 132.08 87.63 0)
 		(unit 1)
@@ -14858,7 +14013,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 76.2 153.67 0)
+		(at 68.58 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14868,7 +14023,7 @@
 		(dnp no)
 		(uuid "a7209b37-1435-485b-abdf-f869c6e14bdd")
 		(property "Reference" "J3"
-			(at 76.835 148.59 0)
+			(at 69.215 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14878,7 +14033,7 @@
 			)
 		)
 		(property "Value" "IBIAS"
-			(at 76.835 151.13 0)
+			(at 69.215 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14888,7 +14043,7 @@
 			)
 		)
 		(property "Footprint" "ldo_bringup_board_ee372:CalTest_CT3151SP"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +14054,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14910,7 +14065,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER WHITE"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14921,7 +14076,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14932,7 +14087,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-9"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14943,7 +14098,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-9/6005550"
-			(at 76.2 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17298,118 +16453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 64.77 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4e9ada1-1d5c-47a5-a10f-b8e15d607eb2")
-		(property "Reference" "TP23"
-			(at 67.31 78.2319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SHUNT_IN_B"
-			(at 67.31 80.7719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 64.77 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d343e52b-8839-4fb7-bf6b-3571e269bb05")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 260.35 77.47 0)
 		(unit 1)
@@ -19483,118 +18526,6 @@
 			(project "ldo_bringup_board_ee372"
 				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 64.77 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa67f008-5ffe-4677-806e-c7927ad86272")
-		(property "Reference" "TP22"
-			(at 67.31 64.0079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHUNT_IN_A"
-			(at 67.31 66.5479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 69.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 69.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 64.77 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5005/255329"
-			(at 69.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5005"
-			(at 69.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 69.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b87d6d59-4255-491c-868e-0d75b7cf67cf")
-		)
-		(instances
-			(project "ldo_bringup_board_ee372"
-				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
-					(reference "TP22")
 					(unit 1)
 				)
 			)
