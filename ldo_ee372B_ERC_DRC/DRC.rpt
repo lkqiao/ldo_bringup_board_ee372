@@ -1,0 +1,168 @@
+** Drc report for ldo_bringup_board_ee372.kicad_pcb **
+** Created on 2026-10-04T19:58:26 **
+** Report includes: Errors, Warnings **
+
+** Found 38 DRC violations **
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.7500 mm, 95.0000 mm): PCB text 'EE372B LDO Bringup PCB' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.7500 mm, 95.5000 mm): PCB text '__________________________' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.7500 mm, 100.5000 mm): PCB text 'Luke Qiao
+Luis Sanchez
+Caleb Ketchum
+Spencer Wallace' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(148.4600 mm, 139.9400 mm): Footprint text of U2 (DVJ6A)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(149.7300 mm, 140.1200 mm): Footprint text of U2 (MIMXRT1062)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(160.7853 mm, 120.3525 mm): Segment of R28 on F.Silkscreen
+    @(161.0000 mm, 121.0000 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(169.5000 mm, 93.2500 mm): Circle of TP21 on F.Silkscreen
+    @(169.5000 mm, 95.0000 mm): Reference field of TP6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(143.0000 mm, 97.0000 mm): Circle of TP31 on F.Silkscreen
+    @(143.0000 mm, 98.5000 mm): Reference field of TP2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.0301 mm, 89.1049 mm): Reference field of J9
+    @(123.0301 mm, 87.8349 mm): PTH pad 1 [Net-(J9-Pad1)] of J9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.0301 mm, 89.1049 mm): Reference field of J9
+    @(123.0301 mm, 90.3749 mm): PTH pad 2 [/MCU Conn/MD_SEL] of J9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.2500 mm, 116.4800 mm): Reference field of J12
+    @(126.2500 mm, 117.7500 mm): PTH pad 1 [+5V] of J12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.2500 mm, 116.4800 mm): Reference field of J12
+    @(126.2500 mm, 115.2100 mm): PTH pad 2 [Net-(U6-V+)] of J12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.5301 mm, 125.3549 mm): Reference field of J24
+    @(183.5301 mm, 124.0849 mm): PTH pad 1 [VG3] of J24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.5301 mm, 125.3549 mm): Reference field of J24
+    @(183.5301 mm, 126.6249 mm): PTH pad 2 [GND] of J24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.0301 mm, 125.3549 mm): Reference field of J25
+    @(187.0301 mm, 124.0849 mm): PTH pad 1 [VG4] of J25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.0301 mm, 125.3549 mm): Reference field of J25
+    @(187.0301 mm, 126.6249 mm): PTH pad 2 [GND] of J25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7801 mm, 127.3549 mm): Reference field of J22
+    @(167.7801 mm, 126.0849 mm): PTH pad 1 [VG1] of J22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(164.5000 mm, 127.2700 mm): Reference field of J21
+    @(164.5000 mm, 126.0000 mm): PTH pad 1 [VG0] of J21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7801 mm, 127.3549 mm): Reference field of J22
+    @(167.7801 mm, 128.6249 mm): PTH pad 2 [GND] of J22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(164.5000 mm, 127.2700 mm): Reference field of J21
+    @(164.5000 mm, 128.5400 mm): PTH pad 2 [GND] of J21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.0301 mm, 127.3549 mm): Reference field of J23
+    @(171.0301 mm, 126.0849 mm): PTH pad 1 [VG2] of J23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.0301 mm, 127.3549 mm): Reference field of J23
+    @(171.0301 mm, 128.6249 mm): PTH pad 2 [GND] of J23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.5000 mm, 63.7700 mm): Reference field of J10
+    @(138.5000 mm, 65.0400 mm): PTH pad 1 [MD] of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.5000 mm, 63.7700 mm): Reference field of J10
+    @(138.5000 mm, 62.5000 mm): PTH pad 2 [Net-(J10-Pad2)] of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.5000 mm, 91.7700 mm): Reference field of J20
+    @(161.5000 mm, 90.5000 mm): PTH pad 2 [GND] of J20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.5000 mm, 91.7700 mm): Reference field of J20
+    @(161.5000 mm, 93.0400 mm): PTH pad 1 [SHUNT_OUT_A] of J20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(143.0000 mm, 98.5000 mm): Reference field of TP2
+    @(143.0000 mm, 97.0000 mm): PTH pad 1 [GND] of TP31
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.0000 mm, 99.2250 mm): Reference field of U1
+    @(149.3625 mm, 98.5875 mm): Pad [<no net>] of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.0000 mm, 99.2250 mm): Reference field of U1
+    @(149.3625 mm, 99.8625 mm): Pad [<no net>] of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.0000 mm, 99.2250 mm): Reference field of U1
+    @(150.6375 mm, 99.8625 mm): Pad [<no net>] of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.0000 mm, 99.2250 mm): Reference field of U1
+    @(150.6375 mm, 98.5875 mm): Pad [<no net>] of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.3549 mm, 76.9699 mm): Reference field of J19
+    @(149.0849 mm, 76.9699 mm): PTH pad 1 [NR] of J19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.3549 mm, 76.9699 mm): Reference field of J19
+    @(151.6249 mm, 76.9699 mm): PTH pad 2 [GND] of J19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.4800 mm, 77.0000 mm): Reference field of J18
+    @(158.2100 mm, 77.0000 mm): PTH pad 1 [SHUNT_IN_B] of J18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(169.5000 mm, 95.0000 mm): Reference field of TP6
+    @(169.5000 mm, 93.2500 mm): PTH pad 1 [GND] of TP21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.4800 mm, 77.0000 mm): Reference field of J18
+    @(160.7500 mm, 77.0000 mm): PTH pad 2 [GND] of J18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5000 mm, 69.7300 mm): Reference field of J11
+    @(114.5000 mm, 71.0000 mm): PTH pad 1 [Net-(J11-Pad1)] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5000 mm, 69.7300 mm): Reference field of J11
+    @(114.5000 mm, 68.4600 mm): PTH pad 2 [SHUNT_IN_A] of J11
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,22 @@
+ERC report (2026-10-04T19:56:47, Encoding UTF8)
+Report includes: None
+
+***** Sheet /
+
+***** Sheet /MCU Conn/
+
+***** Sheet /Temperature_Sens/
+
+***** Sheet /Buffer/
+
+***** Sheet /Noise Amplifier/
+
+***** Sheet /Pin Defaults/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
