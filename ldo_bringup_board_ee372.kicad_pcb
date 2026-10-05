@@ -295,12 +295,12 @@
 		(property "Value" "MD_SW_EN"
 			(at 1.27 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "5d5a65e8-7a1e-4763-b889-b9d18c3e0de6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -2349,12 +2349,12 @@
 		)
 		(property "Value" "VSIG_BUF"
 			(at 0 7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "99cc2b80-ca38-4704-9c7b-51b2abcc1a99")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -5895,12 +5895,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "0c120f34-172a-4414-b525-18d5200b5c5e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -6635,12 +6635,12 @@
 		)
 		(property "Value" "MD"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b4bd6810-eb74-4acd-bd42-b5df0c3982e2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7029,12 +7029,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "0d192937-7925-4699-9f01-460f87aa0846")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7211,12 +7211,12 @@
 		)
 		(property "Value" "5V"
 			(at 6.06 -5.035 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "67cbae14-d1e4-4088-862c-13181fcff0f3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7651,12 +7651,12 @@
 		)
 		(property "Value" "SP1"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "ef2f7b51-e3cb-4555-b9cc-6f5ea708bf7a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -8177,12 +8177,12 @@
 		(property "Value" "VG2_PROBE"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2a45e082-1607-4774-8791-77e5deb98ab6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -8690,12 +8690,12 @@
 		)
 		(property "Value" "NOISE_X100"
 			(at 0 7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "124a346a-230b-42a3-8f72-a57e46fd008e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9249,12 +9249,12 @@
 		)
 		(property "Value" "GND"
 			(at 6.06 -5.035 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "6370c01a-9a5d-48c6-85f3-9d3dff848a82")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9886,12 +9886,12 @@
 		)
 		(property "Value" "NR"
 			(at 3 0 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "65759e06-1d5e-4ff3-85a8-3f70bc28b0f0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10071,12 +10071,12 @@
 		(property "Value" "MD_MCU_EN"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "ae53a170-532d-4e5a-899b-a2fb6aae9675")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10375,12 +10375,12 @@
 		(property "Value" "MD_MCU_PU_EN"
 			(at 1.27 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "c46508e4-54f4-4538-adb6-5c8e17affa8a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -13015,12 +13015,12 @@
 		)
 		(property "Value" "SP3"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "01159b8b-c525-4a7f-881a-df154124a871")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -13607,12 +13607,12 @@
 		(property "Value" "VG4_PROBE"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "63ad7209-5eeb-415d-aba5-2d8d22d65bf4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -13910,12 +13910,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "a7c07220-39a5-4a86-af71-674ccc62ee72")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14289,12 +14289,12 @@
 		)
 		(property "Value" "GND"
 			(at 6.06 -5.035 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8962e565-6614-4427-a3d0-2e79abddcf99")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14730,12 +14730,12 @@
 		(property "Value" "VREF_PROBE"
 			(at 1.27 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "85ffb1d9-fd90-42c5-8315-256ccca98e9e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15033,12 +15033,12 @@
 		)
 		(property "Value" "VOUT_SMA"
 			(at 0 7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "70c56137-9691-4d71-8aac-a4757f438298")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15592,12 +15592,12 @@
 		)
 		(property "Value" "VIN"
 			(at 6.06 -5.035 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3282d7e1-524f-4622-8f15-012575bd10a1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -16230,12 +16230,12 @@
 		(property "Value" "VOUT_PROBE"
 			(at 1.27 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "d6ce3514-37e3-4988-8382-e354f1428c79")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -16743,12 +16743,12 @@
 		)
 		(property "Value" "SP2"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "dba3de21-50b9-4544-adb1-01927e3cea74")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -17137,12 +17137,12 @@
 		)
 		(property "Value" "MD_SW"
 			(at 0 5 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "5e489166-11f8-49f9-87a1-931f370d3d98")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -17690,12 +17690,12 @@
 		(property "Value" "VG1_PROBE"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "5fb4b170-d16b-4d3a-bbb5-a9e4accf4ca0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -18190,12 +18190,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "83a5753b-b2bb-4c6f-8367-c57bdb308a8c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -19120,12 +19120,12 @@
 		)
 		(property "Value" "VDD_LDO"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3b076525-1d38-40fa-91fc-5f0af26930cd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -20011,12 +20011,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "058aa330-746d-4d4a-9193-a617cf186ef6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -20406,12 +20406,12 @@
 		(property "Value" "VG0_PROBE"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b75f43f6-dca1-42cd-9197-2ee61da04734")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -21103,12 +21103,12 @@
 		)
 		(property "Value" "5V"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "7bd7c467-d59e-48e7-bb5b-b736fcbee757")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -21780,12 +21780,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1c0309bd-9323-4b44-b22c-37b1478ceed0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -23567,12 +23567,12 @@
 		(property "Value" "VG3_PROBE"
 			(at 1.27 0 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "24857b26-d00a-44a7-896e-a390fec21831")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -24472,12 +24472,12 @@
 		)
 		(property "Value" "NR"
 			(at 6.06 -5.035 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b025b51b-7e96-44b9-a4a3-b900d07e0929")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -25122,12 +25122,12 @@
 		)
 		(property "Value" "VIN"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f7a09438-8cbc-4422-bdbd-f03e5f82d5d6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -28136,12 +28136,12 @@
 		)
 		(property "Value" "SENSE_IN"
 			(at 0 3 180)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "93531c35-4596-4a90-8a20-f463a9668d3d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -28320,12 +28320,12 @@
 		)
 		(property "Value" "MD_SEL"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "104f3dd0-7d00-4cb2-a629-704d0599d544")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -31011,12 +31011,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "bf54b116-17bb-4173-8730-adabd6ea7c0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -31786,12 +31786,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1428a589-7320-456b-8adc-c2675eea86ec")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -31968,12 +31968,12 @@
 		)
 		(property "Value" "VOUT"
 			(at 5.06 -0.21 180)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "bcfc61ab-db19-4de4-8984-dd3f5b0d2d7e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -34584,12 +34584,12 @@
 		(property "Value" "BUF_EN"
 			(at 1.27 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3b443980-f08e-4eb6-80a8-7cee474fe39c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -35097,12 +35097,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "c19778a4-a32a-4e2b-9db8-64582fca95d0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -35281,12 +35281,12 @@
 		)
 		(property "Value" "SENSE_OUT"
 			(at -1.79 3.42 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "275730ca-a62c-4921-a761-0cd85f7636cc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -35465,12 +35465,12 @@
 		)
 		(property "Value" "VIN_SMA"
 			(at 0 7.62 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "62ba71e3-87c7-4d37-a649-c3551859340a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -36582,12 +36582,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "dec8e35e-61a7-418e-8d55-9944c9a4a6ae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -37161,12 +37161,12 @@
 		(property "Value" "VIN_PROBE"
 			(at 1.27 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f5f4ddfe-bd35-460d-bdcb-eae8b1574a2d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -37464,12 +37464,12 @@
 		)
 		(property "Value" "NOISE_X1000"
 			(at 0 7.62 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8e1df610-74a3-411d-9cbb-c72111611e56")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -38025,12 +38025,12 @@
 		)
 		(property "Value" "3V3"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3ed4942d-a748-45e3-acfb-ed9095762f30")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -38406,12 +38406,12 @@
 		)
 		(property "Value" "IBIAS"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "0895ef19-2eed-4e0c-8f06-ef7024b87463")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -40765,12 +40765,12 @@
 		)
 		(property "Value" "VOUT_LDO"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "92d6d9e4-3ad9-4ec7-876e-6891d48c78e8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -41343,12 +41343,12 @@
 		)
 		(property "Value" "VOUT"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "639cead2-dafc-4a43-ba91-cca080c13179")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -43295,12 +43295,12 @@
 		)
 		(property "Value" "VSIG"
 			(at 0 7.62 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "c9162fb1-0c15-4c79-965f-0cd381f2e486")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -44570,12 +44570,12 @@
 		)
 		(property "Value" "IBIAS"
 			(at 0.46 -7.04 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "13ba1088-7587-4b2b-aba3-15deae9d6d1e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -46863,12 +46863,12 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.75 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "842f16f3-426f-4f61-9cb8-632742b3fce9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -48211,6 +48211,39 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5.5V MAX"
+		(at 210 80 0)
+		(layer "F.SilkS")
+		(uuid "fc14706f-db4f-4068-bfe1-bc88a96a247a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "HI"
+		(at 210 84 0)
+		(layer "F.SilkS")
+		(uuid "9b5da6ad-8473-4b70-ac85-af05bff15030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "LO"
+		(at 210 88 0)
+		(layer "F.SilkS")
+		(uuid "e68f5e3e-295b-4321-9e6b-3bef83602e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Grp 3\n10/4/2026"
 		(at 106.25 141 0)
 		(layer "F.SilkS")
@@ -48222,6 +48255,61 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "1.8V MAX"
+		(at 210 60 0)
+		(layer "F.SilkS")
+		(uuid "e7719651-7295-46c4-b6ca-06edede3485d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 210 64 0)
+		(layer "F.SilkS")
+		(uuid "e272d128-5bcd-45fb-92b2-f351cd8b2093")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 210 68 0)
+		(layer "F.SilkS")
+		(uuid "c19878d3-b44b-4972-96d2-6a7e072ac372")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 210 72 0)
+		(layer "F.SilkS")
+		(uuid "483bec5b-6c39-4d73-b457-6cbf278cdccb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 210 76 0)
+		(layer "F.SilkS")
+		(uuid "26e7b660-8620-497b-993e-ca5b15f234cb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
 		)
 	)
 	(segment
