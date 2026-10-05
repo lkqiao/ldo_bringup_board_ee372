@@ -1,5 +1,5 @@
 ** Drc report for ldo_bringup_board_ee372.kicad_pcb **
-** Created on 2026-10-04T19:58:26 **
+** Created on 2026-10-04T21:28:05 **
 ** Report includes: Errors, Warnings **
 
 ** Found 38 DRC violations **
@@ -27,12 +27,12 @@ Spencer Wallace' on F.Silkscreen
     @(161.0000 mm, 121.0000 mm): Reference field of C15
 [silk_overlap]: Silkscreen clearance
     Rule: board setup constraints silk; warning
-    @(169.5000 mm, 93.2500 mm): Circle of TP21 on F.Silkscreen
-    @(169.5000 mm, 95.0000 mm): Reference field of TP6
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
     @(143.0000 mm, 97.0000 mm): Circle of TP31 on F.Silkscreen
     @(143.0000 mm, 98.5000 mm): Reference field of TP2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(169.5000 mm, 93.2500 mm): Circle of TP21 on F.Silkscreen
+    @(169.5000 mm, 95.0000 mm): Reference field of TP6
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(123.0301 mm, 89.1049 mm): Reference field of J9
@@ -83,6 +83,10 @@ Spencer Wallace' on F.Silkscreen
     @(164.5000 mm, 128.5400 mm): PTH pad 2 [GND] of J21
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
+    @(143.0000 mm, 98.5000 mm): Reference field of TP2
+    @(143.0000 mm, 97.0000 mm): PTH pad 1 [GND] of TP31
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
     @(171.0301 mm, 127.3549 mm): Reference field of J23
     @(171.0301 mm, 126.0849 mm): PTH pad 1 [VG2] of J23
 [silk_over_copper]: Silkscreen clipped by solder mask
@@ -91,24 +95,12 @@ Spencer Wallace' on F.Silkscreen
     @(171.0301 mm, 128.6249 mm): PTH pad 2 [GND] of J23
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(138.5000 mm, 63.7700 mm): Reference field of J10
-    @(138.5000 mm, 65.0400 mm): PTH pad 1 [MD] of J10
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(138.5000 mm, 63.7700 mm): Reference field of J10
-    @(138.5000 mm, 62.5000 mm): PTH pad 2 [Net-(J10-Pad2)] of J10
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
     @(161.5000 mm, 91.7700 mm): Reference field of J20
     @(161.5000 mm, 90.5000 mm): PTH pad 2 [GND] of J20
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(161.5000 mm, 91.7700 mm): Reference field of J20
     @(161.5000 mm, 93.0400 mm): PTH pad 1 [SHUNT_OUT_A] of J20
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(143.0000 mm, 98.5000 mm): Reference field of TP2
-    @(143.0000 mm, 97.0000 mm): PTH pad 1 [GND] of TP31
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(150.0000 mm, 99.2250 mm): Reference field of U1
@@ -127,6 +119,22 @@ Spencer Wallace' on F.Silkscreen
     @(150.6375 mm, 98.5875 mm): Pad [<no net>] of U1 on F.Mask
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
+    @(138.5000 mm, 63.7700 mm): Reference field of J10
+    @(138.5000 mm, 65.0400 mm): PTH pad 1 [MD] of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.5000 mm, 63.7700 mm): Reference field of J10
+    @(138.5000 mm, 62.5000 mm): PTH pad 2 [Net-(J10-Pad2)] of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5000 mm, 69.7300 mm): Reference field of J11
+    @(114.5000 mm, 71.0000 mm): PTH pad 1 [Net-(J11-Pad1)] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5000 mm, 69.7300 mm): Reference field of J11
+    @(114.5000 mm, 68.4600 mm): PTH pad 2 [SHUNT_IN_A] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
     @(150.3549 mm, 76.9699 mm): Reference field of J19
     @(149.0849 mm, 76.9699 mm): PTH pad 1 [NR] of J19
 [silk_over_copper]: Silkscreen clipped by solder mask
@@ -139,20 +147,12 @@ Spencer Wallace' on F.Silkscreen
     @(158.2100 mm, 77.0000 mm): PTH pad 1 [SHUNT_IN_B] of J18
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(169.5000 mm, 95.0000 mm): Reference field of TP6
-    @(169.5000 mm, 93.2500 mm): PTH pad 1 [GND] of TP21
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
     @(159.4800 mm, 77.0000 mm): Reference field of J18
     @(160.7500 mm, 77.0000 mm): PTH pad 2 [GND] of J18
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(114.5000 mm, 69.7300 mm): Reference field of J11
-    @(114.5000 mm, 71.0000 mm): PTH pad 1 [Net-(J11-Pad1)] of J11
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(114.5000 mm, 69.7300 mm): Reference field of J11
-    @(114.5000 mm, 68.4600 mm): PTH pad 2 [SHUNT_IN_A] of J11
+    @(169.5000 mm, 95.0000 mm): Reference field of TP6
+    @(169.5000 mm, 93.2500 mm): PTH pad 1 [GND] of TP21
 
 ** Found 0 unconnected pads **
 
