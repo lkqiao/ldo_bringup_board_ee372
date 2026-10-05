@@ -20324,6 +20324,52 @@
 		)
 	)
 	(sheet
+		(at 116.84 20.955)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "243dfe71-6928-4138-825f-e622bd3caff8")
+		(property "Sheetname" "Pin Defaults"
+			(at 116.84 20.2434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pin_defaults.kicad_sch"
+			(at 116.84 26.6196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ldo_bringup_board_ee372"
+				(path "/d41ff68c-d87d-4b82-b500-4ee675d17cf6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 90.805 55.88)
 		(size 28.575 17.78)
 		(exclude_from_sim no)

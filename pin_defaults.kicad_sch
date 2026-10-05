@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5c6c4713-b1f7-4872-bea9-5de27cb11e4e")
+	(paper "A4")
+	(title_block
+		(title "EE372 LDO bringup board")
+		(date "2026-08-02")
+		(rev "0")
+		(comment 1 "Luke Qiao")
+		(comment 2 "Spencer Wallace")
+		(comment 3 "Luis Sanchez")
+		(comment 4 "Caleb Ketchum")
+	)
+	(lib_symbols)
+	(text "J9 + J11 on: R18 10k pulls up to VDD, Teensy pulls low through Q6."
+		(exclude_from_sim no)
+		(at 128.397 54.991 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "18b47377-9076-440a-9738-848a6ad50250")
+	)
+	(text "(Note: HI = high power mode,  LO = low power mode.)"
+		(exclude_from_sim no)
+		(at 81.915 63.627 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "1d2b954c-d6fd-491e-a217-78b4b0c89399")
+	)
+	(text "PIN DEFAULT TABLE"
+		(exclude_from_sim no)
+		(at 61.468 27.686 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "4c7faaee-1989-4a9a-b1e8-d92a05e86034")
+	)
+	(text "MD    pin 29   J10 on: SW1 sets it through R2 10k. HI = VDD (1.8 V), LO = GND.\n      		  \n                                "
+		(exclude_from_sim no)
+		(at 28.321 52.705 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9bb18a38-9892-426e-a973-81a372efacbe")
+	)
+	(polyline
+		(pts
+			(xy 38.1 59.055) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172b842f-da9d-4e57-aeb2-287aa22eb7a8")
+	)
+	(polyline
+		(pts
+			(xy 25.4 67.945) (xy 199.39 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd06114-032c-4eb1-9fc4-d9d13336de05")
+	)
+	(polyline
+		(pts
+			(xy 56.515 59.055) (xy 57.15 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c8dfb2-eac2-4866-81b2-d70e2a32bc8f")
+	)
+	(polyline
+		(pts
+			(xy 199.39 67.945) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d8fd60-1703-4311-b329-fbb8014d6971")
+	)
+	(polyline
+		(pts
+			(xy 38.1 43.18) (xy 57.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f54ee5-dd30-44d5-ad3b-0bca04811fd4")
+	)
+	(polyline
+		(pts
+			(xy 25.4 59.055) (xy 199.39 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43354b91-0819-452f-ad61-d4d1674ad1fa")
+	)
+	(polyline
+		(pts
+			(xy 57.15 43.18) (xy 57.15 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca94a5f-011e-442a-b477-c2afdb99e4bd")
+	)
+	(polyline
+		(pts
+			(xy 199.39 43.18) (xy 25.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a08ff3c-1180-42db-8bb9-8236205dc2d6")
+	)
+	(polyline
+		(pts
+			(xy 25.4 43.18) (xy 25.4 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0651c54-7e84-4d87-876b-a5e931229fe7")
+	)
+	(polyline
+		(pts
+			(xy 25.4 43.815) (xy 25.4 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac045d3-3348-426f-b390-e971bbc647f8")
+	)
+)

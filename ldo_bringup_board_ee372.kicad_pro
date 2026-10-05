@@ -777,6 +777,10 @@
     [
       "865f8bee-21ea-4e12-aa41-2d2ad2cc6c72",
       "Noise Amplifier"
+    ],
+    [
+      "243dfe71-6928-4138-825f-e622bd3caff8",
+      "Pin Defaults"
     ]
   ],
   "text_variables": {},
