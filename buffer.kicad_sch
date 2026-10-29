@@ -1379,6 +1379,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Initially leave off R40"
+		(exclude_from_sim yes)
+		(at 71.882 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "946a6fbb-292b-46f0-9559-535433267cd2")
+	)
 	(text "BUFFER"
 		(exclude_from_sim no)
 		(at 50.546 30.988 0)

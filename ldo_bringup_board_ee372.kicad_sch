@@ -3766,6 +3766,28 @@
 		)
 		(uuid "0e216883-73e8-46a5-8169-4f3561c39b44")
 	)
+	(text "Potentially remove C11 and C6 \nwhen using buffer"
+		(exclude_from_sim yes)
+		(at 35.052 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173d6885-49fc-4dfc-b69e-18853bbe31f2")
+	)
+	(text "Initially leave off R3"
+		(exclude_from_sim yes)
+		(at 246.38 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "209ec878-c534-47b3-b248-d3da0fc07d08")
+	)
 	(text "VG0+VG1 -> 20mA"
 		(exclude_from_sim no)
 		(at 169.672 120.904 0)
@@ -3795,6 +3817,28 @@
 			)
 		)
 		(uuid "6d15a680-8283-407b-94ed-2f475f6ed250")
+	)
+	(text "Add large pulldown \nso buffer input is \nnot floating"
+		(exclude_from_sim yes)
+		(at 70.358 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "725c7849-4171-4eb7-b1d4-4f468d6abd34")
+	)
+	(text "Initially leave off R55\n"
+		(exclude_from_sim yes)
+		(at 203.2 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "832d45ce-f202-4df4-9c48-ad671f7b60c7")
 	)
 	(text "Pull Down Resistors for Gates"
 		(exclude_from_sim no)
@@ -3849,6 +3893,17 @@
 			)
 		)
 		(uuid "d2784a52-4433-4d95-8ac9-e24f81316a9f")
+	)
+	(text "Initially leave off R21"
+		(exclude_from_sim yes)
+		(at 156.464 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e578166b-fdee-466e-9c5a-f7d8b4f740ba")
 	)
 	(text "LDO\n"
 		(exclude_from_sim no)

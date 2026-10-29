@@ -3214,6 +3214,17 @@
 		)
 		(uuid "30366573-c3e4-4185-9467-d67b2b5ae9e8")
 	)
+	(text "Initially leave off R29"
+		(exclude_from_sim yes)
+		(at 23.876 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "582f5d63-f424-4405-8405-57a4c57039a5")
+	)
 	(text "ISENSE AMPS"
 		(exclude_from_sim no)
 		(at 50.038 108.204 0)
@@ -3225,6 +3236,39 @@
 			)
 		)
 		(uuid "58976cc6-c444-4056-8f12-667d7324b123")
+	)
+	(text "Initially leave off R32"
+		(exclude_from_sim yes)
+		(at 23.114 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6990234-97fd-425c-a325-19206ea7d235")
+	)
+	(text "Initially leave off R30"
+		(exclude_from_sim yes)
+		(at 24.384 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5cc667a-3636-4173-8ca7-52be7e3312cc")
+	)
+	(text "Initially leave off R31"
+		(exclude_from_sim yes)
+		(at 23.622 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfc8535e-b17c-4312-8219-bffedcf4dac0")
 	)
 	(junction
 		(at 128.27 132.08)

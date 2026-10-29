@@ -1779,6 +1779,17 @@
 		)
 		(uuid "46e67fea-0be7-4522-9ccf-083c22849aa0")
 	)
+	(text "Initially leave off R44"
+		(exclude_from_sim yes)
+		(at 44.45 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c06c20ef-ecdf-47d5-9ce2-b67fd6970d14")
+	)
 	(junction
 		(at 54.61 64.77)
 		(diameter 0)
