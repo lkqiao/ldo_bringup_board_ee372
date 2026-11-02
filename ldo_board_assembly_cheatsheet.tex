@@ -1,0 +1,186 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}\usepackage{lmodern}\usepackage[margin=0.55in]{geometry}\usepackage{booktabs,amsmath,titlesec}
+\titlespacing*{\section}{0pt}{10pt}{6pt}\pagestyle{empty}\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.12}
+\begin{document}
+\noindent{\large\bfseries LDO bring-up board assembly}
+\section*{Components to reflow (79)}
+\noindent \begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+C2 & $100\:\text{n}\text{F}$ & 0805\\
+C3 & $10\:\mu\text{F}$ & 1206\\
+C4 & $10\:\mu\text{F}$ & 1206\\
+C5 & $10\:\mu\text{F}$ & 1206\\
+C6 & $10\:\mu\text{F}$ & 1206\\
+C7 & $100\:\text{n}\text{F}$ & 0805\\
+C8 & $10\:\mu\text{F}$ & 1206\\
+C9 & $0.1\:\text{n}\text{F}$ & 0805\\
+C10 & $10\:\mu\text{F}$ & 1206\\
+C12 & $100\:\text{n}\text{F}$ & 0805\\
+C13 & $100\:\text{n}\text{F}$ & 0805\\
+C14 & $0.1\:\text{n}\text{F}$ & 0805\\
+C15 & $100\:\text{n}\text{F}$ & 0805\\
+C17 & $10\:\mu\text{F}$ & 1206\\
+C18 & $100\:\text{n}\text{F}$ & 0805\\
+C19 & $0.1\:\text{n}\text{F}$ & 0805\\
+C20 & $10\:\mu\text{F}$ & 1206\\
+C21 & $100\:\text{n}\text{F}$ & 0805\\
+C22 & $0.1\:\text{n}\text{F}$ & 0805\\
+C23 & $10\:\mu\text{F}$ & 1206\\
+C24 & $100\:\text{n}\text{F}$ & 0805\\
+C25 & $100\:\text{n}\text{F}$ & 0805\\
+C26 & $4.7\:\mu\text{F}$ & 0805\\
+C27 & $0.1\:\mu\text{F}$ & 0805\\
+C31 & $100\:\text{n}\text{F}$ & 0805\\
+C33 & $10\:\mu\text{F}$ & 1206\\
+C34 & $100\:\text{n}\text{F}$ & 0805\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+C35 & $10\:\mu\text{F}$ & 1206\\
+C36 & $10\:\mu\text{F}$ & 1206\\
+C37 & $10\:\mu\text{F}$ & 1206\\
+D1 & B120-13-F & DO-214AC\\
+D2 & B120-13-F & DO-214AC\\
+Q1 & FDV305N & SOT-23\\
+Q2 & FDV305N & SOT-23\\
+Q3 & FDV305N & SOT-23\\
+Q4 & FDV305N & SOT-23\\
+Q5 & FDV305N & SOT-23\\
+Q6 & FDV305N & SOT-23\\
+R1 & $390\:\text{m}\Omega$ & 0805\\
+R2 & $10\:\text{k}\Omega$ & 0805\\
+R4 & $100\:\text{m}\Omega$ & 0805\\
+R5 & $53.6\:\Omega$ & 0805\\
+R6 & $1\:\text{k}\Omega$ & 0805\\
+R7 & $10\:\text{k}\Omega$ & 0805\\
+R8 & $10\:\text{k}\Omega$ & 0805\\
+R9 & $10\:\text{k}\Omega$ & 0805\\
+R10 & $66.5\:\Omega$ & 0805\\
+R11 & $10\:\text{k}\Omega$ & 0805\\
+R12 & $100\:\Omega$ & 0805\\
+R13 & $200\:\Omega$ & 0805\\
+R14 & $10\:\text{k}\Omega$ & 0805\\
+R15 & $100\:\text{k}\Omega$ & 0603\\
+R16 & $9\:\text{k}\Omega$ & 0805\\
+R17 & $10\:\text{k}\Omega$ & 0603\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+R18 & $10\:\text{k}\Omega$ & 0603\\
+R22 & $0\:\Omega$ & 0603\\
+R23 & $0\:\Omega$ & 0603\\
+R24 & $0\:\Omega$ & 0603\\
+R25 & $0\:\Omega$ & 0603\\
+R26 & $0\:\Omega$ & 0603\\
+R27 & $1\:\text{k}\Omega$ & 0603\\
+R28 & $1\:\text{k}\Omega$ & 0603\\
+R33 & $1\:\text{k}\Omega$ & 0603\\
+R34 & $2.2\:\Omega$ & 0603\\
+R35 & $9\:\text{k}\Omega$ & 0805\\
+R36 & $1\:\text{k}\Omega$ & 0603\\
+R37 & $1\:\text{k}\Omega$ & 0603\\
+R38 & $9\:\text{k}\Omega$ & 0805\\
+R41 & $10\:\Omega$ & 0603\\
+R42 & $100\:\text{k}\Omega$ & 0603\\
+R43 & $100\:\text{k}\Omega$ & 0603\\
+R49 & $0\:\Omega$ & 0603\\
+R50 & $0\:\Omega$ & 0603\\
+U1 & LDO\_DualMode\_BGR\_EE372 & QFN-32 7x7 mm\\
+U3 & INA190A5IDDFR & TSOT-23-8\\
+U4 & INA190A5IDDFR & TSOT-23-8\\
+U5 & OPA4388IDR & SOIC-14\\
+U6 & BUF602ID & SOIC-8\\
+U7 & ADT7310TRZ & SOIC-8\\
+\bottomrule\end{tabular}
+\newpage
+\section*{Parts to leave off for now (24)}
+\noindent \begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+C1 & $20\:\mu\text{F}$ & 1812\\
+R3 & $100\:\text{m}\Omega$ & 0805\\
+R19 & $0\:\Omega$ & 0805\\
+R20 & $0\:\Omega$ & 0805\\
+R21 & $0\:\Omega$ & 0805\\
+R29 & $100\:\Omega$ & 0603\\
+R30 & $100\:\Omega$ & 0603\\
+R31 & $100\:\Omega$ & 0603\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+R32 & $100\:\Omega$ & 0603\\
+R39 & $0\:\Omega$ & 0805\\
+R40 & $0\:\Omega$ & 0603\\
+R44 & $0\:\Omega$ & 0805\\
+R45 & $10\:\text{k}\Omega$ & 0805\\
+R46 & $10\:\text{k}\Omega$ & 0805\\
+R47 & $10\:\text{k}\Omega$ & 0805\\
+R48 & $10\:\text{k}\Omega$ & 0805\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+R51 & $0\:\Omega$ & 0603\\
+R52 & $0\:\Omega$ & 0603\\
+R53 & $0\:\Omega$ & 0603\\
+R54 & $0\:\Omega$ & 0805\\
+R55 & $0\:\Omega$ & 0805\\
+TP35 & 5006 & Test loop\\
+TP36 & 5006 & Test loop\\
+TP37 & 5006 & Test loop\\
+\bottomrule\end{tabular}
+\section*{Hand solderable components (55)}
+\noindent \begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+C11 & $100\:\mu\text{F}$ & Radial 6.3 mm\\
+C16 & $100\:\mu\text{F}$ & Radial 6.3 mm\\
+C28 & $100\:\mu\text{F}$ & Radial 6.3 mm\\
+C29 & $100\:\mu\text{F}$ & Radial 6.3 mm\\
+C30 & $100\:\mu\text{F}$ & Radial 6.3 mm\\
+J1 & CT3151SP-2 & Banana jack\\
+J2 & CT3151SP-0 & Banana jack\\
+J3 & CT3151SP-9 & Banana jack\\
+J4 & CT3151SP-4 & Banana jack\\
+J5 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+J6 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+J7 & CT3151SP-0 & Banana jack\\
+J8 & CT3151SP-2 & Banana jack\\
+J9 & PEC02SAAN & 2-pin header\\
+J10 & PEC02SAAN & 2-pin header\\
+J11 & PEC02SAAN & 2-pin header\\
+J12 & PEC02SAAN & 2-pin header\\
+J13 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+J14 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+J15 & CT3151SP-2 & Banana jack\\
+J16 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+J17 & SMA-J-P-H-ST-EM1 & Edge SMA\\
+J18 & PEC02SAAN & 2-pin header\\
+J19 & PEC02SAAN & 2-pin header\\
+J20 & PEC02SAAN & 2-pin header\\
+J21 & PEC02SAAN & 2-pin header\\
+J22 & PEC02SAAN & 2-pin header\\
+J23 & PEC02SAAN & 2-pin header\\
+J24 & PEC02SAAN & 2-pin header\\
+J25 & PEC02SAAN & 2-pin header\\
+SW1 & JS102011SAQN & Slide switch\\
+TP1 & 5005 & Test loop\\
+TP2 & 5005 & Test loop\\
+TP3 & 5005 & Test loop\\
+TP4 & 5005 & Test loop\\
+TP5 & 5006 & Test loop\\
+TP6 & 5005 & Test loop\\
+TP7 & 5005 & Test loop\\
+\bottomrule\end{tabular}\hfill
+\begin{tabular}[t]{@{}lll@{}}\toprule Ref & Value & Footprint\\\midrule
+TP8 & 5006 & Test loop\\
+TP14 & 5005 & Test loop\\
+TP20 & 5006 & Test loop\\
+TP21 & 5006 & Test loop\\
+TP22 & 5006 & Test loop\\
+TP23 & 5006 & Test loop\\
+TP24 & 5006 & Test loop\\
+TP25 & 5006 & Test loop\\
+TP26 & 5005 & Test loop\\
+TP27 & 5005 & Test loop\\
+TP28 & 5005 & Test loop\\
+TP29 & 5005 & Test loop\\
+TP30 & 5005 & Test loop\\
+TP31 & 5006 & Test loop\\
+TP32 & 5006 & Test loop\\
+TP33 & 5006 & Test loop\\
+U2 & Teensy4.1 & Socket strips\\
+\bottomrule\end{tabular}
+\end{document}
