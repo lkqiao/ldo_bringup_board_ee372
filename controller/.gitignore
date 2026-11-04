@@ -1,0 +1,5 @@
+firmware/.pio/
+dashboard/.venv/
+dashboard/logs/
+dashboard/config.json
+__pycache__/

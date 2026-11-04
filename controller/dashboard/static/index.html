@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EE372B LDO Dashboard</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317181a'/%3E%3Cpolyline points='5,22 12,22 12,10 20,10 20,22 27,22' fill='none' stroke='%233fbf7f' stroke-width='3' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="name">EE372B LDO Dashboard</span>
+    <span id="conn" class="status off"><i></i><span id="conn-text">offline</span></span>
+    <span id="port" class="meta"></span>
+  </div>
+  <div class="safety">
+    <button id="theme" class="theme" title="Switch light or dark"><svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+    <button id="estop" class="estop" title="Esc stops">STOP</button>
+  </div>
+</header>
+
+<div id="banners"></div>
+<div id="toast" class="toast hidden"></div>
+
+<main>
+  <section class="readings">
+    <div class="cell" data-key="iin">
+      <div class="cap"><span class="lbl">I<sub>IN</sub></span><span>U3 · R4</span></div>
+      <div class="num"><b id="v-iin">--</b><u id="u-iin"></u></div>
+      <canvas></canvas>
+    </div>
+    <div class="cell" data-key="iout">
+      <div class="cap"><span class="lbl">I<sub>OUT</sub></span><span>U4 · R3</span></div>
+      <div class="num"><b id="v-iout">--</b><u id="u-iout"></u></div>
+      <canvas></canvas>
+    </div>
+    <div class="cell" data-key="temp">
+      <div class="cap"><span class="lbl">Board temp</span><span>ADT7310</span></div>
+      <div class="num"><b id="v-temp">--</b><u>°C</u></div>
+      <canvas></canvas>
+    </div>
+    <div class="cell" data-key="vin">
+      <div class="cap"><span class="lbl">V<sub>IN</sub></span><span>VDD_LDO · A5</span></div>
+      <div class="num"><b id="v-vin">--</b><u>V</u></div>
+      <canvas></canvas>
+    </div>
+    <div class="cell" data-key="vout">
+      <div class="cap"><span class="lbl">V<sub>OUT</sub></span><span>VOUT_LDO · A4</span></div>
+      <div class="num"><b id="v-vout">--</b><u>V</u></div>
+      <canvas></canvas>
+    </div>
+    <div class="cell" data-key="md">
+      <div class="cap"><span class="lbl">MD</span><span>A9 · R51</span></div>
+      <div class="num"><b id="v-md">--</b><u>V</u><em id="v-mdlogic"></em></div>
+      <canvas></canvas>
+    </div>
+  </section>
+
+  <section class="controls">
+    <div class="col">
+    <div class="card">
+      <div class="card-head">
+        <h2>Load</h2>
+        <span class="readout"><b id="load-total">0.0</b> / <span id="load-limit">20</span> mA</span>
+      </div>
+      <div class="meter"><div id="load-bar"></div></div>
+      <div id="toggles" class="gates"></div>
+      <div class="field">
+        <label>Preset</label>
+        <div id="presets" class="seg"></div>
+      </div>
+      <div class="field">
+        <label>Step</label>
+        <div class="inline">
+          <button id="step-up" class="btn">1 → 19.7 mA</button>
+          <button id="step-down" class="btn">19.7 → 1 mA</button>
+          <span class="unit">hold</span>
+          <input id="step-hold" type="number" value="1" min="0.05" max="60" step="0.1"><span class="unit">s</span>
+          <span id="step-state" class="live"></span>
+        </div>
+      </div>
+      <div class="field">
+        <label>VG0 pulse</label>
+        <div class="inline">
+          <input id="pulse-hz" type="number" value="10" min="0.1" max="1000" step="0.1"><span class="unit">Hz</span>
+          <input id="pulse-duty" type="number" value="50" min="5" max="95" step="1"><span class="unit">%</span>
+          <button id="pulse-start" class="btn">Start</button>
+          <button id="pulse-stop" class="btn">Stop</button>
+          <span class="hint-inline">(TG1 = 1)</span>
+          <span id="pulse-state" class="live"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>Record</h2>
+        <span class="readout" id="log-state">off</span>
+      </div>
+      <div class="inline">
+        <input id="log-name" class="wide" placeholder="run name">
+        <button id="log-start" class="btn">Start</button>
+        <button id="log-stop" class="btn">Stop</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card">
+      <div class="card-head">
+        <h2>Mode</h2>
+        <span class="readout" id="md-cmd">MD = 1</span>
+      </div>
+      <div class="field">
+        <label>MD</label>
+        <div class="seg">
+          <button id="md1" class="btn">1 · High power</button>
+          <button id="md0" class="btn">0 · Low power</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Square wave</label>
+        <div class="inline">
+          <input id="mdsq-hz" type="number" value="1" min="0.1" max="1000" step="0.1"><span class="unit">Hz</span>
+          <button id="mdsq-start" class="btn">Start</button>
+          <button id="mdsq-stop" class="btn">Stop</button>
+          <span id="mdsq-state" class="live"></span>
+        </div>
+      </div>
+      <p class="hint">Needs J9 and J11 fitted, J10 open. Square wave only at 10 mA or less.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>Calibration</h2>
+      </div>
+      <div class="field">
+        <label>Shunts</label>
+        <div class="inline">
+          <span class="unit">R4</span>
+          <select id="r4"><option value="0.1">100 mΩ</option><option value="10">10 Ω (IQ test)</option></select>
+          <span class="unit">R3</span>
+          <select id="r3"><option value="0.1">100 mΩ</option></select>
+        </div>
+      </div>
+      <div class="field">
+        <label>3.3 V rail at TP27</label>
+        <div class="inline">
+          <input id="v3v3" type="number" step="0.001" min="3.0" max="3.6"><span class="unit">V</span>
+          <button id="v3v3-set" class="btn">Apply</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Current offset</label>
+        <div class="inline">
+          <button id="tare" class="btn">Zero current sense</button>
+          <button id="tare-clear" class="btn">Clear</button>
+          <span class="hint-inline">(with VIN and load off)</span>
+          <span id="tare-state" class="live"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <details class="raw">
+    <summary>Raw ADC</summary>
+    <pre id="debug"></pre>
+  </details>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
