@@ -12,6 +12,24 @@ ldo_client.py ────┼──HTTP──> dashboard/server.py ──USB ser
 pyvisa scripts ───┘          owns the serial port
 ```
 
+## Quickstart
+
+1. Unplug anything on J8. Plug the Teensy into the laptop by USB.
+2. In VS Code, open the folder `controller/firmware`.
+3. Click the checkmark (Build), then the right arrow (Upload), both in the
+   bottom bar. Wait for `[SUCCESS]`.
+4. Open a terminal in `controller/dashboard` and run:
+   ```bash
+   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first time only
+   .venv/bin/python server.py
+   ```
+5. Open http://127.0.0.1:8372. The dot turns green when it's connected.
+6. When you're done, press Ctrl+C in the terminal. Everything on the board
+   turns off.
+
+Steps 2 and 3 are only needed when the firmware changes. No board? Run
+`.venv/bin/python server.py --sim` instead.
+
 ## Safety rules the firmware enforces
 
 - Read pins (A1 to A6, A9) are inputs forever. A compile-time check fails the
