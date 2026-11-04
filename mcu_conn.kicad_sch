@@ -3214,6 +3214,17 @@
 		)
 		(uuid "30366573-c3e4-4185-9467-d67b2b5ae9e8")
 	)
+	(text "Use 100k instead of 0 ohm \njumper for MD reading"
+		(exclude_from_sim yes)
+		(at 129.794 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "426029fe-91db-4db5-b92c-c3bbd0ddfffd")
+	)
 	(text "Initially leave off R29"
 		(exclude_from_sim yes)
 		(at 23.876 167.64 0)
