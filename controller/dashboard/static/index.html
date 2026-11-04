@@ -170,6 +170,24 @@
   </details>
 </main>
 
+<div id="zoom" class="zoom hidden">
+  <div id="zoom-panel" class="zoom-panel">
+    <div class="zoom-head">
+      <div class="zoom-title"><span id="zoom-name"></span><b id="zoom-value"></b></div>
+      <div class="zoom-tools">
+        <div class="seg" id="zoom-range">
+          <button class="btn" data-s="10">10 s</button>
+          <button class="btn" data-s="60">1 min</button>
+          <button class="btn" data-s="300">5 min</button>
+        </div>
+        <button id="zoom-close" class="btn zoom-x" title="Close"><svg viewBox="0 0 12 12" width="12" height="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2 2l8 8M10 2l-8 8"/></svg></button>
+      </div>
+    </div>
+    <canvas id="zoom-canvas"></canvas>
+    <div class="zoom-stats" id="zoom-stats"></div>
+  </div>
+</div>
+
 <script src="/static/app.js"></script>
 </body>
 </html>

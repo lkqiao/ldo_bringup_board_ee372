@@ -154,6 +154,26 @@ input.wide { flex: 1; min-width: 140px; font-family: inherit; font-size: 13px; }
 select { padding-right: 4px; }
 .hint { color: var(--dim); font-size: 11.5px; margin: 6px 0 0; }
 
+.cell { cursor: zoom-in; transition: background 0.15s; }
+.cell:hover { background: var(--fill); }
+
+.zoom { position: fixed; left: 0; right: 0; bottom: 0; top: 63px; z-index: 5;
+  background: color-mix(in srgb, var(--bg) 70%, transparent); backdrop-filter: blur(2px);
+  transition: opacity 0.26s; padding: 20px 24px 24px; }
+.zoom.fade0 { opacity: 0; }
+.zoom-panel { height: 100%; display: flex; flex-direction: column; background: var(--panel);
+  border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px 12px; transform-origin: top left; }
+.zoom-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.zoom-title { display: flex; align-items: baseline; gap: 14px; }
+.zoom-title span { color: var(--dim); font-size: 13px; }
+.zoom-title b { font: 500 26px var(--mono); }
+.zoom-tools { display: flex; gap: 10px; align-items: center; }
+.zoom-x { width: 32px; height: 32px; padding: 0; display: inline-grid; place-items: center; }
+.zoom-x svg { display: block; }
+#zoom-canvas { flex: 1; width: 100%; min-height: 0; margin-top: 10px; cursor: crosshair; }
+.zoom-stats { font: 12px var(--mono); color: var(--dim); display: flex; gap: 24px; flex-wrap: wrap; padding-top: 6px; }
+.zoom-stats b { color: var(--ink); font-weight: 500; }
+
 .raw { margin-top: 16px; color: var(--dim); }
 .raw summary { cursor: pointer; font-size: 12px; }
 .raw pre { font: 11px/1.6 var(--mono); white-space: pre-wrap; margin: 8px 0 0; }
