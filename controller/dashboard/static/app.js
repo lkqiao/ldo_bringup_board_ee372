@@ -32,6 +32,8 @@ async function post(path, body = {}) {
   }
 }
 
+let v3v3Dirty = false;
+let v3v3Sent = null;
 let toastTimer;
 function toast(msg) {
   const t = $("toast");
@@ -113,7 +115,8 @@ function render(s) {
     }
   });
   if (s.config) {
-    if (document.activeElement !== $("v3v3")) $("v3v3").value = s.config.v3v3.toFixed(3);
+    if (v3v3Sent !== null && Math.abs(s.config.v3v3 - v3v3Sent) < 1e-9) v3v3Sent = null;
+    if (!v3v3Dirty && v3v3Sent === null) $("v3v3").value = s.config.v3v3.toFixed(3);
     $("r4").value = String(s.config.r4_ohm);
     const z = s.config.tare_in_v || s.config.tare_out_v;
     $("tare-state").textContent = z
@@ -390,7 +393,16 @@ function wire() {
   $("mdsq-start").onclick = () => post("/api/mdsq", { hz: parseFloat($("mdsq-hz").value) });
   $("mdsq-stop").onclick = () => post("/api/mdsq/stop");
   $("r4").onchange = () => post("/api/config", { r4_ohm: parseFloat($("r4").value) });
-  $("v3v3-set").onclick = () => post("/api/config", { v3v3: parseFloat($("v3v3").value) });
+  $("v3v3").oninput = () => { v3v3Dirty = true; $("v3v3-state").textContent = ""; };
+  $("v3v3-set").onclick = async () => {
+    const j = await post("/api/config", { v3v3: parseFloat($("v3v3").value) });
+    if (j && j.ok !== false) {
+      v3v3Dirty = false;
+      v3v3Sent = j.config.v3v3;
+      $("v3v3").value = j.config.v3v3.toFixed(3);
+      $("v3v3-state").textContent = `set to ${j.config.v3v3.toFixed(3)} V`;
+    }
+  };
   $("tare").onclick = () => post("/api/tare");
   $("tare-clear").onclick = () => post("/api/tare/clear");
   $("log-start").onclick = () => post("/api/log/start", { name: $("log-name").value });

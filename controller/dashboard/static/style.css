@@ -152,6 +152,7 @@ input, select {
 input[type=number] { width: 72px; }
 input.wide { flex: 1; min-width: 140px; font-family: inherit; font-size: 13px; }
 select { padding-right: 4px; }
+#r4, #r3 { width: 150px; }
 .hint { color: var(--dim); font-size: 11.5px; margin: 6px 0 0; }
 
 .cell { cursor: zoom-in; transition: background 0.15s; }
