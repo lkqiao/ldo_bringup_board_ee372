@@ -470,7 +470,7 @@ def main():
     ctl = Controller(args.port, args.sim)
     server = ThreadingHTTPServer(("127.0.0.1", args.http_port), make_handler(ctl))
     server.daemon_threads = True
-    print(f"Dashboard at http://127.0.0.1:{args.http_port}  ({'simulated Teensy' if args.sim else 'real Teensy'})")
+    print(f"Dashboard at http://127.0.0.1:{args.http_port}" + ("  (simulated Teensy)" if args.sim else ""))
     try:
         server.serve_forever()
     except KeyboardInterrupt:

@@ -96,7 +96,7 @@ power cycles.
    cd controller/dashboard
    .venv/bin/python server.py
    ```
-   It prints `Dashboard at http://127.0.0.1:8372 (real Teensy)`.
+   It prints `Dashboard at http://127.0.0.1:8372`.
 3. Open http://127.0.0.1:8372 in a browser. The dot at the top turns green and
    says connected, followed by the port (like `/dev/cu.usbmodem123`) and
    `ldo-ctrl 1.0`.
