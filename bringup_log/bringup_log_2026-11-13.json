@@ -33,7 +33,7 @@
       "doneAt": 1794546759082,
       "md1": true,
       "md0": true,
-      "flag": false,
+      "flag": true,
       "notes": "- a bit higher but not too crazy",
       "editedAt": 1794547409864,
       "meas": {
@@ -131,7 +131,7 @@
   ],
   "general": "- added 10kohm pulldown at vsig input",
   "generalAt": 1794547615063,
-  "theme": "light",
+  "theme": "dark",
   "photos": [
     {
       "id": "mweilc035k51q",
