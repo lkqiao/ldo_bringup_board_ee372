@@ -103,10 +103,9 @@ function render(s) {
   state = s;
   $("conn").className = `status ${s.connected ? "on" : "off"}`;
   $("conn-text").textContent = s.connected ? "connected" : "offline";
-  $("port").textContent = s.connected ? `${s.port}  ${s.fw || ""}` : (s.error || "");
+  $("port").textContent = s.connected ? `${s.port}  ${s.fw || ""}` : "";
 
   const banners = [...(s.warnings || [])];
-  if (!s.connected) banners.unshift("Teensy not connected. Controls are disabled until it reconnects.");
   $("banners").innerHTML = banners.map((b) => `<div class="banner">${b}</div>`).join("");
 
   document.querySelectorAll("main button, main input, main select").forEach((el) => {
