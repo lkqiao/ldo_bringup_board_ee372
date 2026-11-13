@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EE372B Bring-Up Log</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317181a'/%3E%3Cpolyline points='8,16.5 13.5,22 24,10' fill='none' stroke='%233fbf7f' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #f4f4f2; --panel: #ffffff; --ink: #17181a; --dim: #75777c; --rule: #dcdcd8;
+  --fill: #ececea; --on: #1f7a4d; --on-bg: #eaf4ee; --warn: #9a5b00; --stop: #c62828;
+  --well: rgba(0,0,0,.035); --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1011; --panel: #17181a; --ink: #e9e9e6; --dim: #8b8d91; --rule: #2a2b2e;
+    --fill: #222326; --on: #3fbf7f; --on-bg: #14211a; --warn: #e8b35a; --stop: #e5484d; --well: rgba(0,0,0,.22);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1011; --panel: #17181a; --ink: #e9e9e6; --dim: #8b8d91; --rule: #2a2b2e;
+  --fill: #222326; --on: #3fbf7f; --on-bg: #14211a; --warn: #e8b35a; --stop: #e5484d; --well: rgba(0,0,0,.22);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+}
+header {
+  display: flex; justify-content: space-between; align-items: center; gap: 24px;
+  padding: 12px 24px; border-bottom: 1px solid var(--rule); background: var(--panel);
+  position: sticky; top: 0; z-index: 5;
+}
+.brand { display: flex; align-items: center; gap: 16px; flex: 1; min-width: 0; }
+.name { font-weight: 650; font-size: 14px; letter-spacing: 0.01em; white-space: nowrap; }
+.progress { display: flex; align-items: center; gap: 10px; flex: 1; }
+.count { color: var(--dim); font-family: var(--mono); font-size: 11px; white-space: nowrap; }
+.bar { flex: 1; height: 4px; border-radius: 2px; background: var(--fill); overflow: hidden; }
+.bar span { display: block; height: 100%; width: 0; background: var(--on); transition: width .3s; }
+.saved { color: var(--on); font-family: var(--mono); font-size: 11px; opacity: 0; transition: opacity .4s; }
+.saved.show { opacity: 1; }
+.tools { display: flex; gap: 10px; }
+button.icon {
+  width: 38px; height: 38px; display: inline-grid; place-items: center; padding: 0;
+  color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 5px; cursor: pointer;
+}
+button.icon:hover { border-color: var(--dim); }
+button.icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+.i-sun { display: none; }
+:root[data-theme="dark"] .i-sun { display: block; }
+:root[data-theme="dark"] .i-moon { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .i-sun { display: block; }
+  :root:not([data-theme]) .i-moon { display: none; }
+}
+.wrap { max-width: 1700px; margin: 0 auto; padding: 16px 24px 48px; }
+.filters { display: flex; gap: 6px; margin-bottom: 16px; }
+.filters button {
+  font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--rule);
+  border-radius: 5px; padding: 6px 12px; cursor: pointer;
+}
+.filters button:hover { border-color: var(--dim); }
+.filters button.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+
+.test {
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 6px;
+  margin-bottom: 16px; display: grid; grid-template-columns: 7fr 3fr; overflow: hidden;
+}
+.test.done { background: var(--on-bg); }
+.left { padding: 14px 16px 16px; }
+.top { display: flex; align-items: flex-start; gap: 12px; }
+.check {
+  flex: none; width: 22px; height: 22px; border-radius: 5px; border: 1.5px solid var(--dim);
+  background: var(--panel); cursor: pointer; display: grid; place-items: center; padding: 0; margin-top: 1px;
+}
+.check svg { width: 14px; height: 14px; stroke: #fff; stroke-width: 3.2; fill: none; opacity: 0; }
+.done .check { background: var(--on); border-color: var(--on); }
+.done .check svg { opacity: 1; }
+.titlewrap { flex: 1; min-width: 0; }
+.title { font-weight: 650; font-size: 15px; position: relative; display: inline-block; }
+.num { color: var(--dim); font-family: var(--mono); font-size: 12px; margin-right: 8px; }
+.done .title { color: var(--dim); }
+.done .title::after { content: ""; position: absolute; left: 0; right: 0; top: 0.72em; height: 1px; background: var(--dim); }
+.meta { font-size: 11px; color: var(--dim); font-family: var(--mono); margin-top: 2px; display: flex; gap: 12px; flex-wrap: wrap; }
+.modes { display: flex; gap: 6px; margin-top: 8px; }
+.mode {
+  font: inherit; font-size: 12px; padding: 3px 10px; border-radius: 5px; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--panel); color: var(--ink);
+}
+.mode:hover { border-color: var(--dim); }
+.mode.on { background: var(--on); border-color: var(--on); color: #fff; }
+.flag { margin-left: 4px; flex: none; background: transparent; border: 0; cursor: pointer; color: var(--dim); opacity: .35; padding: 2px; line-height: 0; }
+.flag svg { width: 18px; height: 18px; fill: currentColor; }
+.flag.on { color: var(--warn); opacity: 1; }
+
+.rows { margin-top: 12px; display: grid; gap: 8px; }
+.row { display: grid; grid-template-columns: 72px 1fr; gap: 8px; font-size: 13px; }
+.row > b { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); padding-top: 2px; font-weight: 600; }
+.done .rows { opacity: .65; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.chips .lab { font-size: 11px; color: var(--dim); margin-right: 6px; }
+.chips .lab.gap { margin-left: 18px; }
+.chip { font-family: var(--mono); font-size: 11.5px; padding: 1px 7px; border-radius: 4px; background: var(--fill); border: 1px solid var(--rule); }
+.chip.fit { border-color: var(--on); color: var(--on); background: transparent; }
+.chip.pull { border-color: var(--stop); color: var(--stop); background: transparent; }
+.chip.plain { font-family: inherit; font-size: 12px; }
+.jump { font-size: 12px; color: var(--dim); margin-top: 4px; }
+table.exp { justify-self: start; border-collapse: collapse; font-size: 12.5px; }
+table.exp th { font-size: 11px; font-weight: 500; color: var(--dim); text-align: left; padding: 0 16px 3px 0; }
+table.exp td { padding: 2px 16px 2px 0; border-top: 1px solid var(--rule); }
+table.exp td:not(:first-child) { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.pair { display: flex; gap: 32px; overflow-x: auto; }
+.pair .row { grid-template-columns: 72px auto; }
+table.exp th:first-child, table.exp td:first-child { min-width: 120px; white-space: nowrap; }
+table.exp th:not(:first-child), table.exp td:not(:first-child) { min-width: 96px; }
+table.exp.meas th:first-child, table.exp.meas td:first-child { min-width: 96px; }
+.mi {
+  width: 96px; font: inherit; line-height: inherit; font-family: var(--mono); font-size: 12.5px; color: var(--ink);
+  background: transparent; border: 0; border-bottom: 1px dashed var(--rule); padding: 0 0 1px; outline: none;
+}
+.mi:focus { border-bottom: 1px solid var(--on); }
+.photobtn {
+  flex: none; margin-left: auto; height: 28px; padding: 0 8px; display: inline-flex; align-items: center; gap: 5px;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 5px; color: var(--dim); cursor: pointer;
+  font-family: var(--mono); font-size: 11px;
+}
+.photobtn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+.photobtn:hover, .photobtn.on { color: var(--ink); border-color: var(--dim); }
+.pc:empty { display: none; }
+.tray { margin-top: 14px; border-top: 1px solid var(--rule); padding-top: 12px; }
+.shots { display: flex; flex-wrap: wrap; gap: 12px; }
+.shot { margin: 0; width: 200px; border: 1px solid var(--rule); border-radius: 5px; overflow: hidden; background: var(--panel); position: relative; }
+.shot img { display: block; width: 100%; height: 130px; object-fit: cover; cursor: zoom-in; background: var(--fill); }
+.cap-in { width: 100%; border: 0; border-top: 1px solid var(--rule); padding: 6px 8px; font: inherit; font-size: 12px; background: var(--panel); color: var(--ink); outline: none; }
+.cap-in::placeholder { color: var(--dim); }
+.shot-act { position: absolute; top: 6px; right: 6px; display: flex; gap: 4px; opacity: 0; transition: opacity .15s; }
+.shot:hover .shot-act { opacity: 1; }
+.shot-act button { width: 26px; height: 26px; border-radius: 5px; border: 0; background: rgba(0,0,0,.6); color: #fff; display: grid; place-items: center; cursor: pointer; padding: 0; }
+.shot-act svg, .drop svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.shot-act svg { width: 14px; height: 14px; }
+.drop {
+  width: 200px; min-height: 162px; border: 1.5px dashed var(--rule); border-radius: 5px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 6px; color: var(--dim); font-size: 12px; text-align: center; padding: 12px; cursor: pointer;
+}
+.drop svg { width: 22px; height: 22px; }
+.drop:hover, .tray.over .drop { border-color: var(--on); color: var(--on); }
+.lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; z-index: 50; cursor: zoom-out; padding: 24px; }
+.lightbox img { max-width: 95vw; max-height: 85vh; border-radius: 4px; }
+.lb-cap { color: #eee; font-size: 13px; }
+.lb-cap { white-space: pre; }
+.lb-nav { position: fixed; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: 0;
+  background: rgba(255,255,255,.12); color: #fff; display: grid; place-items: center; cursor: pointer; padding: 0; }
+.lb-nav:hover:not(:disabled) { background: rgba(255,255,255,.25); }
+.lb-nav:disabled { opacity: .3; cursor: default; }
+.lb-nav svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.lb-prev { left: 20px; }
+.lb-next { right: 20px; }
+.notes { border-left: 1px solid var(--rule); padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+.notes textarea {
+  flex: 1 0 auto; width: 100%; min-height: 140px; resize: vertical;
+  border: 1px solid var(--rule); border-radius: 5px; background: var(--well); color: var(--ink);
+  font: inherit; font-size: 13px; padding: 8px 10px; outline: none;
+}
+.notes textarea:focus { border-color: var(--dim); }
+.notes textarea::placeholder { color: var(--dim); }
+.stamp { font-size: 11px; color: var(--dim); font-family: var(--mono); min-height: 16px; }
+.general { grid-template-columns: 1fr; }
+.general h2 { font-size: 13px; font-weight: 650; margin: 0; padding: 14px 16px 0; }
+.general .notes { border-left: 0; }
+
+@media (max-width: 720px) {
+  .test { grid-template-columns: 1fr; }
+  .notes { border-left: 0; border-top: 1px solid var(--rule); }
+  .progress { display: none; }
+}
+@media print {
+  header .tools, .filters, .flag { display: none; }
+  .test { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="name">EE372B Bring-Up Log</span>
+    <div class="progress"><span class="count" id="count">0 / 11 done</span><div class="bar"><span id="bar"></span></div><span class="saved" id="saved">saved</span></div>
+  </div>
+  <div class="tools">
+      <button class="icon" id="theme" title="Toggle theme" aria-label="Toggle theme"><svg class="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+      <button class="icon" id="export" title="Download" aria-label="Download"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></button>
+      <button class="icon" id="import" title="Import" aria-label="Import"><svg viewBox="0 0 24 24"><path d="M12 21V9M7 14l5-5 5 5M5 3h14"/></svg></button>
+      <input type="file" id="file" accept=".json" hidden>
+    </div>
+</header>
+<div class="wrap">
+
+
+  <div class="filters">
+    <button class="on" data-f="all">All</button>
+    <button data-f="todo">To do</button>
+    <button data-f="done">Done</button>
+    <button data-f="flag">Flagged</button>
+  </div>
+
+  <div id="list"></div>
+
+  <div class="test general">
+    <h2>General notes</h2>
+    <div class="notes">
+      <textarea id="general" placeholder="board-wide stuff, rework done, things to ask the TAs..."></textarea>
+      <div class="stamp" id="general-stamp"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const TESTS = [
+  { t: "Quiescent current (I<sub>Q</sub>)", p: 6,
+    setup: ["PSU 1.8 V, 5 mA limit, no load", "DMM across R4 (+ TP3, − TP4), 100 mV range", "Teensy reads U3"],
+    fit: ["R4 = 10 Ω", "R3", "R29-R32"], pull: ["R19", "R20", "R21", "R40", "R44"],
+    bench: ["PSU", "34401A DMM", "Teensy on USB"],
+    exp: [["I<sub>Q</sub>", "47.12 µA", "25.41 µA"], ["V<sub>R4</sub>", "471 µV", "254 µV"]] },
+  { t: "Line regulation", p: 8,
+    setup: ["Sweep V<sub>IN</sub> 1.7 → 1.9 V in 0.02 V steps", "DMM on TP4 (V<sub>IN</sub>) and TP6 (V<sub>OUT</sub>)", "1 mA (VG1), then 20 mA (VG2 + VG4)"],
+    fit: ["R19", "R20", "R21", "R29-R32"], pull: ["R3", "R4", "R40", "R44"],
+    bench: ["PSU, 25 mA limit", "DMM"],
+    exp: [["ΔV<sub>OUT</sub>, 1 mA", "178.5 µV", "177.4 µV"], ["ΔV<sub>OUT</sub>, 20 mA", "276.2 µV", "252.7 µV"]] },
+  { t: "Load regulation", p: 10,
+    setup: ["V<sub>IN</sub> 1.8 V, VG1 on (1 mA)", "add VG4, VG3, VG2, VG0 one at a time → 6, 11, 16, 19.7 mA", "DMM V<sub>OUT</sub> at TP6, Teensy reads A4 and U4"],
+    fit: ["R3", "R20", "R21", "R47", "R29-R32"], pull: ["R4", "R19", "R40", "R44"],
+    bench: ["PSU, 25 mA limit", "DMM", "Teensy"],
+    exp: [["ΔV<sub>OUT</sub>, 1 → 20 mA", "1.151 mV", "2.216 mV"]] },
+  { t: "Dropout voltage", p: 11,
+    setup: ["Step V<sub>IN</sub> down from 1.8 V in 10 mV steps", "V<sub>DO</sub> where V<sub>OUT</sub> = 0.99 V, stop at 0.95 V", "1 mA (VG1), then 20 mA (VG2 + VG4)"],
+    fit: ["R19", "R20", "R21", "R46", "R47", "R29-R32"], pull: ["R3", "R4", "R40", "R44"],
+    jumpers: "J9, J11 in; J10, J12 open",
+    bench: ["PSU, 25 mA limit", "DMM1 on TP4, 10 V range", "DMM2 on TP6, 1 V range"],
+    exp: [["V<sub>DO</sub>, 1 mA", "0.556 V", "0.144 V"], ["V<sub>DO</sub>, 20 mA", "0.310 V", "0.442 V"]] },
+  { t: "Line transient response", p: 13,
+    setup: ["Gen pulse into J13, 1.8 V offset, 200 mVpp, 1 µs edges", "PSU disconnected", "Scope CH1 J18 (V<sub>IN</sub>), CH2 J20 (V<sub>OUT</sub>), CH3 J14 optional"],
+    fit: ["R19", "R20", "R21", "R40"], pull: ["R3", "R4", "R44", "C6", "C11"],
+    jumpers: "J9, J11, J12 in",
+    bench: ["Function gen, high-Z", "Scope", "DMM"],
+    exp: [["Overshoot, 1 mA", "970 µV", "347 µV"], ["Overshoot, 20 mA", "3.20 mV", "1.42 mV"], ["Droop, 1 mA", "187 µV", "258 µV"], ["Droop, 20 mA", "460 µV", "1.35 mV"]] },
+  { t: "Load transient response", p: 15,
+    setup: ["V<sub>IN</sub> 1.8 V, VG1 held on", "Teensy pulses VG0 (1 ↔ 19.7 mA)", "Scope CH1 J20 (V<sub>OUT</sub>), CH2 J21 (VG0)"],
+    fit: ["R19", "R20", "R21"], pull: ["R3", "R4", "R40", "R44"],
+    bench: ["PSU, 25 mA limit", "Scope", "Teensy"],
+    exp: [["Droop, step up", "1.612 mV", "8.242 mV"], ["Overshoot, step down", "6.073 mV", "7.339 mV"]] },
+  { t: "Startup time", p: 17,
+    setup: ["Load on first, then PSU output on (0 → 1.8 V)", "Scope CH1 J18 (V<sub>IN</sub>), CH2 J20 (V<sub>OUT</sub>)", "3 captures per case, 1 mA then 20 mA"],
+    fit: ["R19", "R20", "R21", "R46", "R47", "R29-R32"], pull: ["R40", "R44"],
+    jumpers: "J9, J11 in; J10, J12 open",
+    bench: ["PSU, 25 mA, preset 1.8 V", "Scope", "DMMs on TP4 and TP6"],
+    exp: [["t<sub>SU</sub>", "232.2 ms", "232.8 ms"], ["Spec", "< 500 ms", "< 500 ms"]] },
+  { t: "PSRR", p: 19,
+    setup: ["Gen into J13, 1.8 V offset + 50 mVpp sine", "Sweep 9 kHz → 1 MHz, PSU disconnected", "Scope on J5 (V<sub>IN</sub> Vpp), analyzer on J6"],
+    fit: ["R40", "R55"], pull: ["C6", "C11", "R44"],
+    jumpers: "J12 in. Fit R44 and use J16 / J17 if the ripple is buried",
+    bench: ["Function gen, high-Z", "HP 8591E, RBW 300 Hz, span 10 kHz", "Scope"],
+    exp: [["PSRR at 10 kHz, 1 mA", "94.5 dB", "53.7 dB"], ["PSRR at 10 kHz, 20 mA", "76.9 dB", "53.2 dB"]] },
+  { t: "Noise", p: 21,
+    setup: ["Record LNA gain and floor first, input terminated", "V<sub>IN</sub> 1.8 V on before the 5 V rail", "Analyzer on LNA output, 9 kHz → 1 MHz"],
+    fit: ["R19", "R20", "R21", "R44", "R55"], pull: ["R3", "R4", "R40"],
+    bench: ["PSU, 25 mA limit", "HP 8591E, RBW 300 Hz", "50 Ω terminator"],
+    exp: [["Integrated, 1 mA", "45.07 µVrms", "9.9 µVrms"], ["Integrated, 20 mA", "54.96 µVrms", "14.04 µVrms"]] },
+  { t: "Mode switching", p: 23,
+    setup: ["V<sub>IN</sub> 1.8 V, 10 mA (VG3), then 1 mA (VG1)", "Teensy squares MD_SEL at 1 Hz and up", "CH1 J20, CH2 U3 out before R27 / C12, CH3 TP14 (trigger)"],
+    fit: ["R3 = 100 mΩ", "R4 = 100 mΩ", "R21", "R29-R32"], pull: ["C24", "R19", "R20", "R40", "R44"],
+    jumpers: "J9, J11 in; J10 open",
+    bench: ["PSU, 25 mA limit", "3-channel scope", "2 DMMs across R3 and R4"],
+    cols: ["MD 0 → 1", "MD 1 → 0"],
+    exp: [["I<sub>IN</sub> overshoot", "86%", "16%"], ["I<sub>IN</sub> droop", "−56%", "−11%"]] },
+  { t: "Temperature characterization", p: 25,
+    setup: ["V<sub>IN</sub> 1.8 V, 1 mA then 20 mA", "Change board temperature", "Log T (ADT7310), NR at J19, V<sub>OUT</sub> at TP6"],
+    fit: ["R19", "R20", "R21"], pull: ["R3", "R4", "R40", "R44"],
+    bench: ["PSU, 25 mA limit", "DMM", "Teensy", "Ice bag", "Soldering iron"],
+    exp: [["NR (V), 0 → ~80 °C", "1.0049 → 1.0063", "1.0049 → 1.0063"], ["V<sub>OUT</sub> (V), 1 mA", "1.0048 to 1.0063", "1.0049 to 1.0064"], ["V<sub>OUT</sub> (V), 20 mA", "1.0037 to 1.0051", "1.0028 to 1.0041"]] }
+];
+
+const KEY = "ee372b-bringup-log-v1";
+let state = { tests: TESTS.map(() => ({ done: false, doneAt: null, md1: false, md0: false, flag: false, notes: "", editedAt: null })), general: "", generalAt: null, theme: null };
+try {
+  const raw = localStorage.getItem(KEY);
+  if (raw) {
+    const s = JSON.parse(raw);
+    if (s && Array.isArray(s.tests)) state = Object.assign(state, s);
+  }
+} catch (e) {}
+
+const savedEl = document.getElementById("saved");
+let savedTimer;
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  savedEl.classList.add("show");
+  clearTimeout(savedTimer);
+  savedTimer = setTimeout(() => savedEl.classList.remove("show"), 900);
+}
+const fmt = ts => ts ? new Date(ts).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
+
+const CHECK = '<svg viewBox="0 0 24 24"><polyline points="4 12.5 9.5 18 20 6"/></svg>';
+const FLAG = '<svg viewBox="0 0 24 24"><path d="M5 21V4h11l-1.5 4L16 12H7v9z"/></svg>';
+
+const toMu = t => t
+  .replace(/(\d\s?)([kKMGmuµ]?)[oO]hms?(?![A-Za-z])/g, (_, n, pre) => n + ({ u: "µ", K: "k" }[pre] || pre) + "Ω")
+  .replace(/(\d\s?)u(?=[AVWFHsSΩ])/g, "$1µ");
+
+function refs(list) {
+  const out = [];
+  let run = null;
+  const flush = () => { if (run) { out.push(run.a === run.b ? run.p + run.a : run.b - run.a === 1 ? `${run.p}${run.a}, ${run.p}${run.b}` : `${run.p}${run.a}-${run.p}${run.b}`); run = null; } };
+  for (const x of list) {
+    const m = /^([A-Z]+)(\d+)$/.exec(x);
+    if (m && run && run.p === m[1] && +m[2] === run.b + 1) { run.b = +m[2]; continue; }
+    flush();
+    if (m) run = { p: m[1], a: +m[2], b: +m[2] }; else out.push(x);
+  }
+  flush();
+  return out.join(", ");
+}
+
+const list = document.getElementById("list");
+const CAM = '<svg viewBox="0 0 24 24"><path d="M3.5 8.5h3.5l2-3h6l2 3h3.5v10.5h-17z"/><circle cx="12" cy="13.5" r="3.5"/></svg>';
+const DL = '<svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>';
+const XX = '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+const PLUS = '<svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>';
+const openTrays = new Set();
+let lastTray = null;
+let photos = [];
+let db = null, dbErr = false;
+const urls = new Map();
+const urlFor = p => { if (!urls.has(p.id)) urls.set(p.id, URL.createObjectURL(p.blob)); return urls.get(p.id); };
+
+function openDB() {
+  return new Promise((res, rej) => {
+    const r = indexedDB.open("ee372b-bringup-photos", 1);
+    r.onupgradeneeded = () => r.result.createObjectStore("photos", { keyPath: "id" });
+    r.onsuccess = () => res(r.result);
+    r.onerror = () => rej(r.error);
+  });
+}
+function tx(mode, fn) {
+  return new Promise((res, rej) => {
+    const t = db.transaction("photos", mode);
+    const req = fn(t.objectStore("photos"));
+    t.oncomplete = () => res(req && req.result);
+    t.onerror = () => rej(t.error);
+  });
+}
+async function loadPhotos() {
+  try { db = await openDB(); photos = (await tx("readonly", st => st.getAll())) || []; }
+  catch (e) { dbErr = true; }
+  render();
+}
+async function addFiles(i, files) {
+  const imgs = [...files].filter(f => f.type && f.type.startsWith("image/"));
+  if (!imgs.length || !db) return;
+  let first = null;
+  for (const f of imgs) {
+    const p = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7), test: i, caption: "",
+      name: f.name || "image.png", type: f.type, added: Date.now(), blob: f };
+    try { await tx("readwrite", st => st.put(p)); } catch (e) { alert("Could not save that picture in this browser."); return; }
+    photos.push(p); first = first || p.id;
+  }
+  openTrays.add(i); lastTray = i; render();
+  const inp = list.querySelector(`.cap-in[data-id="${first}"]`);
+  if (inp) inp.focus();
+}
+function fileName(p) {
+  const ext = (p.name.match(/\.[A-Za-z0-9]+$/) || ["." + (p.type.split("/")[1] || "png")])[0];
+  const base = (p.caption || p.name.replace(/\.[A-Za-z0-9]+$/, "")).replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, "_");
+  return (base || "photo") + ext;
+}
+function lightbox(p) {
+  const set = photos.filter(x => x.test === p.test).sort((a, b) => a.added - b.added);
+  let k = Math.max(0, set.findIndex(x => x.id === p.id));
+  const lb = document.createElement("div");
+  lb.className = "lightbox";
+  const multi = set.length > 1;
+  lb.innerHTML = `<button class="lb-nav lb-prev" title="Previous (←)"${multi ? "" : " disabled"}><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <img alt=""><div class="lb-cap"></div>
+    <button class="lb-nav lb-next" title="Next (→)"${multi ? "" : " disabled"}><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>`;
+  const img = lb.querySelector("img"), cap = lb.querySelector(".lb-cap");
+  const show = () => {
+    const q = set[k];
+    img.src = urlFor(q);
+    cap.textContent = (q.caption ? toMu(q.caption) + "   " : "") + `${k + 1} / ${set.length}`;
+  };
+  const step = d => { k = (k + d + set.length) % set.length; show(); };
+  const close = () => { lb.remove(); document.removeEventListener("keydown", keys); };
+  const keys = e => {
+    if (e.key === "Escape") close();
+    else if (multi && e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+    else if (multi && e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  };
+  lb.addEventListener("click", e => { if (e.target === lb || e.target === img) close(); });
+  if (multi) {
+    lb.querySelector(".lb-prev").addEventListener("click", e => { e.stopPropagation(); step(-1); });
+    lb.querySelector(".lb-next").addEventListener("click", e => { e.stopPropagation(); step(1); });
+  }
+  document.addEventListener("keydown", keys);
+  document.body.appendChild(lb);
+  show();
+}
+const capTimers = {};
+function fillTray(el, i) {
+  const mine = photos.filter(p => p.test === i).sort((a, b) => a.added - b.added);
+  el.querySelector(".pc").textContent = mine.length || "";
+  const tray = el.querySelector(".tray");
+  if (tray.hidden) return;
+  if (dbErr) { tray.innerHTML = '<div class="drop">This browser will not store pictures for a local file.</div>'; return; }
+  tray.innerHTML = `<div class="shots">${mine.map(p => `
+    <figure class="shot" data-id="${p.id}">
+      <img src="${urlFor(p)}" alt="">
+      <input class="cap-in" data-id="${p.id}" placeholder="caption..." spellcheck="false">
+      <div class="shot-act"><button class="dl" title="Download">${DL}</button><button class="rm" title="Delete">${XX}</button></div>
+    </figure>`).join("")}
+    <label class="drop">${PLUS}<span>Drop, paste, or click to add pictures</span><input type="file" accept="image/*" multiple hidden></label></div>`;
+  tray.querySelectorAll(".shot").forEach(fig => {
+    const p = photos.find(x => x.id === fig.dataset.id);
+    const cap = fig.querySelector(".cap-in");
+    cap.value = toMu(p.caption || "");
+    cap.addEventListener("focus", () => { cap.value = p.caption || ""; });
+    cap.addEventListener("blur", () => { cap.value = toMu(p.caption || ""); });
+    cap.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); cap.blur(); } });
+    cap.addEventListener("input", () => {
+      p.caption = cap.value;
+      clearTimeout(capTimers[p.id]);
+      capTimers[p.id] = setTimeout(() => tx("readwrite", st => st.put(p)).then(() => { savedEl.classList.add("show"); setTimeout(() => savedEl.classList.remove("show"), 900); }), 300);
+    });
+    fig.querySelector("img").addEventListener("click", () => lightbox(p));
+    fig.querySelector(".dl").addEventListener("click", () => {
+      const a = document.createElement("a"); a.href = urlFor(p); a.download = fileName(p); a.click();
+    });
+    fig.querySelector(".rm").addEventListener("click", async () => {
+      if (!confirm("Delete this picture?")) return;
+      await tx("readwrite", st => st.delete(p.id));
+      photos = photos.filter(x => x.id !== p.id);
+      if (urls.has(p.id)) { URL.revokeObjectURL(urls.get(p.id)); urls.delete(p.id); }
+      render();
+    });
+  });
+  const picker = tray.querySelector(".drop input");
+  picker.addEventListener("change", () => { addFiles(i, picker.files); });
+  tray.addEventListener("click", () => { lastTray = i; });
+  tray.addEventListener("dragover", e => { e.preventDefault(); tray.classList.add("over"); });
+  tray.addEventListener("dragleave", e => { if (!tray.contains(e.relatedTarget)) tray.classList.remove("over"); });
+  tray.addEventListener("drop", e => { e.preventDefault(); tray.classList.remove("over"); addFiles(i, e.dataTransfer.files); });
+}
+document.addEventListener("paste", e => {
+  if (lastTray === null || !openTrays.has(lastTray)) return;
+  const files = [...(e.clipboardData ? e.clipboardData.files : [])].filter(f => f.type.startsWith("image/"));
+  if (!files.length) return;
+  e.preventDefault(); addFiles(lastTray, files);
+});
+const toDataURL = b => new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result); r.readAsDataURL(b); });
+function fromDataURL(d) {
+  const [head, body] = d.split(",");
+  const type = (head.match(/data:([^;]+)/) || [, "image/png"])[1];
+  const bin = atob(body); const u = new Uint8Array(bin.length);
+  for (let k = 0; k < bin.length; k++) u[k] = bin.charCodeAt(k);
+  return new Blob([u], { type });
+}
+
+const bullets = t => toMu(t.replace(/^(\s*)- /gm, "$1• "));
+function noteBox(ta, get, set) {
+  ta.value = bullets(get());
+  ta.addEventListener("focus", () => { ta.value = get(); });
+  ta.addEventListener("blur", () => { ta.value = bullets(get()); });
+  ta.addEventListener("keydown", e => {
+    if (e.key !== "Enter" || e.shiftKey) return;
+    const v = ta.value, c = ta.selectionStart;
+    const start = v.lastIndexOf("\n", c - 1) + 1;
+    let end = v.indexOf("\n", c); if (end < 0) end = v.length;
+    if (v.slice(start, end).trim() !== "") return;
+    e.preventDefault();
+    const nv = v.slice(0, Math.max(0, start - 1)) + v.slice(end);
+    ta.value = nv; set(nv); save(); ta.blur();
+  });
+}
+
+function render() {
+  list.innerHTML = "";
+  TESTS.forEach((T, i) => {
+    const s = state.tests[i];
+    const el = document.createElement("div");
+    el.className = "test" + (s.done ? " done" : "");
+    el.dataset.i = i;
+    el.innerHTML = `
+      <div class="left">
+        <div class="top">
+          <button class="check" aria-label="Mark done">${CHECK}</button>
+          <div class="titlewrap">
+            <div><span class="num">${String(i + 1).padStart(2, "0")}</span><span class="title">${T.t}</span></div>
+            <div class="meta">${s.done ? `<span>done ${fmt(s.doneAt)}</span>` : ""}</div>
+            <div class="modes">
+              <button class="mode${s.md1 ? " on" : ""}" data-m="md1">MD = 1</button>
+              <button class="mode${s.md0 ? " on" : ""}" data-m="md0">MD = 0</button>
+            </div>
+          </div>
+          <button class="photobtn${openTrays.has(i) ? " on" : ""}" title="Photos">${CAM}<span class="pc"></span></button>
+          <button class="flag${s.flag ? " on" : ""}" title="Flag to come back to">${FLAG}</button>
+        </div>
+        <div class="rows">
+          <div class="row"><b>PCB</b><div>
+            <div class="chips"><span class="lab">Populate:</span><span class="chip fit">${refs(T.fit)}</span><span class="lab gap">Unpopulate:</span><span class="chip pull">${refs(T.pull)}</span></div>
+            ${T.jumpers ? `<div class="jump">${T.jumpers}</div>` : ""}
+          </div></div>
+          <div class="row"><b>Bench</b><div class="chips">${T.bench.map(x => `<span class="chip plain">${x}</span>`).join("")}</div></div>
+          <div class="pair">
+          <div class="row"><b>Expected</b><table class="exp"><tr><th></th><th>${(T.cols || ["MD 1", "MD 0"])[0]}</th><th>${(T.cols || ["MD 1", "MD 0"])[1]}</th></tr>${T.exp.map(r => `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("")}</table></div>
+          <div class="row"><b>Measured</b><table class="exp meas"><tr><th>${(T.cols || ["MD 1", "MD 0"])[0]}</th><th>${(T.cols || ["MD 1", "MD 0"])[1]}</th></tr>${T.exp.map((r, ri) => `<tr>${[1, 2].map(ci => `<td><input class="mi" data-k="${ri},${ci}" spellcheck="false"></td>`).join("")}</tr>`).join("")}</table></div>
+          </div>
+        </div>
+        <div class="tray"${openTrays.has(i) ? "" : " hidden"}></div>
+      </div>
+      <div class="notes">
+        <textarea placeholder="notes..." spellcheck="false"></textarea>
+        <div class="stamp">${s.editedAt ? "edited " + fmt(s.editedAt) : ""}</div>
+      </div>`;
+    const ta = el.querySelector("textarea");
+    noteBox(ta, () => s.notes || "", v => { s.notes = v; });
+    ta.addEventListener("input", () => {
+      s.notes = ta.value; s.editedAt = Date.now();
+      el.querySelector(".stamp").textContent = "edited " + fmt(s.editedAt);
+      save();
+    });
+    el.querySelector(".check").addEventListener("click", () => {
+      s.done = !s.done; s.doneAt = s.done ? Date.now() : null;
+      s.md1 = s.done; s.md0 = s.done;
+      save(); render();
+    });
+    el.querySelectorAll(".mode").forEach(b => b.addEventListener("click", () => {
+      s[b.dataset.m] = !s[b.dataset.m];
+      if (s.md1 && s.md0 && !s.done) { s.done = true; s.doneAt = Date.now(); }
+      if (!(s.md1 && s.md0) && s.done) { s.done = false; s.doneAt = null; }
+      save(); render();
+    }));
+    el.querySelector(".flag").addEventListener("click", () => { s.flag = !s.flag; save(); render(); });
+    el.querySelector(".photobtn").addEventListener("click", () => {
+      if (openTrays.has(i)) openTrays.delete(i); else { openTrays.add(i); lastTray = i; }
+      render();
+    });
+    fillTray(el, i);
+    s.meas = s.meas || {};
+    el.querySelectorAll(".mi").forEach(inp => {
+      const raw = () => s.meas[inp.dataset.k] || "";
+      inp.value = toMu(raw());
+      inp.addEventListener("focus", () => { inp.value = raw(); });
+      inp.addEventListener("blur", () => { inp.value = toMu(raw()); });
+      inp.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); inp.blur(); } });
+      inp.addEventListener("input", () => { s.meas[inp.dataset.k] = inp.value; save(); });
+    });
+    list.appendChild(el);
+  });
+  const n = state.tests.filter(s => s.done).length;
+  document.getElementById("count").textContent = `${n} / ${TESTS.length} done`;
+  document.getElementById("bar").style.width = (100 * n / TESTS.length) + "%";
+  applyFilter();
+}
+
+let filter = "all";
+function applyFilter() {
+  list.querySelectorAll(".test").forEach(el => {
+    const s = state.tests[+el.dataset.i];
+    const show = filter === "all" || (filter === "done" && s.done) || (filter === "todo" && !s.done) || (filter === "flag" && s.flag);
+    el.style.display = show ? "" : "none";
+  });
+}
+document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".filters button").forEach(x => x.classList.remove("on"));
+  b.classList.add("on"); filter = b.dataset.f; applyFilter();
+}));
+
+const gen = document.getElementById("general");
+const genStamp = document.getElementById("general-stamp");
+noteBox(gen, () => state.general || "", v => { state.general = v; });
+genStamp.textContent = state.generalAt ? "edited " + fmt(state.generalAt) : "";
+gen.addEventListener("input", () => {
+  state.general = gen.value; state.generalAt = Date.now();
+  genStamp.textContent = "edited " + fmt(state.generalAt); save();
+});
+
+function setTheme(t) {
+  if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+}
+setTheme(state.theme);
+document.getElementById("theme").addEventListener("click", () => {
+  const dark = state.theme ? state.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  state.theme = dark ? "light" : "dark"; setTheme(state.theme); save();
+});
+
+document.getElementById("export").addEventListener("click", async () => {
+  const pics = await Promise.all(photos.map(async p => ({ id: p.id, test: p.test, caption: p.caption, name: p.name, type: p.type, added: p.added, data: await toDataURL(p.blob) })));
+  const blob = new Blob([JSON.stringify(Object.assign({}, state, { photos: pics }), null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "bringup_log_" + new Date().toISOString().slice(0, 10) + ".json";
+  a.click(); URL.revokeObjectURL(a.href);
+});
+const file = document.getElementById("file");
+document.getElementById("import").addEventListener("click", () => file.click());
+file.addEventListener("change", async () => {
+  const f = file.files[0]; if (!f) return;
+  try {
+    const s = JSON.parse(await f.text());
+    if (!Array.isArray(s.tests) || s.tests.length !== TESTS.length) throw new Error("bad file");
+    if (!confirm("Replace the current checks, notes, and pictures with this backup?")) return;
+    const pics = Array.isArray(s.photos) ? s.photos : null;
+    delete s.photos;
+    state = s; save();
+    if (pics && db) {
+      await tx("readwrite", st => st.clear());
+      urls.forEach(u => URL.revokeObjectURL(u)); urls.clear();
+      photos = pics.map(q => ({ id: q.id, test: q.test, caption: q.caption || "", name: q.name, type: q.type, added: q.added, blob: fromDataURL(q.data) }));
+      for (const q of photos) await tx("readwrite", st => st.put(q));
+    }
+    render(); gen.value = bullets(state.general || ""); setTheme(state.theme);
+  } catch (e) { alert("That file is not a bring-up log backup."); }
+  file.value = "";
+});
+
+render();
+loadPhotos();
+</script>
+</body>
+</html>
