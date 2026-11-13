@@ -83,13 +83,6 @@ button.icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; s
 .done .title { color: var(--dim); }
 .done .title::after { content: ""; position: absolute; left: 0; right: 0; top: 0.72em; height: 1px; background: var(--dim); }
 .meta { font-size: 11px; color: var(--dim); font-family: var(--mono); margin-top: 2px; display: flex; gap: 12px; flex-wrap: wrap; }
-.modes { display: flex; gap: 6px; margin-top: 8px; }
-.mode {
-  font: inherit; font-size: 12px; padding: 3px 10px; border-radius: 5px; cursor: pointer;
-  border: 1px solid var(--rule); background: var(--panel); color: var(--ink);
-}
-.mode:hover { border-color: var(--dim); }
-.mode.on { background: var(--on); border-color: var(--on); color: #fff; }
 .flag { margin-left: 4px; flex: none; background: transparent; border: 0; cursor: pointer; color: var(--dim); opacity: .35; padding: 2px; line-height: 0; }
 .flag svg { width: 18px; height: 18px; fill: currentColor; }
 .flag.on { color: var(--warn); opacity: 1; }
@@ -496,10 +489,6 @@ function render() {
           <div class="titlewrap">
             <div><span class="num">${String(i + 1).padStart(2, "0")}</span><span class="title">${T.t}</span></div>
             <div class="meta">${s.done ? `<span>done ${fmt(s.doneAt)}</span>` : ""}</div>
-            <div class="modes">
-              <button class="mode${s.md1 ? " on" : ""}" data-m="md1">MD = 1</button>
-              <button class="mode${s.md0 ? " on" : ""}" data-m="md0">MD = 0</button>
-            </div>
           </div>
           <button class="photobtn${openTrays.has(i) ? " on" : ""}" title="Photos">${CAM}<span class="pc"></span></button>
           <button class="flag${s.flag ? " on" : ""}" title="Flag to come back to">${FLAG}</button>
@@ -530,15 +519,8 @@ function render() {
     });
     el.querySelector(".check").addEventListener("click", () => {
       s.done = !s.done; s.doneAt = s.done ? Date.now() : null;
-      s.md1 = s.done; s.md0 = s.done;
       save(); render();
     });
-    el.querySelectorAll(".mode").forEach(b => b.addEventListener("click", () => {
-      s[b.dataset.m] = !s[b.dataset.m];
-      if (s.md1 && s.md0 && !s.done) { s.done = true; s.doneAt = Date.now(); }
-      if (!(s.md1 && s.md0) && s.done) { s.done = false; s.doneAt = null; }
-      save(); render();
-    }));
     el.querySelector(".flag").addEventListener("click", () => { s.flag = !s.flag; save(); render(); });
     el.querySelector(".photobtn").addEventListener("click", () => {
       if (openTrays.has(i)) openTrays.delete(i); else { openTrays.add(i); lastTray = i; }
