@@ -261,7 +261,7 @@ const TESTS = [
     fit: ["R19", "R20", "R21", "R46", "R47", "R29-R32"], pull: ["R40", "R44"],
     jumpers: "J9, J11 in; J10, J12 open",
     bench: ["PSU, 25 mA, preset 1.8 V", "Scope", "DMMs on TP4 and TP6"],
-    exp: [["t<sub>SU</sub>", "232.2 ms", "232.8 ms"], ["Spec", "< 500 ms", "< 500 ms"]] },
+    exp: [["t<sub>SU</sub>", "232.2 ms", "232.8 ms"]] },
   { t: "PSRR", p: 19,
     setup: ["Gen into J13, 1.8 V offset + 50 mVpp sine", "Sweep 9 kHz → 1 MHz, PSU disconnected", "Scope on J5 (V<sub>IN</sub> Vpp), analyzer on J6"],
     fit: ["R40", "R55"], pull: ["C6", "C11", "R44"],
