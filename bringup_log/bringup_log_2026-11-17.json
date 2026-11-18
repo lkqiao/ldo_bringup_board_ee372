@@ -107,10 +107,13 @@
       "doneAt": null,
       "md1": false,
       "md0": false,
-      "flag": false,
-      "notes": "",
-      "editedAt": null,
-      "meas": {}
+      "flag": true,
+      "notes": "- not including 22.62 uVrms noise floor of spectrum analyzer",
+      "editedAt": 1794954385206,
+      "meas": {
+        "0,2": "54.32 dB",
+        "1,2": "53.69 dB"
+      }
     },
     {
       "done": false,
