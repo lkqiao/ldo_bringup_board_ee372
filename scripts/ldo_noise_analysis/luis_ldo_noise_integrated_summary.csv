@@ -1,0 +1,16 @@
+run,file,jack,band,original_uVrms_at_analyzer,gain_removed_uVrms,gain_and_floor_removed_uVrms,points_within_1dB_of_floor
+LP 1 mA,ldo_lp_1mA_100x,100x,9 kHz-1 MHz,1299.46,14.941,8.574,2896
+LP 1 mA,ldo_lp_1mA_100x,100x,9-100 kHz,826.06,8.628,7.615,2896
+LP 1 mA,ldo_lp_1mA_100x,100x,100 kHz-1 MHz,1003.11,12.198,3.940,2896
+LP 20 mA,ldo_lp_20mA_100x,100x,9 kHz-1 MHz,1651.95,18.599,13.790,2393
+LP 20 mA,ldo_lp_20mA_100x,100x,9-100 kHz,1165.45,12.310,11.622,2393
+LP 20 mA,ldo_lp_20mA_100x,100x,100 kHz-1 MHz,1170.75,13.943,7.421,2393
+HP 1 mA,ldo_hp_1mA_100x,100x,9 kHz-1 MHz,3628.24,41.020,39.033,378
+HP 1 mA,ldo_hp_1mA_100x,100x,9-100 kHz,1701.00,18.047,17.585,378
+HP 1 mA,ldo_hp_1mA_100x,100x,100 kHz-1 MHz,3204.80,36.837,34.848,378
+HP 20 mA,ldo_hp_20mA_100x,100x,9 kHz-1 MHz,3539.31,41.625,39.668,0
+HP 20 mA,ldo_hp_20mA_100x,100x,9-100 kHz,1650.13,17.499,17.022,0
+HP 20 mA,ldo_hp_20mA_100x,100x,100 kHz-1 MHz,3131.10,37.768,35.830,0
+Floor 100x,luis_NF_test_nn_version3_100,100x,9 kHz-1 MHz,1049.11,12.614,,
+Floor 100x,luis_NF_test_nn_version3_100,100x,9-100 kHz,379.59,4.056,,
+Floor 100x,luis_NF_test_nn_version3_100,100x,100 kHz-1 MHz,978.03,11.944,,
