@@ -312,7 +312,8 @@ const FLAG = '<svg viewBox="0 0 24 24"><path d="M5 21V4h11l-1.5 4L16 12H7v9z"/><
 
 const toMu = t => t
   .replace(/(\d\s?)([kKMGmuµ]?)[oO]hms?(?![A-Za-z])/g, (_, n, pre) => n + ({ u: "µ", K: "k" }[pre] || pre) + "Ω")
-  .replace(/(\d\s?)u(?=[AVWFHsSΩ])/g, "$1µ");
+  .replace(/(\d\s?)u(?=[AVWFHsSΩ])/g, "$1µ")
+  .replace(/->/g, "→");
 
 function refs(list) {
   const out = [];

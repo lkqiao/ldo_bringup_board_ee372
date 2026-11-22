@@ -3,6 +3,7 @@
 python3 scripts/spectrum_noise.py floor_1mA                 VIN off, saves floor_1mA.csv
 python3 scripts/spectrum_noise.py hp_1mA --floor floor_1mA  VIN on, subtracts the floor
 CSVs go in scripts/spectrum_noise_output/, and --floor looks there too.
+Each run also saves nsd_plots/<name>_nsd.png. python3 scripts/spectrum_noise.py --plot-csv <csv> replots an old CSV.
 """
 import argparse, csv, math, os, struct, sys, time
 import pyvisa
@@ -18,14 +19,67 @@ R_IN = 50.0
 SEGMENTS = [(9e3, 100e3)] + [(100e3 + k * 112.5e3, 100e3 + (k + 1) * 112.5e3) for k in range(8)]
 POINTS = 401
 
+def plot_nsd(csv_path, gain=None):
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    with open(csv_path) as fh:
+        rows = list(csv.DictReader(fh))
+    f = [float(r["freq_hz"]) for r in rows]
+    raw = [float(r["nv_rthz_out"]) for r in rows]
+    sub = [float(r["nv_rthz_out_floor_sub"]) for r in rows]
+    has_floor = sub != raw
+    if gain is None:
+        # Old CSVs don't store the gain, so recover it from the analyzer column
+        ratios = sorted(math.sqrt(float(r["v2_hz_analyzer"])) / (float(r["nv_rthz_out"]) * 1e-9)
+                        for r in rows if float(r["nv_rthz_out"]) > 0)
+        g = ratios[len(ratios) // 2]
+        gain = float(f"{g:.2g}")
+    where = "at analyzer input" if gain == 1 else f"at LDO output, gain {gain:g} divided out"
+
+    def total_uv(nv):
+        t = sum(0.5 * ((nv[i] * 1e-9) ** 2 + (nv[i + 1] * 1e-9) ** 2) * (f[i + 1] - f[i])
+                for i in range(len(f) - 1))
+        return math.sqrt(t) * 1e6
+
+    scale, unit = (1e-3, "µV/√Hz") if gain == 1 else (1.0, "nV/√Hz")
+    name = os.path.splitext(os.path.basename(csv_path))[0]
+    title = f"{name}, {f[0] / 1e3:g} kHz to {f[-1] / 1e6:g} MHz, {total_uv(raw):.2f} µVrms"
+    fig, ax = plt.subplots(figsize=(9, 5.5))
+    ax.loglog(f, [v * scale for v in raw], lw=0.8, label="measured")
+    if has_floor:
+        title += f", {total_uv(sub):.2f} µVrms floor subtracted"
+        ax.loglog(f, [max(v, 1e-6) * scale for v in sub], lw=0.8, label="floor subtracted")
+        ax.legend()
+    ax.set_title(title)
+    ax.set_xlabel("Frequency (Hz)")
+    ax.set_ylabel(f"Noise spectral density ({unit}), {where}")
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter("%g"))
+    ax.yaxis.set_minor_formatter(matplotlib.ticker.FormatStrFormatter("%g"))
+    ax.grid(True, which="both", alpha=0.3)
+    fig.tight_layout()
+    png_dir = os.path.join(os.path.dirname(os.path.abspath(csv_path)), "nsd_plots")
+    os.makedirs(png_dir, exist_ok=True)
+    png = os.path.join(png_dir, name + "_nsd.png")
+    fig.savefig(png, dpi=150)
+    plt.close(fig)
+    return png
+
+
 # Args
 ap = argparse.ArgumentParser()
-ap.add_argument("name")
+ap.add_argument("name", nargs="?")
 ap.add_argument("--floor", help="CSV from a VIN off run")
 ap.add_argument("--gain", type=float, default=None,
                 help="divide out the noise amp gain, 1000 on J17, 100 on J16. Off by default")
 ap.add_argument("--sweeps", type=int, default=1, help="sweeps averaged per segment, about 33 s each")
+ap.add_argument("--plot-csv", help="only plot an existing CSV, no analyzer needed")
 args = ap.parse_args()
+if args.plot_csv:
+    print("saved", plot_nsd(args.plot_csv))
+    sys.exit()
+if args.name is None:
+    ap.error("name is required unless --plot-csv is given")
 args.nogain = args.gain is None
 if args.nogain:
     args.gain = 1.0
@@ -161,6 +215,10 @@ with open(out_path, "w", newline="") as fh:
 # Report
 where = "at the analyzer input, no gain divided out" if args.nogain else f"at the LDO output, gain {args.gain:g} divided out"
 print(f"saved {out_path}, {len(freqs)} points, sweeps {AVERAGES}")
+try:
+    print("saved", plot_nsd(out_path, args.gain))
+except Exception as e:
+    print(f"plot failed ({e}), the CSV is still saved")
 print(f"values are {where}")
 print(f"raw          9 kHz to 1 MHz  {integrate(v2_an, 9e3, 1e6):8.2f} uVrms")
 if floor is not None:
